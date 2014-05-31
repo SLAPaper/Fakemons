@@ -1077,9 +1077,9 @@
         <max-exp>1,059,860</max-exp>
         <stats>
             <HP>100</HP>
-            <Attack>175</Attack>
+            <Attack>185</Attack>
             <Defense>100</Defense>
-            <SpAtk>70</SpAtk>
+            <SpAtk>80</SpAtk>
             <SpDef>100</SpDef>
             <Speed>135</Speed>
             <Total>700</Total>
