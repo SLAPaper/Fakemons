@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Edited by SLAPaper -->
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head>
+                <link rel="stylesheet" type="text/css" href="css\skills.css"/>
+                <meta name="description" content="原创技能列表"></meta>
+                <meta name="keywords" content="pokemon"></meta>
+                <meta name="author" content="SLAPaper"></meta>
+                <meta charset="UTF-8"></meta>
+                <title>原创技能</title>
+                <script>
+function chooseType(x) {
+    switch (x) {
+    case "普":
+        return "normal";
+        break;
+    case "斗":
+        return "fight";
+        break;
+    case "飞":
+        return "fly";
+        break;
+    case "毒":
+        return "poison";
+        break;
+    case "地":
+        return "ground";
+        break;
+    case "岩":
+        return "rock";
+        break;
+    case "虫":
+        return "bug";
+        break;
+    case "鬼":
+        return "ghost";
+        break;
+    case "钢":
+        return "steel";
+        break;
+    case "火":
+        return "fire";
+        break;
+    case "水":
+        return "water";
+        break;
+    case "草":
+        return "grass";
+        break;
+    case "电":
+        return "electric";
+        break;
+    case "超":
+        return "psychic";
+        break;
+    case "冰":
+        return "ice";
+        break;
+    case "龙":
+        return "dragon";
+        break;
+    case "恶":
+        return "dark";
+        break;
+    case "妖":
+        return "fairy";
+        break;
+    default:
+        return "nothing";
+        break;
+    }
+}
+                </script>
+            </head>
+            <body><table style="border-style:none;" align="center"><tr style="border-style:none;"><td style="border-style:none;">
+                <h1>原创技能</h1>
+                <xsl:for-each select="skills/skill">
+                    <xsl:sort select="@id" data-type="number"/>
+                    <xsl:if test="@visible='yes'">
+                        <h2>
+                            <span style="font-size:70%;"><xsl:value-of select="@id"/></span>.&#160;
+                            <xsl:value-of select="name/cn"/>
+                            <span style="font-size:80%;">&#160;
+                                <xsl:value-of select="name/en"/>
+                            </span>
+                        </h2>
+                        <table>
+                            <tr>
+                                <td class="title">属性</td>
+                                <script><![CDATA[var type = chooseType("]]><xsl:value-of select="type"/><![CDATA[");document.write("<td class="+'"'+type+" white"+'"'+">");]]></script><xsl:value-of select="type"/><script><![CDATA[document.write("</td>");]]></script>
+                                <!--<xsl:choose>
+                                    <xsl:when test="type='普'">
+                                        <td class="normal white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='斗'">
+                                        <td class="fight white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='飞'">
+                                        <td class="fly white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='毒'">
+                                        <td class="poison white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='地'">
+                                        <td class="ground white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='岩'">
+                                        <td class="rock white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='虫'">
+                                        <td class="bug white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='鬼'">
+                                        <td class="ghost white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='钢'">
+                                        <td class="steel white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='火'">
+                                        <td class="fire white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='水'">
+                                        <td class="water white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='草'">
+                                        <td class="grass white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='电'">
+                                        <td class="electric white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='超'">
+                                        <td class="psychic white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='冰'">
+                                        <td class="ice white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='龙'">
+                                        <td class="dragon white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='恶'">
+                                        <td class="dark white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="type='妖'">
+                                        <td class="fairy white">
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td>
+                                            <xsl:value-of select="type"/>
+                                        </td>
+                                    </xsl:otherwise>
+                                </xsl:choose>-->
+                                <td class="title">分类</td>
+                                <xsl:choose>
+                                    <xsl:when test="catagory='物理'">
+                                        <td style="background-color:#f05030;color:f8c030">
+                                            <xsl:value-of select="catagory"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="catagory='特殊'">
+                                        <td style="background-color:#5070a8;color:c0d8f8">
+                                            <xsl:value-of select="catagory"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:when test="catagory='变化'">
+                                        <td style="background-color:#a8a090;color:f8f8f8">
+                                            <xsl:value-of select="catagory"/>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td>
+                                            <xsl:value-of select="catagory"/>
+                                        </td>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </tr>
+                            <tr>
+                                <td class="title">威力</td>
+                                <td style="width:30%;">
+                                    <xsl:value-of select="power"/>
+                                </td>
+                                <td class="title">命中</td>
+                                <td style="width:30%;">
+                                    <xsl:value-of select="accuracy"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">目标</td>
+                                <td>
+                                    <xsl:value-of select="target"/>
+                                </td>
+                                <td class="title">PP</td>
+                                <td>
+                                    <xsl:value-of select="PP"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">效果</td>
+                                <td colspan="3" style="text-align:left; padding:0.5em;">
+                                    <xsl:choose>
+                                        <xsl:when test="effect/@is-multi-line='yes'">
+                                            <xsl:for-each select="effect/p">
+                                                <xsl:value-of select="."/>
+                                                <br/>
+                                            </xsl:for-each>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="effect"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">说明</td>
+                                <td colspan="3" style="text-align:left; padding:0.5em;">
+                                    <xsl:choose>
+                                        <xsl:when test="description/@is-multi-line='yes'">
+                                            <xsl:for-each select="description/p">
+                                                <xsl:value-of select="."/>
+                                                <br/>
+                                            </xsl:for-each>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of disable-output-escaping="yes" select="description"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </td>
+                            </tr>
+                        </table>
+                        <xsl:if test="eff!=''">
+                            <xsl:value-of select="eff" disable-output-escaping="yes"/>
+                        </xsl:if>
+                    </xsl:if>
+                </xsl:for-each>
+            </td></tr></table></body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
