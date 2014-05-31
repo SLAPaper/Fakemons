@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="pokemons"
+xmlns="pokemons"
+elementFormDefault="qualified">
+    <xs:element name="pokemons">
+        <xs:complexType>
+            <xs:element name="name">
+                <xs:complexType>
+                    <xs:attribute name="id">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="0"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    
+                    <xs:attribute name="visible">
+                        <simpleType>
+                        </simpleType>
+                    </xs:attribute>
+                    
+                    <xs:element name="cn" type="xs:string"/>
+                    <xs:element name="en" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="species">
+                <complexType>
+                    <xs:attribute name="is-legendary" type="xs:bool"/> <!--这里需要对应处理XML-->
+                </complexType>
+            </xs:element>
+            
+            <xs:element name="type">
+                <complexType>
+                    <xs:element name="type1" type="xs:string"/>
+                    <xs:element name="type2" type="xs:string"/>
+                </complexType>
+            </xs:element>
+            
+            <xs:element name="abilities">
+                <complexType>
+                    <xs:element name="a1" type="xs:string"/>
+                    <xs:element name="a2" type="xs:string"/>
+                </complexType>
+            </xs:element>
+            
+            <xs:element name="hidden-ability" type="xs:string"/>
+            <xs:element name="height" type="xs:string"/>
+            <xs:element name="weight" type="xs:string"/>
+            <xs:element name="color" type="xs:string"/>
+            <xs:element name="type1" type="xs:string"/>
+            <xs:element name="signature-moves">
+                <complexType>
+                    <xs:element name="move" type="xs:string"/>  <!--move允许多个-->
+                </complexType>
+            </xs:element>
+            
+            <egg-group>
+                <eg1></eg1>
+                <eg2></eg2>
+            </egg-group>
+            <hatch-time></hatch-time>
+            <gender-ratio></gender-ratio>
+            <catch-rate></catch-rate>
+            <base-friendship></base-friendship>
+            <max-exp></max-exp>
+            <stats>
+                <HP></HP>
+                <Attack></Attack>
+                <Defense></Defense>
+                <SpAtk></SpAtk>
+                <SpDef></SpDef>
+                <Speed></Speed>
+                <Total></Total>
+            </stats>
+            <type-effectiveness num="">
+                <type ability="">
+                    <normal></normal>
+                    <fire></fire>
+                    <water></water>
+                    <grass></grass>
+                    <electric></electric>
+                    <ice></ice>
+                    <fight></fight>
+                    <poison></poison>
+                    <ground></ground>
+                    <fly></fly>
+                    <psychic></psychic>
+                    <bug></bug>
+                    <rock></rock>
+                    <ghost></ghost>
+                    <dragon></dragon>
+                    <dark></dark>
+                    <steel></steel>
+                    <fairy></fairy>
+                </type>
+            </type-effectiveness>
+            <envolution></envolution>
+            <pokedex></pokedex>
+            <description></description>
+            <story></story>
+            
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
