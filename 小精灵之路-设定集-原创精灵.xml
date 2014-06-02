@@ -2660,10 +2660,10 @@
         <base-friendship>70</base-friendship>
         <max-exp>1000000</max-exp>
         <stats>
-            <HP>45</HP>
+            <HP>46</HP>
             <Attack>100</Attack>
             <Defense>42</Defense>
-            <SpAtk>162</SpAtk>
+            <SpAtk>160</SpAtk>
             <SpDef>42</SpDef>
             <Speed>103</Speed>
             <Total>493</Total>
@@ -2877,7 +2877,7 @@
         <base-friendship>70</base-friendship>
         <max-exp>1000000</max-exp>
         <stats>
-            <HP>60</HP>
+            <HP>50</HP>
             <Attack>160</Attack>
             <Defense>50</Defense>
             <SpAtk>90</SpAtk>
