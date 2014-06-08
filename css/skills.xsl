@@ -93,103 +93,6 @@ function chooseType(x) {
                             <tr>
                                 <td class="title">属性</td>
                                 <script><![CDATA[var type = chooseType("]]><xsl:value-of select="type"/><![CDATA[");document.write("<td class="+'"'+type+" white"+'"'+">");]]></script><xsl:value-of select="type"/><script><![CDATA[document.write("</td>");]]></script>
-                                <!--<xsl:choose>
-                                    <xsl:when test="type='普'">
-                                        <td class="normal white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='斗'">
-                                        <td class="fight white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='飞'">
-                                        <td class="fly white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='毒'">
-                                        <td class="poison white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='地'">
-                                        <td class="ground white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='岩'">
-                                        <td class="rock white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='虫'">
-                                        <td class="bug white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='鬼'">
-                                        <td class="ghost white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='钢'">
-                                        <td class="steel white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='火'">
-                                        <td class="fire white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='水'">
-                                        <td class="water white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='草'">
-                                        <td class="grass white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='电'">
-                                        <td class="electric white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='超'">
-                                        <td class="psychic white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='冰'">
-                                        <td class="ice white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='龙'">
-                                        <td class="dragon white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='恶'">
-                                        <td class="dark white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:when test="type='妖'">
-                                        <td class="fairy white">
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <td>
-                                            <xsl:value-of select="type"/>
-                                        </td>
-                                    </xsl:otherwise>
-                                </xsl:choose>-->
                                 <td class="title">分类</td>
                                 <xsl:choose>
                                     <xsl:when test="catagory='物理'">
@@ -240,12 +143,11 @@ function chooseType(x) {
                                     <xsl:choose>
                                         <xsl:when test="effect/@is-multi-line='yes'">
                                             <xsl:for-each select="effect/p">
-                                                <xsl:value-of select="."/>
-                                                <br/>
+                                                <p><xsl:value-of select="."/></p>
                                             </xsl:for-each>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of select="effect"/>
+                                            <p><xsl:value-of select="effect"/></p>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </td>
@@ -256,12 +158,11 @@ function chooseType(x) {
                                     <xsl:choose>
                                         <xsl:when test="description/@is-multi-line='yes'">
                                             <xsl:for-each select="description/p">
-                                                <xsl:value-of select="."/>
-                                                <br/>
+                                                <p><xsl:value-of select="."/></p>
                                             </xsl:for-each>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of disable-output-escaping="yes" select="description"/>
+                                            <p><xsl:value-of select="description"/></p>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </td>
