@@ -1310,7 +1310,7 @@
                 <dragon>1</dragon>
                 <dark>0.5</dark>
                 <steel>1</steel>
-                <fairy>1</fairy>
+                <fairy>2</fairy>
             </type>
         </type-effectiveness>
         <envolution>无进化</envolution>
@@ -1791,7 +1791,7 @@
                 <rock>1</rock>
                 <ghost>0.5</ghost>
                 <dragon>1</dragon>
-                <dark>1</dark>
+                <dark>0.5</dark>
                 <steel>1</steel>
                 <fairy>2</fairy>
             </type>
@@ -1860,7 +1860,7 @@
                 <rock>1</rock>
                 <ghost>0.5</ghost>
                 <dragon>1</dragon>
-                <dark>1</dark>
+                <dark>0.5</dark>
                 <steel>1</steel>
                 <fairy>2</fairy>
             </type>
@@ -1929,7 +1929,7 @@
                 <rock>1</rock>
                 <ghost>0.5</ghost>
                 <dragon>1</dragon>
-                <dark>1</dark>
+                <dark>0.5</dark>
                 <steel>1</steel>
                 <fairy>2</fairy>
             </type>
