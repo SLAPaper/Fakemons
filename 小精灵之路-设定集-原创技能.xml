@@ -751,8 +751,8 @@
     </skill>
     <skill id="23" visible="yes">
         <name>
-            <cn>重甲冲锋</cn>
-            <en>Heavy Rush</en>
+            <cn>无限冲锋</cn>
+            <en>Unlimited Rush</en>
         </name>
         <type>钢</type>
         <catagory>物理</catagory>
@@ -761,23 +761,22 @@
         <target>单体</target>
         <PP>10</PP>
         <effect is-multi-line="yes">
-            <p>以攻击方物防、物防等级代替物攻、物攻等级进行伤害计算。</p>
             <p>连续使用失败威力和命中率提升。</p>
             <p>攻击无效或未命中均进行计数。攻击命中后计数清零。</p>
-            <p>一次：威力180，命中90；</p>
-            <p>两次：威力240，命中100；</p>
+            <p>一次未命中：威力180，命中90；</p>
+            <p>两次未命中：威力240，命中100；</p>
             <p>三次或以上：威力300，必中。</p>
         </effect>
         <description is-multi-line="yes">
-            <p>顶着重甲冲击对手，防御越强伤害越高。</p>
-            <p>连续冲锋未击中对手威力会越来越强，也越来越难以躲避。</p>
+            <p>向着对手发起不死不休的冲锋。</p>
+            <p>不成功的冲锋会为下一击积攒能量并压迫对手的躲避空间。</p>
             <p>闪金龙的专属技能。</p>
         </description>
     </skill>
     <skill id="24" visible="yes">
         <name>
-            <cn>锐化尖刺</cn>
-            <en>Sharpen Spike</en>
+            <cn>以守为攻</cn>
+            <en>Smart Attack</en>
         </name>
         <type>钢</type>
         <catagory>变化</catagory>
@@ -786,12 +785,11 @@
         <target>自身</target>
         <PP>5</PP>
         <effect is-multi-line="yes">
-            <p>优先度-4。</p>
-            <p>将自身物防等级变为0，攻击等级上升物防等级下降的级数。</p>
-            <p>如果自身物防等级小于0，那么物防等级变为0，攻击等级不变。</p>
+            <p>使自身进入以守为攻状态。</p>
+            <p>以守为攻状态：攻击时，使用相应的防御能力值代替攻击能力值计算伤害。</p>
         </effect>
         <description is-multi-line="yes">
-            <p>在体表竖起锐利尖刺，攻击时造成更大伤害。</p>
+            <p>运用自己的防守优势对对手造成伤害。</p>
             <p>闪金龙的专属技能。</p>
         </description>
     </skill>
