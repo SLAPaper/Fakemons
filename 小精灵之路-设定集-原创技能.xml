@@ -460,11 +460,10 @@
         <target>单体</target>
         <PP>20</PP>
         <effect is-multi-line="yes">
-            <p>50%概率造成目标烧伤或冰冻。</p>
             <p>本技能计算属性相性的时候每一种属性视为水/火/冰/龙四系技能各自对应项中最大的一项。</p>
         </effect>
         <description is-multi-line="yes">
-            <p>使用融合了多种力量的拳头攻击对方，会造成烧伤或冰冻。</p>
+            <p>使用融合了多种力量的拳头攻击对方。</p>
             <p>Mega喷火龙Z的专属技能。</p>
         </description>
         <eff>
@@ -555,11 +554,10 @@
         <target>单体</target>
         <PP>20</PP>
         <effect is-multi-line="yes">
-            <p>50%概率造成目标烧伤或冰冻。</p>
             <p>本技能计算属性相性的时候每一种属性视为水/火/冰/龙四系技能各自对应项中最大的一项。</p>
         </effect>
         <description is-multi-line="yes">
-            <p>用融合了多种力量的能量团砸向对方，会造成烧伤或冰冻。</p>
+            <p>用融合了多种力量的能量团砸向对方。</p>
             <p>Mega喷火龙Z的专属技能。</p>
         </description>
         <eff>
@@ -775,8 +773,8 @@
     </skill>
     <skill id="24" visible="yes">
         <name>
-            <cn>以守为攻</cn>
-            <en>Smart Attack</en>
+            <cn>反则变化</cn>
+            <en>Anti-Principle</en>
         </name>
         <type>钢</type>
         <catagory>变化</catagory>
@@ -785,11 +783,12 @@
         <target>自身</target>
         <PP>5</PP>
         <effect is-multi-line="yes">
-            <p>使自身进入以守为攻状态。</p>
-            <p>以守为攻状态：攻击时，使用相应的防御能力值代替攻击能力值计算伤害。</p>
+            <p>使自身进入反则状态。</p>
+            <p>反则状态：攻击时，使用相应的防御能力值代替攻击能力值计算伤害。</p>
+            <p>例如，使用特殊技能的时候，使用特防计算伤害；使用物理技能的时候，使用物防计算伤害。</p>
         </effect>
         <description is-multi-line="yes">
-            <p>运用自己的防守优势对对手造成伤害。</p>
+            <p>使用犯规的力量，利用防御来攻击对手。</p>
             <p>闪金龙的专属技能。</p>
         </description>
     </skill>
