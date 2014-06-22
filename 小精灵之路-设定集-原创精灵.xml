@@ -2743,7 +2743,7 @@
         <color><![CDATA[<div style="background-color:gold; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>金</color>
         <signature-moves>
             <move>无限冲锋</move>
-            <move>以守为攻</move>
+            <move>反则变化</move>
             <move>扩散防御</move>
         </signature-moves>
         <egg-group>
@@ -2834,9 +2834,9 @@
         <h4>专属特性：坚壁</h4>
         <p>受到伤害减少1/3，每受到一次伤害双防各提升一级。</p>
         <h4>配招？</h4>
-        <p>总体来说是一个比较强势的通用钢盾，配合以守为攻则变成暴力双刀，在组队上最好能有恰当的强化辅助配合。
+        <p>总体来说是一个比较强势的通用钢盾，配合反则变化则变成暴力双刀，在组队上最好能有恰当的强化辅助配合。
         <ul>
-            <li>双刀：无限冲锋、以守为攻、龙星群、羽栖/偷懒。</li>
+            <li>双刀：无限冲锋、反则变化、龙星群、羽栖/偷懒。</li>
             <li>耐久：无限冲锋、金属爆破、精神回复、羽栖/偷懒。</li>
             <li>干扰：无限冲锋、隐秘岩石、龙之尾、电磁波。</li>
             <li>双打/三打：无限冲锋、隐秘岩石、扩散防御、广域防御。</li>
