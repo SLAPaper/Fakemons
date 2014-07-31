@@ -321,24 +321,24 @@
         </tr>
         <tr>
             <td class="title">修正值</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td style="color:red">2</td>
             <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
-            <td style="color:black">-1</td>
+            <td>1</td>
+            <td>1</td>
+            <td style="color:red">2</td>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
@@ -464,7 +464,7 @@
         </effect>
         <description is-multi-line="yes">
             <p>使用融合了多种力量的拳头攻击对方。</p>
-            <p>Mega喷火龙Z的专属技能。</p>
+            <p>冰炎龙的专属技能。</p>
         </description>
         <eff>
             <![CDATA[
@@ -558,7 +558,7 @@
         </effect>
         <description is-multi-line="yes">
             <p>用融合了多种力量的能量团砸向对方。</p>
-            <p>Mega喷火龙Z的专属技能。</p>
+            <p>冰炎龙的专属技能。</p>
         </description>
         <eff>
             <![CDATA[
