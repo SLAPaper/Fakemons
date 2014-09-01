@@ -1,0 +1,73 @@
+﻿body
+{
+font-family:方正兰亭纤黑_GBK,方正兰亭纤黑,"Microsoft YaHei Light","微软雅黑 Light",Sans-serif;
+font-size:100%;
+text-align:center;
+margin-top:2em;
+margin-left:3em;
+margin-right:3em;
+margin-bottom:4em;
+}
+h2,h3
+{
+border-bottom:1px solid black;
+overflow:hidden;
+}
+h2
+{
+text-align:left;
+margin-top:1em;
+margin-bottom:0.5em;
+}
+h3,h4
+{
+max-width:50%;
+text-align:left;
+}
+p
+{
+margin-top:0.5em;
+margin-bottom:0.5em;
+}
+table
+{
+border-collapse:collapse;
+border: 3px solid darkslategrey;	
+empty-cells:show;
+width:30em;
+}
+table.inside
+{
+border:2px dotted;
+border-radius:0;
+width:100%;
+}
+td   
+{
+border: 1px solid black;
+text-align: center;
+padding:0.3em;
+}
+td.title
+{
+background-color:darkslategray;
+color:white;
+width:4em;
+}
+td.cyan
+{
+background-color:Cyan;
+}
+td.limit
+{
+width:30%;
+}
+td.darkslategrey
+{
+background-color:darkslategrey;
+color:white;
+}
+td.white
+{
+color:white;
+}
