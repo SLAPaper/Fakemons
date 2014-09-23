@@ -13,41 +13,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <meta name="author" content="SLAPaper"></meta>
                 <meta charset="UTF-8"></meta>
                 <title>颜文字</title>
-                <style>
-body
-{
-font-family:方正兰亭纤黑_GBK,方正兰亭纤黑,"Microsoft YaHei Light","微软雅黑 Light",Sans-serif;
-font-size:100%;
-text-align:center;
-margin-top:2em;
-margin-left:3em;
-margin-right:3em;
-margin-bottom:4em;
-text-align:center
-}
-h2,h3
-{
-overflow:hidden;
-}
-h2
-{
-margin-top:2em;
-margin-bottom:0.5em;
-}
-p
-{
-margin-top:0.5em;
-margin-bottom:0.5em;
-}
-table
-{
-border-collapse:collapse;
-}
-td
-{
-border: 1px solid black;
-}
-                </style>
+                <style></style>
             </head>
             <body>
                 <h1>颜文字</h1>
