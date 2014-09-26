@@ -437,7 +437,9 @@ function dealWithNumber(x)
                             <table>
                                 <tr>
                                     <xsl:for-each select="signature-moves/move">
-                                        <td><xsl:value-of select="."/></td>
+                                        <td><script><![CDATA[document.write("<a target=\"_blank\" href=\"小精灵之路-设定集-原创技能.xml#]]><xsl:value-of select="@id"/><![CDATA[\">");]]></script>
+                                        <xsl:value-of select="."/>
+                                        <script><![CDATA[document.write("</a>");]]></script></td>
                                     </xsl:for-each>
                                 </tr>
                             </table>

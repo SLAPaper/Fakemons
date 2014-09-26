@@ -82,13 +82,13 @@ function chooseType(x) {
                 <xsl:for-each select="skills/skill">
                     <xsl:sort select="@id" data-type="number"/>
                     <xsl:if test="@visible='yes'">
-                        <h2>
+                        <h2><script><![CDATA[document.write("<a name=\"]]><xsl:value-of select="@id"/><![CDATA[\">");]]></script>
                             <span style="font-size:70%;"><xsl:value-of select="@id"/></span>.&#160;
                             <xsl:value-of select="name/cn"/>
                             <span style="font-size:80%;">&#160;
                                 <xsl:value-of select="name/en"/>
                             </span>
-                        </h2>
+                        <script><![CDATA[documet.write("</a>");]]]></script></h2>
                         <table>
                             <tr>
                                 <td class="title">属性</td>

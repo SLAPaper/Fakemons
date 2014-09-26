@@ -22,7 +22,7 @@
         <weight></weight>
         <color><![CDATA[<div style="background-color:; width:2em; height:1em;float:left;border:1px black solid;"></div>]]></color>
         <signature-moves>
-            <move></move>
+            <move id=""></move>
         </signature-moves>
         <egg-group>
             <eg1></eg1>
@@ -89,8 +89,8 @@
         <weight>57.3kg</weight>
         <color><![CDATA[<div style="background-color:#F8B878; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>熟杏黄</color>
         <signature-moves>
-            <move>星之漩涡</move>
-            <move>心灵风暴</move>
+            <move id="2">星之漩涡</move>
+            <move id="3">心灵风暴</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -165,8 +165,8 @@
         <weight>46.5kg</weight>
         <color><![CDATA[<div style="background-color:grey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>灰</color>
         <signature-moves>
-            <move>时空暴动</move>
-            <move>双倍机会</move>
+            <move id="6">时空暴动</move>
+            <move id="7">双倍机会</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -249,8 +249,8 @@
         <weight>95.5kg</weight>
         <color><![CDATA[<div style="background-color:AliceBlue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>冰蓝</color>
         <signature-moves>
-            <move>冰火拳</move>
-            <move>冰火飞弹</move>
+            <move id="15">冰火拳</move>
+            <move id="16">冰火飞弹</move>
         </signature-moves>
         <egg-group>
             <eg1>怪兽组</eg1>
@@ -349,8 +349,8 @@
         <weight>1.2kg</weight>
         <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
         <signature-moves>
-            <move>光之舞</move>
-            <move>神圣领域</move>
+            <move id="21">光之舞</move>
+            <move id="22">神圣领域</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -580,8 +580,8 @@
         <weight>9.2kg</weight>
         <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
         <signature-moves>
-            <move>光之舞</move>
-            <move>神圣领域</move>
+            <move id="21">光之舞</move>
+            <move id="22">神圣领域</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -803,8 +803,8 @@
         <weight>32.2kg</weight>
         <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
         <signature-moves>
-            <move>光之舞</move>
-            <move>神圣领域</move>
+            <move id="21">光之舞</move>
+            <move id="22">神圣领域</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -1169,7 +1169,7 @@
         <weight>106.3kg</weight>
         <color><![CDATA[<div style="background-color:yellowgreen; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黄绿</color>
         <signature-moves>
-            <move>生命之源</move>
+            <move id="8">生命之源</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1270,8 +1270,8 @@
         <weight>34.0kg</weight>
         <color><![CDATA[<div style="background-color:black; width:1em; height:1em;float:left;border:1px black solid;"></div><div style="background-color:white; width:1em; height:1em;float:left;border:1px black solid;"></div>]]>黑白</color>
         <signature-moves>
-            <move>太极神拳</move>
-            <move>以慢打快</move>
+            <move id="9">太极神拳</move>
+            <move id="10">以慢打快</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1342,7 +1342,7 @@
         <weight>5.5kg</weight>
         <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
         <signature-moves>
-            <move>寂静波纹</move>
+            <move id="12">寂静波纹</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1418,7 +1418,7 @@
         <weight>16.5kg</weight>
         <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
         <signature-moves>
-            <move>空间转移</move>
+            <move id="11">空间转移</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1488,7 +1488,7 @@
         <weight>21.3kg</weight>
         <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
         <signature-moves>
-            <move>和谐之钳</move>
+            <move id="13">和谐之钳</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1557,7 +1557,7 @@
         <weight>1.6kg</weight>
         <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
         <signature-moves>
-            <move>命运审判</move>
+            <move id="14">命运审判</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -1753,8 +1753,8 @@
         <weight>8.1kg</weight>
         <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
         <signature-moves>
-            <move>穿心针</move>
-            <move>魔鬼槌</move>
+            <move id="17">穿心针</move>
+            <move id="18">魔鬼槌</move>
         </signature-moves>
         <egg-group>
             <eg1>怪兽组</eg1>
@@ -1822,8 +1822,8 @@
         <weight>16.0kg</weight>
         <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
         <signature-moves>
-            <move>穿心针</move>
-            <move>魔鬼槌</move>
+            <move id="17">穿心针</move>
+            <move id="18">魔鬼槌</move>
         </signature-moves>
         <egg-group>
             <eg1>怪兽组</eg1>
@@ -1891,8 +1891,8 @@
         <weight>84.5kg</weight>
         <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
         <signature-moves>
-            <move>穿心针</move>
-            <move>魔鬼槌</move>
+            <move id="17">穿心针</move>
+            <move id="18">魔鬼槌</move>
         </signature-moves>
         <egg-group>
             <eg1>怪兽组</eg1>
@@ -1963,7 +1963,7 @@
         <weight>0.5kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>高压蒸汽</move>
+            <move id="4">高压蒸汽</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2071,7 +2071,7 @@
         <weight>0.8kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>高压蒸汽</move>
+            <move id="4">高压蒸汽</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2179,7 +2179,7 @@
         <weight>1.4kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>高压蒸汽</move>
+            <move id="4">高压蒸汽</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2287,7 +2287,7 @@
         <weight>0.5kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>热力迸发</move>
+            <move id="5">热力迸发</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2375,7 +2375,7 @@
         <weight>0.8kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>热力迸发</move>
+            <move id="5">热力迸发</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2463,7 +2463,7 @@
         <weight>1.4kg</weight>
         <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
         <signature-moves>
-            <move>热力迸发</move>
+            <move id="5">热力迸发</move>
         </signature-moves>
         <egg-group>
             <eg1>矿物组</eg1>
@@ -2551,7 +2551,7 @@
         <weight>125.3kg</weight>
         <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
         <signature-moves>
-            <move>大地漩涡</move>
+            <move id="26">大地漩涡</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -2650,7 +2650,7 @@
         <weight>225.3kg</weight>
         <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
         <signature-moves>
-            <move>大地漩涡</move>
+            <move id="26">大地漩涡</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
@@ -2831,9 +2831,9 @@
         <weight>251.4kg</weight>
         <color><![CDATA[<div style="background-color:gold; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>金</color>
         <signature-moves>
-            <move>无限冲锋</move>
-            <move>反则变化</move>
-            <move>扩散防御</move>
+            <move id="23">无限冲锋</move>
+            <move id="24">反则变化</move>
+            <move id="25">扩散防御</move>
         </signature-moves>
         <egg-group>
             <eg1>未发现组</eg1>
