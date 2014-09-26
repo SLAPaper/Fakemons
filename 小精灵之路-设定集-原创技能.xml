@@ -28,11 +28,12 @@
         </name>
         <type>火</type>
         <catagory>特殊</catagory>
-        <power>180</power>
+        <power>变化</power>
         <accuracy>100</accuracy>
         <target>单体</target>
         <PP>5</PP>
         <effect is-multi-line="yes">
+            <p>技能威力 = 180 * 攻击方当前HP / 攻击方HP上限</p>
             <p>如果被冰冻则在出招前解冻。</p>
             <p>攻击命中后，攻击方HP减少当前HP的1/2。</p>
             <p>如果攻击无效或没有命中，牺牲火焰没有副作用。</p>
@@ -56,7 +57,7 @@
         <PP>10</PP>
         <effect is-multi-line="yes">
             <p>不受多目标伤害削减影响。</p>
-            <p>不经过命中计算必定能命中目标。</p>
+            <p>不经过命中判定必定能命中目标。</p>
         </effect>
         <description>发射无数星型的光攻击对手，必定能命中目标。</description>
     </skill>
@@ -74,7 +75,7 @@
         <PP>10</PP>
         <effect is-multi-line="yes">
             <p>不受多目标伤害削减影响。</p>
-            <p>不经过命中计算必定能命中目标。</p>
+            <p>不经过命中判定必定能命中目标。</p>
         </effect>
         <description>扩散自己的精神力攻击对手，必定能命中目标。</description>
     </skill>
@@ -455,7 +456,7 @@
         </name>
         <type>普</type>
         <catagory>物理</catagory>
-        <power>100</power>
+        <power>85</power>
         <accuracy>100</accuracy>
         <target>单体</target>
         <PP>20</PP>
@@ -549,7 +550,7 @@
         </name>
         <type>普</type>
         <catagory>特殊</catagory>
-        <power>100</power>
+        <power>85</power>
         <accuracy>100</accuracy>
         <target>单体</target>
         <PP>20</PP>
@@ -805,7 +806,7 @@
         <PP>5</PP>
         <effect is-multi-line="yes">
             <p>使己方全场进入扩散防御状态。</p>
-            <p>扩散防御状态：该场地上的精灵受到攻击时，以场地上物防/特防最高的精灵的物防/特防计算伤害。</p>
+            <p>扩散防御状态：该场地上的精灵受到攻击时，以我方场地上物防/特防最高的精灵的物防/特防计算伤害。</p>
         </effect>
         <description is-multi-line="yes">
             <p>让护盾悬浮在我方场地上，为我方所有精灵提供防御。</p>

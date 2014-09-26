@@ -2631,6 +2631,95 @@
         <p>自然循环：受到草系技能时不会受到伤害或影响，并回复满HP的1/4。</p>
         ]]></story>
     </pokemon>
+    <pokemon id="23" visible="yes" >
+        <name>
+            <cn>原始软泥怪</cn>
+            <en>Origin Wetlanooze</en>
+        </name>
+        <species is-legendary="yes">无情精灵</species>
+        <type>
+            <type1>水</type1>
+            <type2>地</type2>
+        </type>
+        <abilities>
+            <a1>生命凋零</a1>
+            <a2></a2>
+        </abilities>
+        <hidden-ability></hidden-ability>
+        <height>3.3m</height>
+        <weight>225.3kg</weight>
+        <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
+        <signature-moves>
+            <move>大地漩涡</move>
+        </signature-moves>
+        <egg-group>
+            <eg1>未发现组</eg1>
+            <eg2></eg2>
+        </egg-group>
+        <hatch-time>120圈（30720步）</hatch-time>
+        <gender-ratio>无性别</gender-ratio>
+        <catch-rate>3</catch-rate>
+        <base-friendship>0</base-friendship>
+        <max-exp>1250000</max-exp>
+        <stats>
+            <HP>225</HP>
+            <Attack>135</Attack>
+            <Defense>125</Defense>
+            <SpAtk>55</SpAtk>
+            <SpDef>125</SpDef>
+            <Speed>35</Speed>
+            <Total>700</Total>
+        </stats>
+        <type-effectiveness num="3">
+            <type ability="">
+                <normal>1</normal>
+                <fire>0.5</fire>
+                <water>1</water>
+                <grass>4</grass>
+                <electric>0</electric>
+                <ice>1</ice>
+                <fight>1</fight>
+                <poison>0.5</poison>
+                <ground>1</ground>
+                <fly>1</fly>
+                <psychic>1</psychic>
+                <bug>1</bug>
+                <rock>0.5</rock>
+                <ghost>1</ghost>
+                <dragon>1</dragon>
+                <dark>1</dark>
+                <steel>0.5</steel>
+                <fairy>1</fairy>
+            </type>
+            <type ability="生命凋零">
+                <normal>1</normal>
+                <fire>1</fire>
+                <water>1</water>
+                <grass>0</grass>
+                <electric>1</electric>
+                <ice>1</ice>
+                <fight>1</fight>
+                <poison>1</poison>
+                <ground>1</ground>
+                <fly>1</fly>
+                <psychic>1</psychic>
+                <bug>1</bug>
+                <rock>1</rock>
+                <ghost>1</ghost>
+                <dragon>1</dragon>
+                <dark>1</dark>
+                <steel>1</steel>
+                <fairy>1</fairy>
+            </type>
+        </type-effectiveness>
+        <envolution>无进化</envolution>
+        <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
+        <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
+        <story><![CDATA[
+        <h4>专属特性：生命凋零</h4>
+        <p>生命凋零：场地变为凋零之地，草系技能无效化，除自身外所有精灵每回合损失1/8最大HP，并把损失的HP的一半回复自身。</p>
+        ]]></story>
+    </pokemon>
     <pokemon id="24" visible="yes" >
         <name>
             <cn>恶毒寡妇</cn>
