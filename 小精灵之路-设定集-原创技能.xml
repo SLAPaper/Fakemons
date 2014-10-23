@@ -28,19 +28,18 @@
         </name>
         <type>火</type>
         <catagory>特殊</catagory>
-        <power>变化</power>
+        <power>180</power>
         <accuracy>100</accuracy>
         <target>单体</target>
         <PP>5</PP>
         <effect is-multi-line="yes">
-            <p>技能威力 = 180 * 攻击方当前HP / 攻击方HP上限</p>
             <p>如果被冰冻则在出招前解冻。</p>
-            <p>攻击命中后，攻击方HP减少当前HP的1/2。</p>
+            <p>攻击命中后，攻击方损失满HP的1/2。</p>
             <p>如果攻击无效或没有命中，牺牲火焰没有副作用。</p>
         </effect>
         <description is-multi-line="yes">
             <p>草系精灵燃烧自己的生命才能发出的毁灭火焰。</p>
-            <p>只有草系精灵能学会牺牲火焰。</p>
+            <p>涅槃藤藤蛇的专属技能。</p>
         </description>
     </skill>
 
@@ -741,7 +740,7 @@
         <PP>10</PP>
         <effect is-multi-line="yes">
             <p>使用后场上进入神圣领域状态。</p>
-            <p>神圣领域状态：神圣领域状态持续5回合，在第五回合结束时消失。神圣领域状态下，所有精灵受到效果拔群的技能伤害减半。任何普通系技能伤害增加50%，并且对全部属性相性视为1。</p>
+            <p>神圣领域状态：持续5回合。任何普通系技能伤害增加50%，并且对全部属性相性视为1。</p>
         </effect>
         <description is-multi-line="yes">
             <p>制造出圣光充溢的空间，五回合内效果拔群的技能威力减半。</p>
@@ -870,6 +869,45 @@
         </effect>
         <description is-multi-line="yes">
             <p>削减自身大量HP制造一个真实幻影作为自己的替身。</p>
+        </description>
+    </skill>
+    <skill id="29" visible="yes">
+        <name>
+            <cn>献祭</cn>
+            <en>Immolation</en>
+        </name>
+        <type>火</type>
+        <catagory>变化</catagory>
+        <power>-</power>
+        <accuracy>-</accuracy>
+        <target>自身</target>
+        <PP>10</PP>
+        <effect is-multi-line="yes">
+            <p>使自身进入献祭状态。</p>
+            <p>献祭状态：每回合损失满HP的1/8，特攻*1.5，受到接触攻击时攻击方必定烧伤。</p>
+        </effect>
+        <description is-multi-line="yes">
+            <p>用燃烧生命的火焰包裹全身，提升特攻。</p>
+        </description>
+    </skill>
+    <skill id="30" visible="yes">
+        <name>
+            <cn>消失</cn>
+            <en>Disappear</en>
+        </name>
+        <type>鬼</type>
+        <catagory>变化</catagory>
+        <power>-</power>
+        <accuracy>-</accuracy>
+        <target>自身</target>
+        <PP>10</PP>
+        <effect is-multi-line="yes">
+            <p>第一回合从场上消失，第二回合回到场上。</p>
+            <p>第二回合，可以选择除消失以外的命令，如果选择的是技能，则技能属性变为鬼系并且威力*1.5。</p>
+        </effect>
+        <description is-multi-line="yes">
+            <p>躲入异空间以进行出其不意的战术迂回。</p>
+            <p>圣魂龙一族的专属技能。</p>
         </description>
     </skill>
 </skills>

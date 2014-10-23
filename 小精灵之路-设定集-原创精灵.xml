@@ -351,6 +351,7 @@
         <signature-moves>
             <move id="21">光之舞</move>
             <move id="22">神圣领域</move>
+            <move id="30">消失</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -553,11 +554,11 @@
             </skill>
             <skill>
                 <lv>Lv.61</lv>
-                <n>影袭</n>
+                <n>消失</n>
                 <ty>鬼</ty>
-                <ca>物</ca>
-                <p>120</p>
-                <acc>100</acc>
+                <ca>变</ca>
+                <p>-</p>
+                <acc>-</acc>
             </skill>
         </skills>
     </pokemon>
@@ -582,6 +583,7 @@
         <signature-moves>
             <move id="21">光之舞</move>
             <move id="22">神圣领域</move>
+            <move id="30">消失</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -776,11 +778,11 @@
             </skill>
             <skill>
                 <lv>Lv.69</lv>
-                <n>影袭</n>
+                <n>消失</n>
                 <ty>鬼</ty>
-                <ca>物</ca>
-                <p>120</p>
-                <acc>100</acc>
+                <ca>变</ca>
+                <p>-</p>
+                <acc>-</acc>
             </skill>
         </skills>
     </pokemon>
@@ -805,6 +807,7 @@
         <signature-moves>
             <move id="21">光之舞</move>
             <move id="22">神圣领域</move>
+            <move id="30">消失</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -1004,11 +1007,11 @@
             </skill>
             <skill>
                 <lv>基本</lv>
-                <n>影袭</n>
+                <n>消失</n>
                 <ty>鬼</ty>
-                <ca>物</ca>
-                <p>120</p>
-                <acc>100</acc>
+                <ca>变</ca>
+                <p>-</p>
+                <acc>-</acc>
             </skill>
             <skill>
                 <lv>Lv.70</lv>
@@ -1063,8 +1066,9 @@
         <weight>32.2kg</weight>
         <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
         <signature-moves>
-            <move>光之舞</move>
-            <move>神圣领域</move>
+            <move id="21">光之舞</move>
+            <move id="22">神圣领域</move>
+            <move id="30">消失</move>
         </signature-moves>
         <egg-group>
             <eg1>龙组</eg1>
@@ -3139,5 +3143,72 @@
         <h4>专属特性：海洋之心</h4>
         <p>海洋之心：拥有海洋之心的精灵在水场地中作战时所有能力等级提升到最大。</p>
         ]]></story>
+    </pokemon>
+    <pokemon id="29" visible="yes" >
+        <name>
+            <cn>涅槃藤藤蛇</cn>
+            <en>Nirvana Snivy</en>
+        </name>
+        <species is-legendary="no">重生精灵</species>
+        <type>
+            <type1>草</type1>
+            <type2>火</type2>
+        </type>
+        <abilities>
+            <a1>深绿</a1>
+            <a2>性情乖僻</a2>
+        </abilities>
+        <hidden-ability>涅槃</hidden-ability>
+        <height>0.6m</height>
+        <weight>8.1kg</weight>
+        <color><![CDATA[<div style="background-color:green; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>绿</color>
+        <signature-moves>
+            <move id="1">牺牲火焰</move>
+            <move id="29">献祭</move>
+        </signature-moves>
+        <egg-group>
+            <eg1>路上组</eg1>
+            <eg2>植物组</eg2>
+        </egg-group>
+        <hatch-time>20圈（5120步）</hatch-time>
+        <gender-ratio>♂7:♀1</gender-ratio>
+        <catch-rate>45</catch-rate>
+        <base-friendship>70</base-friendship>
+        <max-exp>1,059,860</max-exp>
+        <stats>
+            <HP>45</HP>
+            <Attack>45</Attack>
+            <Defense>55</Defense>
+            <SpAtk>45</SpAtk>
+            <SpDef>55</SpDef>
+            <Speed>63</Speed>
+            <Total>308</Total>
+        </stats>
+        <type-effectiveness num="">
+            <type ability="">
+                <normal>1</normal>
+                <fire>2</fire>
+                <water>0.5</water>
+                <grass>0.5</grass>
+                <electric>0.5</electric>
+                <ice>2</ice>
+                <fight>1</fight>
+                <poison>2</poison>
+                <ground>0.5</ground>
+                <fly>2</fly>
+                <psychic>1</psychic>
+                <bug>2</bug>
+                <rock>1</rock>
+                <ghost>1</ghost>
+                <dragon>1</dragon>
+                <dark>1</dark>
+                <steel>1</steel>
+                <fairy>1</fairy>
+            </type>
+        </type-effectiveness>
+        <envolution>无进化</envolution>
+        <pokedex>因为能够充分驾驭燃烧生命的火焰而转变成的藤藤蛇。</pokedex>
+        <description>玩火自焚的行家。</description>
+        <story><![CDATA[<h4>专属特性：涅槃</h4><p>因火系技能/效果濒死时，恢复全部生命值，清除所有异常状态，并且全部能力提升一级。</p>]]></story>
     </pokemon>
 </pokemons>

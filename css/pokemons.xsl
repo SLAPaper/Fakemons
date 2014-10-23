@@ -7,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="css\pokemons.css"/>
+                <link rel="stylesheet" type="text/css" href="css/pokemons.css" />
                 <meta name="description" content="原创精灵列表"></meta>
                 <meta name="keywords" content="pokemon"></meta>
                 <meta name="author" content="SLAPaper"></meta>
