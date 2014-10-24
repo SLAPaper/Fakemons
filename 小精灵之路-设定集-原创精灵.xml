@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="css\pokemons.xsl"?>
+<?xml-stylesheet type="text/xsl" href="css/pokemons.xsl"?>
 <!-- Edited by SLAPaper -->
 
 <pokemons>
@@ -136,7 +136,7 @@
         <pokedex>虽然是人类但还是入库看看吧。</pokedex>
         <description>小说主角啦，虽然放在精灵列表里很奇怪但毕竟有属性有特性有种族值还有专属技能，不放也不好。</description>
         <story><![CDATA[
-        <img style="float:right;" src="img/trainercard-Dipo Yokey.png"></img>
+        <img style="float:right;" src="img/trainercard-Dipo Yokey.png" alt="Trainer Card" />
         <p>做了一个训练师卡片，登录了永杰精灵表中的前六个原作非闪光的精灵。永杰的形象用的是波士可多拉的cos，多多少少暗示着作为闪金龙的第二形态。背景用的是普通系的图。八个徽章则全部来自出发地的关东地区。</p>
         <p>小说主角哟XD。</p>
         <p>因为可以变成闪金龙所以种族值应该这么算：HP164+AT100+DE124+SA170+SD110+SP128=796（大雾</p>
@@ -3138,7 +3138,7 @@
         <pokedex>可以一口气潜入最深的海沟中，并在黑暗的环境下觅食。</pokedex>
         <description>从一个非常好的同人PM设计中借来的精灵，阿胖就决定是你了！</description>
         <story><![CDATA[
-        <img style="border:2px solid black;" src="img/wailsupe.png" ></img>
+        <img style="border:2px solid black;" src="img/wailsupe.png" alt="Wailsupe" />
         <p>Wailsupe = whale（鲸） + super（超级的）</p>
         <h4>专属特性：海洋之心</h4>
         <p>海洋之心：拥有海洋之心的精灵在水场地中作战时所有能力等级提升到最大。</p>

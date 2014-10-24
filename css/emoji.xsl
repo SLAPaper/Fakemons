@@ -7,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="css\emoji.css"/>
+                <link rel="stylesheet" type="text/css" href="css/emoji.css"/>
                 <meta name="description" content="颜文字"></meta>
                 <meta name="keywords" content="emoji"></meta>
                 <meta name="author" content="SLAPaper"></meta>
