@@ -3,7 +3,7 @@
 <!-- Edited by SLAPaper -->
 
 <pokemons>
-    <pokemon id="0" visible="no" >
+    <pokemon id="-1" visible="no" >
         <name>
             <cn></cn>
             <en></en>
@@ -64,7 +64,7 @@
                 <fairy></fairy>
             </type>
         </type-effectiveness>
-        <envolution></envolution>
+        <envolution from=""></envolution>
         <pokedex></pokedex>
         <description></description>
         <story><![CDATA[]]></story>
@@ -665,7 +665,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+        <envolution from="3">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
         <pokedex>吸收希望的力量得以成长，会把光明传播给周围。</pokedex>
         <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
         <story><![CDATA[
@@ -889,7 +889,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+        <envolution from="4">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
         <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
         <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
         <story><![CDATA[
@@ -1047,7 +1047,7 @@
             </skill>
         </skills>
     </pokemon>
-    <pokemon id="5" visible="yes" >
+    <pokemon id="30" visible="yes" >
         <name>
             <cn>Mega圣魂龙</cn>
             <en>Mega Ghorizard</en>
@@ -1150,7 +1150,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+        <envolution from="5">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
         <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
         <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     </pokemon>
@@ -1733,7 +1733,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>樱团团-（亲密度达到200升级）-团团樱</envolution>
+        <envolution from="12">樱团团-（亲密度达到200升级）-团团樱</envolution>
         <pokedex>体型变大的同时重量却没有随之变大，因此可以随风飘走。在风和日丽的天气里会发出柔和的共鸣声，口感像是棉花糖。</pokedex>
         <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
         <story><![CDATA[]]></story>
@@ -1869,7 +1869,7 @@
                 <fairy>2</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
+        <envolution from="14">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
         <pokedex>手中握着的钢叉上流动的不知道是灼热的熔岩还是赤红的鲜血，红色的尾巴尖端比刀子还要锋利。</pokedex>
         <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
         <story><![CDATA[
@@ -1938,7 +1938,7 @@
                 <fairy>2</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
+        <envolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
         <pokedex>从不怜悯弱者，以着超乎想象的力量和威慑力压制对手。</pokedex>
         <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
         <story><![CDATA[
@@ -2088,11 +2088,11 @@
         <max-exp>1000000</max-exp>
         <stats>
             <HP>75</HP>
-            <Attack>46</Attack>
+            <Attack>20</Attack>
             <Defense>60</Defense>
-            <SpAtk>128</SpAtk>
+            <SpAtk>144</SpAtk>
             <SpDef>75</SpDef>
-            <Speed>102</Speed>
+            <Speed>112</Speed>
             <Total>486</Total>
         </stats>
         <type-effectiveness num="3">
@@ -2157,7 +2157,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
+        <envolution from="17">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
         <pokedex>体内时刻都处于让水沸腾的温度，喷出来的蒸汽能够把食物由里到外烹饪到最佳状态。</pokedex>
         <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
         <story><![CDATA[
@@ -2196,11 +2196,11 @@
         <max-exp>1000000</max-exp>
         <stats>
             <HP>90</HP>
-            <Attack>60</Attack>
+            <Attack>16</Attack>
             <Defense>72</Defense>
-            <SpAtk>142</SpAtk>
+            <SpAtk>166</SpAtk>
             <SpDef>90</SpDef>
-            <Speed>132</Speed>
+            <Speed>152</Speed>
             <Total>586</Total>
         </stats>
         <type-effectiveness num="3">
@@ -2265,7 +2265,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
+        <envolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
         <pokedex>据说用高压汽锅烹饪出来的食物鲜嫩无比，十里飘香。没有人知道高压汽锅从哪里来，但是它们总是会用一生的时间寻找能够驾驭它们的厨师。</pokedex>
         <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
         <story><![CDATA[
@@ -2391,12 +2391,12 @@
         <base-friendship>70</base-friendship>
         <max-exp>1000000</max-exp>
         <stats>
-            <HP>122</HP>
-            <Attack>108</Attack>
-            <Defense>96</Defense>
-            <SpAtk>38</SpAtk>
-            <SpDef>84</SpDef>
-            <Speed>38</Speed>
+            <HP>132</HP>
+            <Attack>124</Attack>
+            <Defense>100</Defense>
+            <SpAtk>20</SpAtk>
+            <SpDef>90</SpDef>
+            <Speed>20</Speed>
             <Total>486</Total>
         </stats>
         <type-effectiveness num="2">
@@ -2441,7 +2441,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
+        <envolution from="20">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
         <pokedex>在有充足的氧气的时候，炭火炉中的炭会发出灼热的红光，可以很轻易地烤出美味的食物。</pokedex>
         <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
         <story><![CDATA[
@@ -2479,12 +2479,12 @@
         <base-friendship>70</base-friendship>
         <max-exp>1000000</max-exp>
         <stats>
-            <HP>160</HP>
-            <Attack>130</Attack>
-            <Defense>112</Defense>
-            <SpAtk>44</SpAtk>
-            <SpDef>96</SpDef>
-            <Speed>44</Speed>
+            <HP>176</HP>
+            <Attack>160</Attack>
+            <Defense>118</Defense>
+            <SpAtk>16</SpAtk>
+            <SpDef>100</SpDef>
+            <Speed>16</Speed>
             <Total>586</Total>
         </stats>
         <type-effectiveness num="2">
@@ -2529,7 +2529,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
+        <envolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
         <pokedex>风纹火炉上铭刻的纹路据说有引动风的力量，充分燃烧的青色火焰在天才厨师的手中能够烤制出世上绝无仅有的美味。</pokedex>
         <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
         <story><![CDATA[
@@ -2635,7 +2635,7 @@
         <p>自然循环：受到草系技能时不会受到伤害或影响，并回复满HP的1/4。</p>
         ]]></story>
     </pokemon>
-    <pokemon id="23" visible="yes" >
+    <pokemon id="31" visible="yes" >
         <name>
             <cn>原始软泥怪</cn>
             <en>Origin Wetlanooze</en>
@@ -2716,7 +2716,7 @@
                 <fairy>1</fairy>
             </type>
         </type-effectiveness>
-        <envolution>无进化</envolution>
+        <envolution from="23">无进化</envolution>
         <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
         <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
         <story><![CDATA[
@@ -2849,12 +2849,12 @@
         <base-friendship>0</base-friendship>
         <max-exp>1250000</max-exp>
         <stats>
-            <HP>164</HP>
+            <HP>182</HP>
             <Attack>100</Attack>
-            <Defense>124</Defense>
-            <SpAtk>60</SpAtk>
-            <SpDef>110</SpDef>
-            <Speed>42</Speed>
+            <Defense>132</Defense>
+            <SpAtk>42</SpAtk>
+            <SpDef>120</SpDef>
+            <Speed>24</Speed>
             <Total>600</Total>
         </stats>
         <type-effectiveness num="3">
@@ -3187,23 +3187,23 @@
         <type-effectiveness num="">
             <type ability="">
                 <normal>1</normal>
-                <fire>2</fire>
-                <water>0.5</water>
-                <grass>0.5</grass>
+                <fire>1</fire>
+                <water>1</water>
+                <grass>0.25</grass>
                 <electric>0.5</electric>
-                <ice>2</ice>
+                <ice>1</ice>
                 <fight>1</fight>
                 <poison>2</poison>
-                <ground>0.5</ground>
+                <ground>1</ground>
                 <fly>2</fly>
                 <psychic>1</psychic>
-                <bug>2</bug>
-                <rock>1</rock>
+                <bug>1</bug>
+                <rock>2</rock>
                 <ghost>1</ghost>
                 <dragon>1</dragon>
                 <dark>1</dark>
-                <steel>1</steel>
-                <fairy>1</fairy>
+                <steel>0.5</steel>
+                <fairy>0.5</fairy>
             </type>
         </type-effectiveness>
         <envolution>无进化</envolution>
