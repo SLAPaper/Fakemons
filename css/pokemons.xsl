@@ -477,7 +477,7 @@ function dealWithNumber(x)
                                         </xsl:choose>
                                         <td>
                                             <xsl:choose>
-                                                <xsl:when test="p!='-' and ty=../../type/type1 or ty=../../type/type2">
+                                                <xsl:when test="p!='-' and (ty=../../type/type1 or ty=../../type/type2)">
                                                     <span style="font-weight:bold;"><xsl:value-of select="p" /></span>
                                                 </xsl:when>
                                                 <xsl:otherwise>
