@@ -697,7 +697,7 @@
   <skill id="20" visible="yes">
     <name>
       <cn>超级闪光</cn>
-      <en>Super Flash</en>
+      <en>Mega Flash</en>
     </name>
     <type>普</type>
     <catagory>特殊</catagory>
@@ -710,6 +710,7 @@
     </effect>
     <description is-multi-line="yes">
       <p>用极为耀眼的冲击波攻击四周，会降低目标命中。</p>
+      <p>还是在犹豫要不要叫Giga Flash，那样子就是千兆闪焰了（雾</p>
     </description>
   </skill>
   <skill id="21" visible="yes">
