@@ -140,6 +140,7 @@
         <div><img style="float:right;" src="img/trainercard-Dipo Yokey.png" alt="Trainer Card" /></div>
         <p>做了一个训练师卡片，登录了永杰精灵表中的前六个原作非闪光的精灵。永杰的形象用的是波士可多拉的cos，多多少少暗示着作为闪金龙的第二形态。背景用的是普通系的图。八个徽章则全部来自出发地的关东地区。</p>
         <p>小说主角哟XD。</p>
+        <p>主题曲：自然启示录 ~ Brain Overload（Natural Revelations ~ Brain Overload）</p>
         <p>因为可以变成闪金龙所以种族值应该这么算：HP182+AT100+DE132+SA170+SD120+SP128=832（大雾</p>
         <p>这么说小梦的种族值其实应该是：HP255（蛋神）+AT180（代欧）+DE230（壶壶）+SA180（代欧）+SD230（壶壶）+SP180（代欧）=1255（特大雾</p>
         <h4>专属特性</h4>
@@ -219,6 +220,7 @@
         <h4>时飞</h4>
         <p>关于时飞，其实是通行于我的各个世界观中的一个主角/重要配角，某种程度上就相当于个人的化身吧。从他嘴里冒出来的对世界原理的阐释其实都是我的想法。</p>
         <p>不过究竟有多大程度上就是我的看法呢？猜猜看咯。</p>
+        <p>主题曲：幻想时光机 ~ the Timeless One（Fantastic Time Machine ~ the Timeless One）</p>
         <h4>专属特性</h4>
         <p>时间神龙的专属特性有两个，一个是完全防御一回合的时间守护，另一个是用速度逗你玩的咫尺天涯。</p>
         <p>时间守护的效果是，每个回合仅会受到上一回合最后受到的技能的伤害或影响。时间精灵开场自带一轮保护，这时候无论是开双倍还是直接暴动糊场都随意。</p>
@@ -267,12 +269,12 @@
     <max-exp>1059860</max-exp>
     <stats>
       <HP>78</HP>
-      <Attack>140</Attack>
+      <Attack>125</Attack>
       <Defense>98</Defense>
-      <SpAtk>140</SpAtk>
+      <SpAtk>125</SpAtk>
       <SpDef>98</SpDef>
       <Speed>126</Speed>
-      <Total>680</Total>
+      <Total>650</Total>
     </stats>
     <type-effectiveness num="2">
       <type>
@@ -321,6 +323,7 @@
     <description>本来想设计成冰+火的，但是又落下个水，最后认为无法判别的属性归为普通系，因而作为普+龙。顺带用专属特性对抗性表做了大改。</description>
     <story>
       <![CDATA[
+        <p>主题曲：魔神大人参上 ~ Tempreture Monster（Devil Turns up ~ Tempreture Monster）</p>
         <h4>关于名字</h4>
         <p>Fireezard = fire（火）+freeze（冻结）+lizard（蜥蜴）。本来想设定成Mega Charizard Z，即Z喷的，但是因为担心Z版出了以后被官方逼死，所以索性改动了名字。总觉得一股黑炎龙的既视感→ →</p>
         <p>至于战斗力的话，虽然为了剧情需要设定成了双刀，但是专属技的克制面太广，所以点了偏科以后还是很爽的。</p>
@@ -3200,6 +3203,7 @@
         <div><img style="border:2px solid black;" src="img/wailsupe.png" alt="Wailsupe" /></div>
         <p>Wailsupe = whale（鲸） + super（超级的）</p>
         <p>这个构词法是我猜的。</p>
+        <p>主题曲：蔚蓝的深渊（Deep-blue Abyss）</p>
         <h4>专属特性：海洋之心</h4>
         <p>海洋之心：拥有海洋之心的精灵在水场地中作战时所有能力等级提升到最大。</p>
         ]]>
