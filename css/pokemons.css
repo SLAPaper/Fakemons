@@ -1,8 +1,7 @@
 ﻿body {
-    font-family: Arial,"方正兰亭纤黑_GBK","Microsoft YaHei Light",Sans-serif;
+    font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Wenquanyi Micro Hei', 'Microsoft Yahei UI', sans-serif;
     font-size: 100%;
     margin: 2em 3em 4em;
-    line-height: 150%;
 }
 
 h1 {
