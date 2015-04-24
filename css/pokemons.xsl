@@ -8,12 +8,160 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" type="text/css" href="css/pokemons.css" />
         <meta name="description" content="原创精灵列表"></meta>
         <meta name="keywords" content="pokemon"></meta>
         <meta name="author" content="SLAPaper"></meta>
         <meta charset="UTF-8"></meta>
         <title>原创精灵</title>
+        <style>
+          body {
+          font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Wenquanyi Micro Hei', 'Microsoft Yahei UI', sans-serif;
+          font-size: 100%;
+          margin: 2em 3em 4em;
+          }
+
+          h1 {
+          text-align: center;
+          }
+
+          h2, h3 {
+          border-bottom: 1px solid black;
+          overflow: hidden;
+          }
+
+          h2 {
+          text-align: left;
+          margin-top: 1em;
+          margin-bottom: 0.5em;
+          }
+
+          h3, h4 {
+          text-align: left;
+          }
+
+          p {
+          text-indent: 2em;
+          }
+
+          table {
+          border-collapse: collapse;
+          border: 3px solid darkslategrey;
+          empty-cells: show;
+          width: 30%;
+          }
+
+          table.inside {
+          border: 2px dotted;
+          border-radius: 0;
+          width: 100%;
+          }
+
+          tr.title {
+          background-color: darkslategray;
+          color: white;
+          }
+
+          td {
+          border: 1px solid black;
+          text-align: center;
+          padding: 0.3em;
+          }
+
+          td.title {
+          background-color: darkslategray;
+          color: white;
+          width: 30%;
+          }
+
+          .cyan {
+          background-color: Cyan;
+          }
+
+          .limit {
+          width: 30%;
+          }
+
+          .darkslategrey {
+          background-color: darkslategrey;
+          color: white;
+          }
+
+          .white {
+          color: white;
+          }
+
+          .normal {
+          background-color: #A8A090;
+          }
+
+          .fire {
+          background-color: #F05030;
+          }
+
+          .water {
+          background-color: #3898F8;
+          }
+
+          .grass {
+          background-color: #78C850;
+          }
+
+          .electric {
+          background-color: #F8C030;
+          }
+
+          .ice {
+          background-color: #58C8E0;
+          }
+
+          .fight {
+          background-color: #A05038;
+          }
+
+          .poison {
+          background-color: #B058A0;
+          }
+
+          .ground {
+          background-color: #D0B058;
+          }
+
+          .fly {
+          background-color: #98A8F0;
+          }
+
+          .psychic {
+          background-color: #F870A0;
+          }
+
+          .bug {
+          background-color: #A8B820;
+          }
+
+          .rock {
+          background-color: #B8A058;
+          }
+
+          .ghost {
+          background-color: #6060B0;
+          }
+
+          .dragon {
+          background-color: #7860E0;
+          }
+
+          .dark {
+          background-color: #705848;
+          }
+
+          .steel {
+          background-color: #A8A8C0;
+          }
+
+          .fairy {
+          background-color: #F1A7F9;
+          }
+        </style>
         <script src="js/xmlloader.js"></script>
         <script>
           function dealWithMenu()

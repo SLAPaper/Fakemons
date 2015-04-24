@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="pokemons">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="pokemon">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cn" type="xs:string" />
+                    <xs:element name="en" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="species">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="is-legendary" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="type">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="type1" type="xs:string" />
+                    <xs:element name="type2" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="abilities">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="a1" type="xs:string" />
+                    <xs:element name="a2" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="hidden-ability" type="xs:string" />
+              <xs:element name="height" type="xs:string" />
+              <xs:element name="weight" type="xs:string" />
+              <xs:element name="color" type="xs:string" />
+              <xs:element name="signature-moves">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element maxOccurs="unbounded" name="move">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="egg-group">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="eg1" type="xs:string" />
+                    <xs:element name="eg2" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="hatch-time" type="xs:string" />
+              <xs:element name="gender-ratio" type="xs:string" />
+              <xs:element name="catch-rate" type="xs:string" />
+              <xs:element name="base-friendship" type="xs:string" />
+              <xs:element name="max-exp" type="xs:string" />
+              <xs:element name="stats">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="HP" type="xs:string" />
+                    <xs:element name="Attack" type="xs:string" />
+                    <xs:element name="Defense" type="xs:string" />
+                    <xs:element name="SpAtk" type="xs:string" />
+                    <xs:element name="SpDef" type="xs:string" />
+                    <xs:element name="Speed" type="xs:string" />
+                    <xs:element name="Total" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="type-effectiveness">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="type">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="normal" type="xs:string" />
+                          <xs:element name="fire" type="xs:string" />
+                          <xs:element name="water" type="xs:string" />
+                          <xs:element name="grass" type="xs:string" />
+                          <xs:element name="electric" type="xs:string" />
+                          <xs:element name="ice" type="xs:string" />
+                          <xs:element name="fight" type="xs:string" />
+                          <xs:element name="poison" type="xs:string" />
+                          <xs:element name="ground" type="xs:string" />
+                          <xs:element name="fly" type="xs:string" />
+                          <xs:element name="psychic" type="xs:string" />
+                          <xs:element name="bug" type="xs:string" />
+                          <xs:element name="rock" type="xs:string" />
+                          <xs:element name="ghost" type="xs:string" />
+                          <xs:element name="dragon" type="xs:string" />
+                          <xs:element name="dark" type="xs:string" />
+                          <xs:element name="steel" type="xs:string" />
+                          <xs:element name="fairy" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="ability" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="num" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="envolution">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="from" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="pokedex" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+              <xs:element minOccurs="0" name="story" type="xs:string" />
+              <xs:element minOccurs="0" name="skills">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="skill">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="lv" type="xs:string" />
+                          <xs:element name="n" type="xs:string" />
+                          <xs:element name="ty" type="xs:string" />
+                          <xs:element name="ca" type="xs:string" />
+                          <xs:element name="p" type="xs:string" />
+                          <xs:element name="acc" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:byte" use="required" />
+            <xs:attribute name="visible" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

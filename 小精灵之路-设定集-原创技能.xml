@@ -26,7 +26,7 @@
       <cn>牺牲火焰</cn>
       <en>Sacrifice Flame</en>
     </name>
-    <type>火</type>
+    <type class="fire">火</type>
     <catagory>特殊</catagory>
     <power>180</power>
     <accuracy>100</accuracy>
@@ -48,7 +48,7 @@
       <cn>星之漩涡</cn>
       <en>Star Vortex</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>特殊</catagory>
     <power>100</power>
     <accuracy>-</accuracy>
@@ -66,7 +66,7 @@
       <cn>心灵风暴</cn>
       <en>Soul Storm</en>
     </name>
-    <type>超</type>
+    <type class="psychic">超</type>
     <catagory>特殊</catagory>
     <power>100</power>
     <accuracy>-</accuracy>
@@ -84,7 +84,7 @@
       <cn>高压蒸汽</cn>
       <en>High-pressure Steam</en>
     </name>
-    <type>水</type>
+    <type class="water">水</type>
     <catagory>特殊</catagory>
     <power>90</power>
     <accuracy>100</accuracy>
@@ -105,7 +105,7 @@
       <cn>热力迸发</cn>
       <en>Thermal Expand</en>
     </name>
-    <type>火</type>
+    <type class="fire">火</type>
     <catagory>物理</catagory>
     <power>100</power>
     <accuracy>100</accuracy>
@@ -125,7 +125,7 @@
       <cn>时空暴动</cn>
       <en>Space-time Collapse</en>
     </name>
-    <type>龙</type>
+    <type class="dragon">龙</type>
     <catagory>特殊</catagory>
     <power>100</power>
     <accuracy>100</accuracy>
@@ -141,78 +141,24 @@
       <p>时间神龙的专属技能。</p>
     </description>
     <eff>
-      <![CDATA[
-<h3>属性相性表</h3>
-<table style="text-align:center;">
-    <thead>
-        <tr style="border-bottom:3px solid darkslategrey;">
-            <td class="title" style="word-break:keep-all;">防御方</td>
-            <td class="normal">普</td>
-            <td class="fire">火</td>
-            <td class="water">水</td>
-            <td class="grass">草</td>
-            <td class="electric">电</td>
-            <td class="ice">冰</td>
-            <td class="fight">斗</td>
-            <td class="poison">毒</td>
-            <td class="ground">地</td>
-            <td class="fly">飞</td>
-            <td class="psychic">超</td>
-            <td class="bug">虫</td>
-            <td class="rock">岩</td>
-            <td class="ghost">鬼</td>
-            <td class="dragon">龙</td>
-            <td class="dark">恶</td>
-            <td class="steel">钢</td>
-            <td class="fairy">妖</td>
-        </tr>
-    </thead>
-    <tbody style="color:lightgrey;">
-        <tr>
-            <td class="dragon" style="color:black;">龙</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:blue">0.5</td>
-            <td style="color:blue">0</td>
-        </tr>
-        <tr>
-            <td class="title">修正值</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td style="color:black">-1</td>
-        </tr>
-    </tbody>
-</table>
-            ]]>
+      <normal>1</normal>
+      <fire>1</fire>
+      <water>1</water>
+      <grass>1</grass>
+      <electric>1</electric>
+      <ice>1</ice>
+      <fight>1</fight>
+      <poison>1</poison>
+      <ground>1</ground>
+      <fly>1</fly>
+      <psychic>1</psychic>
+      <bug>1</bug>
+      <rock>1</rock>
+      <ghost>1</ghost>
+      <dragon>1</dragon>
+      <dark>1</dark>
+      <steel>2</steel>
+      <fairy>-1</fairy>
     </eff>
   </skill>
 
@@ -221,7 +167,7 @@
       <cn>双倍机会</cn>
       <en>Double Chance</en>
     </name>
-    <type>龙</type>
+    <type class="dragon">龙</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -239,7 +185,7 @@
       <cn>生命之源</cn>
       <en>Life Source</en>
     </name>
-    <type>草</type>
+    <type class="grass">草</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -257,7 +203,7 @@
       <cn>太极神拳</cn>
       <en>Tai Chi Punch</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>物理</catagory>
     <power>120</power>
     <accuracy>100</accuracy>
@@ -274,78 +220,24 @@
       <p>国宝熊猫的专属技能。</p>
     </description>
     <eff>
-      <![CDATA[
-<h3>属性相性表</h3>
-<table style="text-align:center;">
-    <thead>
-        <tr style="border-bottom:3px solid darkslategrey;">
-            <td class="title" style="word-break:keep-all;">防御方</td>
-            <td class="normal">普</td>
-            <td class="fire">火</td>
-            <td class="water">水</td>
-            <td class="grass">草</td>
-            <td class="electric">电</td>
-            <td class="ice">冰</td>
-            <td class="fight">斗</td>
-            <td class="poison">毒</td>
-            <td class="ground">地</td>
-            <td class="fly">飞</td>
-            <td class="psychic">超</td>
-            <td class="bug">虫</td>
-            <td class="rock">岩</td>
-            <td class="ghost">鬼</td>
-            <td class="dragon">龙</td>
-            <td class="dark">恶</td>
-            <td class="steel">钢</td>
-            <td class="fairy">妖</td>
-        </tr>
-    </thead>
-    <tbody style="color:lightgrey;">
-        <tr>
-            <td class="normal" style="color:black;">普</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue">0.5</td>
-            <td style="color:blue">0</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue">0.5</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td class="title">修正值</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red">2</td>
-            <td style="color:black">-1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red">2</td>
-            <td>1</td>
-        </tr>
-    </tbody>
-</table>
-            ]]>
+      <normal>1</normal>
+      <fire>1</fire>
+      <water>1</water>
+      <grass>1</grass>
+      <electric>1</electric>
+      <ice>1</ice>
+      <fight>1</fight>
+      <poison>1</poison>
+      <ground>1</ground>
+      <fly>1</fly>
+      <psychic>1</psychic>
+      <bug>1</bug>
+      <rock>2</rock>
+      <ghost>-1</ghost>
+      <dragon>1</dragon>
+      <dark>1</dark>
+      <steel>2</steel>
+      <fairy>1</fairy>
     </eff>
   </skill>
 
@@ -354,7 +246,7 @@
       <cn>以慢打快</cn>
       <en>Low-speed Advantage</en>
     </name>
-    <type>斗</type>
+    <type class="fight">斗</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -375,7 +267,7 @@
       <cn>空间转移</cn>
       <en>Space Shift</en>
     </name>
-    <type>超</type>
+    <type class="psychic">超</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -396,7 +288,7 @@
       <cn>寂静波纹</cn>
       <en>Scilence Ripple</en>
     </name>
-    <type>虫</type>
+    <type class="bug">虫</type>
     <catagory>特殊</catagory>
     <power>100</power>
     <accuracy>100</accuracy>
@@ -417,7 +309,7 @@
       <cn>和谐之钳</cn>
       <en>Harmony Claw</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>物理</catagory>
     <power>100</power>
     <accuracy>100</accuracy>
@@ -435,7 +327,7 @@
       <cn>命运审判</cn>
       <en>Fate Judgement</en>
     </name>
-    <type>妖</type>
+    <type class="fairy">妖</type>
     <catagory>特殊</catagory>
     <power>140</power>
     <accuracy>100</accuracy>
@@ -456,7 +348,7 @@
       <cn>冰火拳</cn>
       <en>Ice and Fire Punch</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>物理</catagory>
     <power>85</power>
     <accuracy>100</accuracy>
@@ -470,78 +362,24 @@
       <p>冰炎龙的专属技能。</p>
     </description>
     <eff>
-      <![CDATA[
-<h3>属性相性表</h3>
-<table style="text-align:center;">
-    <thead>
-        <tr style="border-bottom:3px solid darkslategrey;">
-            <td class="title" style="word-break:keep-all;">防御方</td>
-            <td class="normal">普</td>
-            <td class="fire">火</td>
-            <td class="water">水</td>
-            <td class="grass">草</td>
-            <td class="electric">电</td>
-            <td class="ice">冰</td>
-            <td class="fight">斗</td>
-            <td class="poison">毒</td>
-            <td class="ground">地</td>
-            <td class="fly">飞</td>
-            <td class="psychic">超</td>
-            <td class="bug">虫</td>
-            <td class="rock">岩</td>
-            <td class="ghost">鬼</td>
-            <td class="dragon">龙</td>
-            <td class="dark">恶</td>
-            <td class="steel">钢</td>
-            <td class="fairy">妖</td>
-        </tr>
-    </thead>
-    <tbody style="color:lightgrey;">
-        <tr>
-            <td class="normal" style="color:black;">普</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue;">0.5</td>
-            <td style="color:blue;">0</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue;">0.5</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td class="title">修正值</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td style="color:red;font-weight:bold;">4</td>
-            <td style="color:black">-1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;font-weight:bold;">4</td>
-            <td>1</td>
-        </tr>
-    </tbody>
-</table>
-            ]]>
+      <normal>1</normal>
+      <fire>2</fire>
+      <water>1</water>
+      <grass>2</grass>
+      <electric>1</electric>
+      <ice>2</ice>
+      <fight>1</fight>
+      <poison>1</poison>
+      <ground>2</ground>
+      <fly>2</fly>
+      <psychic>1</psychic>
+      <bug>2</bug>
+      <rock>4</rock>
+      <ghost>-1</ghost>
+      <dragon>2</dragon>
+      <dark>1</dark>
+      <steel>4</steel>
+      <fairy>1</fairy>
     </eff>
   </skill>
 
@@ -550,7 +388,7 @@
       <cn>冰火飞弹</cn>
       <en>Ice and Fire Strafe</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>特殊</catagory>
     <power>85</power>
     <accuracy>100</accuracy>
@@ -564,78 +402,24 @@
       <p>冰炎龙的专属技能。</p>
     </description>
     <eff>
-      <![CDATA[
-<h3>属性相性表</h3>
-<table style="text-align:center;">
-    <thead>
-        <tr style="border-bottom:3px solid darkslategrey;">
-            <td class="title" style="word-break:keep-all;">防御方</td>
-            <td class="normal">普</td>
-            <td class="fire">火</td>
-            <td class="water">水</td>
-            <td class="grass">草</td>
-            <td class="electric">电</td>
-            <td class="ice">冰</td>
-            <td class="fight">斗</td>
-            <td class="poison">毒</td>
-            <td class="ground">地</td>
-            <td class="fly">飞</td>
-            <td class="psychic">超</td>
-            <td class="bug">虫</td>
-            <td class="rock">岩</td>
-            <td class="ghost">鬼</td>
-            <td class="dragon">龙</td>
-            <td class="dark">恶</td>
-            <td class="steel">钢</td>
-            <td class="fairy">妖</td>
-        </tr>
-    </thead>
-    <tbody style="color:lightgrey;">
-        <tr>
-            <td class="normal" style="color:black;">普</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue;">0.5</td>
-            <td style="color:blue;">0</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:blue;">0.5</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td class="title">修正值</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;">2</td>
-            <td style="color:red;font-weight:bold;">4</td>
-            <td style="color:black">-1</td>
-            <td style="color:red;">2</td>
-            <td>1</td>
-            <td style="color:red;font-weight:bold;">4</td>
-            <td>1</td>
-        </tr>
-    </tbody>
-</table>
-            ]]>
+      <normal>1</normal>
+      <fire>2</fire>
+      <water>1</water>
+      <grass>2</grass>
+      <electric>1</electric>
+      <ice>2</ice>
+      <fight>1</fight>
+      <poison>1</poison>
+      <ground>2</ground>
+      <fly>2</fly>
+      <psychic>1</psychic>
+      <bug>2</bug>
+      <rock>4</rock>
+      <ghost>-1</ghost>
+      <dragon>2</dragon>
+      <dark>1</dark>
+      <steel>4</steel>
+      <fairy>1</fairy>
     </eff>
   </skill>
 
@@ -644,7 +428,7 @@
       <cn>穿心针</cn>
       <en>Heart-broken Needle</en>
     </name>
-    <type>恶</type>
+    <type class="dark">恶</type>
     <catagory>物理</catagory>
     <power>80</power>
     <accuracy>100</accuracy>
@@ -662,7 +446,7 @@
       <cn>魔鬼槌</cn>
       <en>Devil Mallet</en>
     </name>
-    <type>恶</type>
+    <type class="dark">恶</type>
     <catagory>物理</catagory>
     <power>80</power>
     <accuracy>100</accuracy>
@@ -679,7 +463,7 @@
       <cn>流星俯冲</cn>
       <en>Meteor Rush</en>
     </name>
-    <type>飞</type>
+    <type class="fly">飞</type>
     <catagory>物理</catagory>
     <power>变动</power>
     <accuracy>变动</accuracy>
@@ -699,7 +483,7 @@
       <cn>超级闪光</cn>
       <en>Mega Flash</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>特殊</catagory>
     <power>100</power>
     <accuracy>100</accuracy>
@@ -718,7 +502,7 @@
       <cn>光之舞</cn>
       <en>Light Dance</en>
     </name>
-    <type>鬼</type>
+    <type class="ghost">鬼</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -737,7 +521,7 @@
       <cn>神圣领域</cn>
       <en>Sacred Place</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -757,7 +541,7 @@
       <cn>无限冲锋</cn>
       <en>Unlimited Rush</en>
     </name>
-    <type>钢</type>
+    <type class="steal">钢</type>
     <catagory>物理</catagory>
     <power>120</power>
     <accuracy>80</accuracy>
@@ -781,7 +565,7 @@
       <cn>反则变化</cn>
       <en>Anti-Principle</en>
     </name>
-    <type>钢</type>
+    <type class="steel">钢</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -801,7 +585,7 @@
       <cn>扩散防御</cn>
       <en>Spread Defense</en>
     </name>
-    <type>钢</type>
+    <type class="steel">钢</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -821,7 +605,7 @@
       <cn>大地漩涡</cn>
       <en>Earth Spin</en>
     </name>
-    <type>地</type>
+    <type class="ground">地</type>
     <catagory>物理</catagory>
     <power>75</power>
     <accuracy>100</accuracy>
@@ -843,7 +627,7 @@
       <cn>乘风</cn>
       <en>With Wind</en>
     </name>
-    <type>飞</type>
+    <type class="fly">飞</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -862,7 +646,7 @@
       <cn>真实幻影</cn>
       <en>Real Illusion</en>
     </name>
-    <type>普</type>
+    <type class="normal">普</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -881,7 +665,7 @@
       <cn>献祭</cn>
       <en>Immolation</en>
     </name>
-    <type>火</type>
+    <type class="fire">火</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
@@ -900,7 +684,7 @@
       <cn>消失</cn>
       <en>Disappear</en>
     </name>
-    <type>鬼</type>
+    <type class="ghost">鬼</type>
     <catagory>变化</catagory>
     <power>-</power>
     <accuracy>-</accuracy>
