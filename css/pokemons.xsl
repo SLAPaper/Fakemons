@@ -52,7 +52,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <xsl:value-of select="name/cn" />
                 </a>
               </h2>
-              <script><![CDATA[var haveSecondType = 0;var isLegendary = 0;var type1 ="";var type2 = "";]]></script>
               <table style="float:right;border-radius:2em;border-collapse:separate;clear:both;margin:auto auto 0.3em 0.3em;">
                 <thead>
                   <tr>
@@ -70,76 +69,56 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </thead>
                 <tr>
                   <td class="title">属性</td>
-                  <script>
-                    <![CDATA[type1 = chooseType("]]><xsl:value-of select="type/type1" /><![CDATA[");]]>
-                  </script>
-                  <xsl:choose>
-                    <xsl:when test="type/type2=''">
-                      <script><![CDATA[haveSecondType = 0;]]></script>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <script><![CDATA[haveSecondType = 1;]]></script>
-                      <script>
-                        <![CDATA[type2 = chooseType("]]><xsl:value-of select="type/type2" /><![CDATA[");]]>
-                      </script>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                  <!-- output the type1 -->
-                  <script>
-                    <![CDATA[
-                      var x = '<td ';
-                      if ( haveSecondType == 0 )
-                          x += 'colspan="2" ';
-                      else
-                          x += 'style="width:8em;" ';
-                      x += 'class="white ';
-                      x += type1; //<td colspan="2" class="white normal">
-                      x += '">';
-                      document.write(x);
-                    ]]>
-                  </script>
-                  <xsl:value-of select="type/type1" />
-                  <script><![CDATA[document.write('</td>');]]></script>
 
-                  <!-- output the type2 -->
-                  <xsl:choose>
-                    <xsl:when test="type/type2=''" />
-                    <xsl:otherwise>
-                      <script>
-                        <![CDATA[
-                          x = '<td style="width:8em;"class="white ';
-                          x += type2;
-                          x += '">';
-                          document.write(x);
-                        ]]>
-                      </script>
+                  <td>
+                    <!-- output the type1 -->
+                    <xsl:choose>
+                      <xsl:when test="not(type/type2)">
+                        <xsl:attribute name="colspan">2</xsl:attribute>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:attribute name="style">width:8em;</xsl:attribute>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:attribute name="class">
+                      white <xsl:value-of select="type/type1/@class"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="type/type1" />
+                  </td>
+
+                  <xsl:if test="type/type2">
+                    <!-- output the type2 -->
+                    <td style="width: 8em;">
+                      <xsl:attribute name="class">
+                        white <xsl:value-of select="type/type2/@class"/>
+                      </xsl:attribute>
                       <xsl:value-of select="type/type2" />
-                      <script><![CDATA[document.write('</td>');]]></script>
-                    </xsl:otherwise>
-                  </xsl:choose>
+                    </td>
+                  </xsl:if>
                 </tr>
                 <tr>
                   <td class="title">特性</td>
-                  <xsl:choose>
-                    <xsl:when test="abilities/a2=''">
-                      <td colspan="2">
-                        <xsl:value-of select="abilities/a1" />
-                      </td>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <td>
-                        <xsl:value-of select="abilities/a1" />
-                      </td>
-                      <td>
-                        <xsl:value-of select="abilities/a2" />
-                      </td>
-                    </xsl:otherwise>
-                  </xsl:choose>
+                  <td>
+                    <xsl:if test="not(abilities/a2)">
+                      <xsl:attribute name="colspan">2</xsl:attribute>
+                    </xsl:if>
+                    <xsl:value-of select="abilities/a1" />
+                  </td>
+                  <xsl:if test="abilities/a2">
+                    <td>
+                      <xsl:value-of select="abilities/a2" />
+                    </td>
+                  </xsl:if>
                 </tr>
                 <tr>
                   <td class="title">隐藏特性</td>
                   <td colspan="2">
-                    <xsl:value-of select="hidden-ability" />
+                    <xsl:choose>
+                      <xsl:when test="hidden-ability">
+                        <xsl:value-of select="hidden-ability" />
+                      </xsl:when>
+                      <xsl:otherwise>-</xsl:otherwise>
+                    </xsl:choose>
                   </td>
                 </tr>
                 <tr>
@@ -158,19 +137,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                           <td class="cyan" style="width:25%;">颜色</td>
                         </tr>
                         <tr>
-                          <xsl:if test="species/@is-legendary='yes'">
-                            <script><![CDATA[isLegendary=1;]]></script>
-                          </xsl:if>
-                          <script>
-                            <![CDATA[
-                              var x = "<td ";
-                              if (isLegendary==1) x += "style='background-color:Gold;'";
-                              x += ">"
-                              document.write(x);
-                              ]]>
-                          </script>
-                          <xsl:value-of select="species" />
-                          <script><![CDATA[document.write("</td>");]]></script>
+                          <td>
+                            <xsl:if test="species/@is-legendary='yes'">
+                              <xsl:attribute name="style">background-color:gold;</xsl:attribute>
+                            </xsl:if>
+                            <xsl:value-of select="species" />
+                          </td>
                           <td>
                             <xsl:value-of select="weight" />
                           </td>
@@ -179,6 +151,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                           </td>
                           <td>
                             <xsl:value-of disable-output-escaping="yes" select="color" />
+                            <!--这里的颜色方块需要重构-->
                           </td>
                         </tr>
                       </tbody>
@@ -269,9 +242,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/HP" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var HP=]]><xsl:value-of select="stats/HP" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#ffce18;height:1em;width:"+HP+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#ffce18;height:1em;width:<xsl:value-of select="stats/HP" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -280,9 +255,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/Attack" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var Attack=]]><xsl:value-of select="stats/Attack" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#f73942;height:1em;width:"+Attack+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#f73942;height:1em;width:<xsl:value-of select="stats/Attack" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -291,9 +268,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/Defense" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var Defense=]]><xsl:value-of select="stats/Defense" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#5284e7;height:1em;width:"+Defense+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#5284e7;height:1em;width:<xsl:value-of select="stats/Defense" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -302,9 +281,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/SpAtk" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var SpAtk=]]><xsl:value-of select="stats/SpAtk" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#5ae7ef;height:1em;width:"+SpAtk+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#5ae7ef;height:1em;width:<xsl:value-of select="stats/SpAtk" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -313,9 +294,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/SpDef" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var SpDef=]]><xsl:value-of select="stats/SpDef" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#d663d6;height:1em;width:"+SpDef+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#d663d6;height:1em;width:<xsl:value-of select="stats/SpDef" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -324,19 +307,24 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                       <xsl:value-of select="stats/Speed" />
                     </td>
                     <td>
-                      <script>
-                        <![CDATA[var Speed=]]><xsl:value-of select="stats/Speed" /><![CDATA[;document.write("<div style="+'"'+"border:1px solid black;background-color:#52c642;height:1em;width:"+Speed+"px;"+'"'+"></div>");]]>
-                      </script>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:#52c642;height:1em;width:<xsl:value-of select="stats/Speed" />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                   <tr>
                     <td class="cyan limit">合计</td>
                     <td>
-                      <script><![CDATA[var temp=HP+Attack+Defense+SpAtk+SpDef+Speed;document.write(temp);]]></script>
+                      <xsl:value-of select="sum(stats/*) div 2" />
                     </td>
                     <td>
-                      <script><![CDATA[;document.write("<div style="+'"'+"float:left;border:1px solid black;background-color:grey;height:1em;width:"+temp/6+"px;"+'"'+"></div>");]]></script>
-                      <span style="font-size:80%;">（六项平均）</span>
+                      <div>
+                        <xsl:attribute name="style">
+                          border:1px solid black;background-color:grey;height:1em;width:<xsl:value-of select="sum(stats/*) div 12 " />px;
+                        </xsl:attribute>
+                      </div>
                     </td>
                   </tr>
                 </tbody>

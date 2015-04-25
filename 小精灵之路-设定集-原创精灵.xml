@@ -10,14 +10,14 @@
     </name>
     <species is-legendary="no"></species>
     <type>
-      <type1></type1>
-      <type2></type2>
+      <type1 class=""></type1>
+      <type2 class=""></type2>
     </type>
     <abilities>
       <a1></a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height></height>
     <weight></weight>
     <color><![CDATA[<div style="background-color:; width:2em; height:1em;float:left;border:1px black solid;"></div>]]></color>
@@ -77,14 +77,14 @@
     </name>
     <species is-legendary="yes">人类精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>超</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="psychic">超</type2>
     </type>
     <abilities>
       <a1>破防</a1>
       <a2>小动作</a2>
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>1.6m</height>
     <weight>57.3kg</weight>
     <color><![CDATA[<div style="background-color:#F8B878; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>熟杏黄</color>
@@ -156,12 +156,10 @@
     </name>
     <species is-legendary="yes">平行精灵</species>
     <type>
-      <type1>龙</type1>
-      <type2></type2>
+      <type1 class="dragon">龙</type1>
     </type>
     <abilities>
       <a1>时光守护</a1>
-      <a2></a2>
     </abilities>
     <hidden-ability>咫尺天涯</hidden-ability>
     <height>2.2m</height>
@@ -243,14 +241,13 @@
     </name>
     <species is-legendary="yes">融合精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>龙</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="dragon">龙</type2>
     </type>
     <abilities>
       <a1>冰封火焰</a1>
-      <a2></a2>
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>1.8m</height>
     <weight>95.5kg</weight>
     <color><![CDATA[<div style="background-color:AliceBlue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>冰蓝</color>
@@ -346,8 +343,8 @@
     </name>
     <species is-legendary="no">灵魂精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>鬼</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="ghost">鬼</type2>
     </type>
     <abilities>
       <a1>胆气</a1>
@@ -580,8 +577,8 @@
     </name>
     <species is-legendary="no">灵魂精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>鬼</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="ghost">鬼</type2>
     </type>
     <abilities>
       <a1>胆气</a1>
@@ -806,8 +803,8 @@
     </name>
     <species is-legendary="no">神圣精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>鬼</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="ghost">鬼</type2>
     </type>
     <abilities>
       <a1>胆气</a1>
@@ -1069,8 +1066,8 @@
     </name>
     <species is-legendary="no">神圣精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>鬼</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="ghost">鬼</type2>
     </type>
     <abilities>
       <a1>胆气</a1>
@@ -1176,14 +1173,12 @@
     </name>
     <species is-legendary="yes">生命精灵</species>
     <type>
-      <type1>草</type1>
-      <type2>龙</type2>
+      <type1 class="grass">草</type1>
+      <type2 class="dragon">龙</type2>
     </type>
     <abilities>
       <a1>自然能量</a1>
-      <a2></a2>
     </abilities>
-    <hidden-ability></hidden-ability>
     <height>4.2m</height>
     <weight>106.3kg</weight>
     <color><![CDATA[<div style="background-color:yellowgreen; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黄绿</color>
@@ -1279,8 +1274,8 @@
     </name>
     <species is-legendary="yes">太极精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>斗</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="fight">斗</type2>
     </type>
     <abilities>
       <a1>胆气</a1>
@@ -1353,14 +1348,12 @@
     </name>
     <species is-legendary="yes">安静精灵</species>
     <type>
-      <type1>虫</type1>
-      <type2></type2>
+      <type1 class="bug">虫</type1>
     </type>
     <abilities>
       <a1>静寂</a1>
-      <a2></a2>
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>0.5m</height>
     <weight>5.5kg</weight>
     <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
@@ -1436,9 +1429,9 @@
     </type>
     <abilities>
       <a1>空间力场</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>0.9m</height>
     <weight>16.5kg</weight>
     <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
@@ -1508,9 +1501,9 @@
     </type>
     <abilities>
       <a1>和谐</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>1.0m</height>
     <weight>21.3kg</weight>
     <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
@@ -1579,9 +1572,9 @@
     </type>
     <abilities>
       <a1>天之恩惠</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>0.5m</height>
     <weight>1.6kg</weight>
     <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
@@ -1777,7 +1770,7 @@
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>0.6m</height>
@@ -1848,7 +1841,7 @@
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>0.8m</height>
@@ -1919,7 +1912,7 @@
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>1.7m</height>
@@ -1993,7 +1986,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.1m</height>
@@ -2103,7 +2096,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.2m</height>
@@ -2213,7 +2206,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.3m</height>
@@ -2324,7 +2317,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.1m</height>
@@ -2414,7 +2407,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.2m</height>
@@ -2504,7 +2497,7 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.4m</height>
@@ -2595,9 +2588,9 @@
     </type>
     <abilities>
       <a1>自然循环</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>1.5m</height>
     <weight>125.3kg</weight>
     <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
@@ -2697,9 +2690,9 @@
     </type>
     <abilities>
       <a1>生命凋零</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>3.3m</height>
     <weight>225.3kg</weight>
     <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
@@ -2789,7 +2782,7 @@
     </type>
     <abilities>
       <a1>复眼</a1>
-      <a2></a2>
+      
     </abilities>
     <hidden-ability>飞丝</hidden-ability>
     <height>1.1m</height>
@@ -3009,9 +3002,9 @@
     </type>
     <abilities>
       <a1>验证</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>1.4m</height>
     <weight>92.5kg</weight>
     <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
@@ -3079,9 +3072,9 @@
     </type>
     <abilities>
       <a1>静止</a1>
-      <a2></a2>
+      
     </abilities>
-    <hidden-ability></hidden-ability>
+    
     <height>0.4m</height>
     <weight>21.3kg</weight>
     <color><![CDATA[<div style="background-color:blue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>蓝</color>
