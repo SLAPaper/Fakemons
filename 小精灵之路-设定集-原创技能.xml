@@ -157,8 +157,8 @@
       <ghost>1</ghost>
       <dragon>1</dragon>
       <dark>1</dark>
-      <steel>2</steel>
-      <fairy>-1</fairy>
+      <steel>1</steel>
+      <fairy>1</fairy>
     </eff>
   </skill>
 
@@ -232,11 +232,11 @@
       <fly>1</fly>
       <psychic>1</psychic>
       <bug>1</bug>
-      <rock>2</rock>
-      <ghost>-1</ghost>
+      <rock>1</rock>
+      <ghost>1</ghost>
       <dragon>1</dragon>
       <dark>1</dark>
-      <steel>2</steel>
+      <steel>1</steel>
       <fairy>1</fairy>
     </eff>
   </skill>
@@ -374,11 +374,11 @@
       <fly>2</fly>
       <psychic>1</psychic>
       <bug>2</bug>
-      <rock>4</rock>
-      <ghost>-1</ghost>
+      <rock>2</rock>
+      <ghost>1</ghost>
       <dragon>2</dragon>
       <dark>1</dark>
-      <steel>4</steel>
+      <steel>2</steel>
       <fairy>1</fairy>
     </eff>
   </skill>
@@ -414,11 +414,11 @@
       <fly>2</fly>
       <psychic>1</psychic>
       <bug>2</bug>
-      <rock>4</rock>
-      <ghost>-1</ghost>
+      <rock>2</rock>
+      <ghost>1</ghost>
       <dragon>2</dragon>
       <dark>1</dark>
-      <steel>4</steel>
+      <steel>2</steel>
       <fairy>1</fairy>
     </eff>
   </skill>

@@ -30,6 +30,7 @@ table {
     border: 3px solid darkslategrey;
     empty-cells: show;
     width: 30em;
+    text-align: center;
 }
 
     table.inside {
@@ -40,7 +41,7 @@ table {
 
 td {
     border: 1px solid black;
-    text-align: center;
+    ext-align: center;
     padding: 0.3em;
 }
 
@@ -50,91 +51,132 @@ td {
         width: 4em;
     }
 
-    td.cyan {
-        background-color: Cyan;
-    }
+.cyan {
+    background-color: Cyan;
+}
 
-    td.limit {
-        width: 30%;
-    }
+.limit {
+    width: 30%;
+}
 
-    td.darkslategrey {
-        background-color: darkslategrey;
-        color: white;
-    }
+.darkslategrey {
+    background-color: darkslategrey;
+    color: white;
+}
 
-    td.white {
-        color: white;
-    }
+.white {
+    color: white;
+}
 
-    td.normal {
-        background-color: #A8A090;
-    }
 
-    td.fire {
-        background-color: #F05030;
-    }
+.normal {
+    background-color: #A8A090;
+}
 
-    td.water {
-        background-color: #3898F8;
-    }
+.fire {
+    background-color: #F05030;
+}
 
-    td.grass {
-        background-color: #78C850;
-    }
+.water {
+    background-color: #3898F8;
+}
 
-    td.electric {
-        background-color: #F8C030;
-    }
+.grass {
+    background-color: #78C850;
+}
 
-    td.ice {
-        background-color: #58C8E0;
-    }
+.electric {
+    background-color: #F8C030;
+}
 
-    td.fight {
-        background-color: #A05038;
-    }
+.ice {
+    background-color: #58C8E0;
+}
 
-    td.poison {
-        background-color: #B058A0;
-    }
+.fight {
+    background-color: #A05038;
+}
 
-    td.ground {
-        background-color: #D0B058;
-    }
+.poison {
+    background-color: #B058A0;
+}
 
-    td.fly {
-        background-color: #98A8F0;
-    }
+.ground {
+    background-color: #D0B058;
+}
 
-    td.psychic {
-        background-color: #F870A0;
-    }
+.fly {
+    background-color: #98A8F0;
+}
 
-    td.bug {
-        background-color: #A8B820;
-    }
+.psychic {
+    background-color: #F870A0;
+}
 
-    td.rock {
-        background-color: #B8A058;
-    }
+.bug {
+    background-color: #A8B820;
+}
 
-    td.ghost {
-        background-color: #6060B0;
-    }
+.rock {
+    background-color: #B8A058;
+}
 
-    td.dragon {
-        background-color: #7860E0;
-    }
+.ghost {
+    background-color: #6060B0;
+}
 
-    td.dark {
-        background-color: #705848;
-    }
+.dragon {
+    background-color: #7860E0;
+}
 
-    td.steel {
-        background-color: #A8A8C0;
-    }
+.dark {
+    background-color: #705848;
+}
 
-    td.fairy {
-        background-color: #F1A7F9;
-    }
+.steel {
+    background-color: #A8A8C0;
+}
+
+.fairy {
+    background-color: #F1A7F9;
+}
+
+.hitX4 {
+    color: red;
+    font-weight: bold;
+}
+
+.hitX2 {
+    color: red;
+}
+
+.hitX1 {
+    color: lightgray;
+}
+
+.hitXhalf {
+    color: blue;
+}
+
+.hitX0 {
+    color: green;
+}
+
+.hitXminus {
+    color: black;
+}
+
+.skillPhy {
+    background-color: #5070a8;
+    color: #c0d8f8;
+}
+
+.skillSpe {
+    background-color: #5070a8;
+    color: #c0d8f8;
+}
+
+.skillShi {
+    background-color: #a8a090;
+    color: #f8f8f8;
+}
