@@ -988,7 +988,7 @@
       <skill>
         <lv>基本</lv>
         <n>阴影爪</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>70</p>
         <acc>100</acc>
@@ -1193,7 +1193,10 @@
     </abilities>
     <height>4.2m</height>
     <weight>106.3kg</weight>
-    <color><![CDATA[<div style="background-color:yellowgreen; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黄绿</color>
+    <colors>
+      <color>yellowgreen</color>
+      <text>黄绿</text>
+    </colors>
     <signature-moves>
       <move id="8">生命之源</move>
     </signature-moves>
@@ -1237,22 +1240,22 @@
       <type ability="自然能量">
         <normal>1</normal>
         <fire>1</fire>
-        <water>1</water>
-        <grass>1</grass>
-        <electric>1</electric>
-        <ice>0.5</ice>
+        <water>0.25</water>
+        <grass>0.25</grass>
+        <electric>0.25</electric>
+        <ice>2</ice>
         <fight>1</fight>
-        <poison>0.5</poison>
-        <ground>1</ground>
-        <fly>0.5</fly>
+        <poison>1</poison>
+        <ground>0.5</ground>
+        <fly>1</fly>
         <psychic>1</psychic>
-        <bug>0.5</bug>
+        <bug>1</bug>
         <rock>1</rock>
         <ghost>1</ghost>
-        <dragon>0.5</dragon>
+        <dragon>1</dragon>
         <dark>1</dark>
         <steel>1</steel>
-        <fairy>0.5</fairy>
+        <fairy>1</fairy>
       </type>
     </type-effectiveness>
     <evolution>无进化</evolution>
@@ -1295,7 +1298,11 @@
     <hidden-ability>太极</hidden-ability>
     <height>1.0m</height>
     <weight>34.0kg</weight>
-    <color><![CDATA[<div style="background-color:black; width:1em; height:1em;float:left;border:1px black solid;"></div><div style="background-color:white; width:1em; height:1em;float:left;border:1px black solid;"></div>]]>黑白</color>
+    <colors>
+      <color>black</color>
+      <color>white</color>
+      <text>黑白</text>
+    </colors>
     <signature-moves>
       <move id="9">太极神拳</move>
       <move id="10">以慢打快</move>
@@ -1365,7 +1372,10 @@
     </abilities>
     <height>0.5m</height>
     <weight>5.5kg</weight>
-    <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
+    <colors>
+      <color>brown</color>
+      <text>褐</text>
+    </colors>
     <signature-moves>
       <move id="12">寂静波纹</move>
     </signature-moves>
@@ -1432,15 +1442,18 @@
     </name>
     <species is-legendary="yes">结界精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>超</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="psychic">超</type2>
     </type>
     <abilities>
       <a1>空间力场</a1>
     </abilities>
     <height>0.9m</height>
     <weight>16.5kg</weight>
-    <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
+    <colors>
+      <color>lightgrey</color>
+      <text>浅灰</text>
+    </colors>
     <signature-moves>
       <move id="11">空间转移</move>
     </signature-moves>
@@ -1501,14 +1514,17 @@
     </name>
     <species is-legendary="yes">清理精灵</species>
     <type>
-      <type1>普</type1>
+      <type1 class="normal">普</type1>
     </type>
     <abilities>
       <a1>和谐</a1>
     </abilities>
     <height>1.0m</height>
     <weight>21.3kg</weight>
-    <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
+    <colors>
+      <color>brown</color>
+      <text>褐</text>
+    </colors>
     <signature-moves>
       <move id="13">和谐之钳</move>
     </signature-moves>
@@ -1568,15 +1584,18 @@
     </name>
     <species is-legendary="yes">命运精灵</species>
     <type>
-      <type1>超</type1>
-      <type2>妖</type2>
+      <type1 class="psychic">超</type1>
+      <type2 class="fairy">妖</type2>
     </type>
     <abilities>
       <a1>天之恩惠</a1>
     </abilities>
     <height>0.5m</height>
     <weight>1.6kg</weight>
-    <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
+    <colors>
+      <color>lightgrey</color>
+      <text>浅灰</text>
+    </colors>
     <signature-moves>
       <move id="14">命运审判</move>
     </signature-moves>
@@ -1635,7 +1654,7 @@
     </name>
     <species is-legendary="no">美味精灵</species>
     <type>
-      <type1>妖</type1>
+      <type1 class="fairy">妖</type1>
     </type>
     <abilities>
       <a1>甜蜜掩护</a1>
@@ -1644,7 +1663,10 @@
     <hidden-ability>妖精皮肤</hidden-ability>
     <height>0.6m</height>
     <weight>13.3kg</weight>
-    <color><![CDATA[<div style="background-color:pink; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>粉</color>
+    <colors>
+      <color>pink</color>
+      <text>粉</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>妖精组</eg1>
@@ -1697,7 +1719,7 @@
     </name>
     <species is-legendary="no">美味精灵</species>
     <type>
-      <type1>妖</type1>
+      <type1 class="fairy">妖</type1>
     </type>
     <abilities>
       <a1>甜蜜掩护</a1>
@@ -1706,7 +1728,10 @@
     <hidden-ability>妖精皮肤</hidden-ability>
     <height>1.1m</height>
     <weight>13.3kg</weight>
-    <color><![CDATA[<div style="background-color:pink; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>粉</color>
+    <colors>
+      <color>pink</color>
+      <text>粉</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>妖精组</eg1>
@@ -1759,7 +1784,7 @@
     </name>
     <species is-legendary="no">恶魔精灵</species>
     <type>
-      <type1>恶</type1>
+      <type1 class="dark">恶</type1>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
@@ -1767,7 +1792,10 @@
     <hidden-ability>大力士</hidden-ability>
     <height>0.6m</height>
     <weight>8.1kg</weight>
-    <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
+    <colors>
+      <color>black</color>
+      <text>黑</text>
+    </colors>
     <signature-moves>
       <move id="17">穿心针</move>
       <move id="18">魔鬼槌</move>
@@ -1827,7 +1855,7 @@
     </name>
     <species is-legendary="no">恶魔精灵</species>
     <type>
-      <type1>恶</type1>
+      <type1 class="dark">恶</type1>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
@@ -1835,7 +1863,10 @@
     <hidden-ability>大力士</hidden-ability>
     <height>0.8m</height>
     <weight>16.0kg</weight>
-    <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
+    <colors>
+      <color>black</color>
+      <text>黑</text>
+    </colors>
     <signature-moves>
       <move id="17">穿心针</move>
       <move id="18">魔鬼槌</move>
@@ -1895,7 +1926,7 @@
     </name>
     <species is-legendary="no">恶魔精灵</species>
     <type>
-      <type1>恶</type1>
+      <type1 class="dark">恶</type1>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
@@ -1903,7 +1934,10 @@
     <hidden-ability>大力士</hidden-ability>
     <height>1.7m</height>
     <weight>84.5kg</weight>
-    <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
+    <colors>
+      <color>black</color>
+      <text>黑</text>
+    </colors>
     <signature-moves>
       <move id="17">穿心针</move>
       <move id="18">魔鬼槌</move>
@@ -1966,8 +2000,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>水</type1>
-      <type2>火</type2>
+      <type1 class="water">水</type1>
+      <type2 class="fire">火</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -1975,7 +2009,10 @@
     <hidden-ability>引水</hidden-ability>
     <height>0.1m</height>
     <weight>0.5kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="4">高压蒸汽</move>
     </signature-moves>
@@ -2018,43 +2055,43 @@
       </type>
       <type ability="浮游">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>1</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
       <type ability="引水">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>0</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
-        <ground>1</ground>
+        <ground>2</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
     <evolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
@@ -2074,8 +2111,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>水</type1>
-      <type2>火</type2>
+      <type1 class="water">水</type1>
+      <type2 class="fire">火</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2083,7 +2120,10 @@
     <hidden-ability>引水</hidden-ability>
     <height>0.2m</height>
     <weight>0.8kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="4">高压蒸汽</move>
     </signature-moves>
@@ -2126,43 +2166,43 @@
       </type>
       <type ability="浮游">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>1</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
       <type ability="引水">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>0</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
-        <ground>1</ground>
+        <ground>2</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
     <evolution from="17">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
@@ -2182,8 +2222,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>水</type1>
-      <type2>火</type2>
+      <type1 class="water">水</type1>
+      <type2 class="fire">火</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2191,7 +2231,10 @@
     <hidden-ability>引水</hidden-ability>
     <height>0.3m</height>
     <weight>1.4kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="4">高压蒸汽</move>
     </signature-moves>
@@ -2234,43 +2277,43 @@
       </type>
       <type ability="浮游">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>1</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
       <type ability="引水">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.25</fire>
         <water>0</water>
         <grass>1</grass>
-        <electric>1</electric>
-        <ice>1</ice>
+        <electric>2</electric>
+        <ice>0.25</ice>
         <fight>1</fight>
         <poison>1</poison>
-        <ground>1</ground>
+        <ground>2</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <bug>0.5</bug>
+        <rock>2</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
     <evolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
@@ -2291,8 +2334,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>火</type1>
-      <type2>钢</type2>
+      <type1 class="fire">火</type1>
+      <type2 class="steel">钢</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2300,7 +2343,10 @@
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.1m</height>
     <weight>0.5kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="5">热力迸发</move>
     </signature-moves>
@@ -2342,24 +2388,24 @@
         <fairy>0.25</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0.5</normal>
         <fire>1</fire>
-        <water>1</water>
-        <grass>1</grass>
+        <water>2</water>
+        <grass>0.25</grass>
         <electric>1</electric>
-        <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
         <ground>0</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
         <rock>1</rock>
         <ghost>1</ghost>
-        <dragon>1</dragon>
+        <dragon>0.5</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
     <evolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
@@ -2379,8 +2425,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>火</type1>
-      <type2>钢</type2>
+      <type1 class="fire">火</type1>
+      <type2 class="steel">钢</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2388,7 +2434,10 @@
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.2m</height>
     <weight>0.8kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="5">热力迸发</move>
     </signature-moves>
@@ -2430,24 +2479,24 @@
         <fairy>0.25</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0.5</normal>
         <fire>1</fire>
-        <water>1</water>
-        <grass>1</grass>
+        <water>2</water>
+        <grass>0.25</grass>
         <electric>1</electric>
-        <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
         <ground>0</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
         <rock>1</rock>
         <ghost>1</ghost>
-        <dragon>1</dragon>
+        <dragon>0.5</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
     <evolution from="20">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
@@ -2467,8 +2516,8 @@
     </name>
     <species is-legendary="no">厨具精灵</species>
     <type>
-      <type1>火</type1>
-      <type2>钢</type2>
+      <type1 class="fire">火</type1>
+      <type2 class="steel">钢</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2476,7 +2525,10 @@
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.4m</height>
     <weight>1.4kg</weight>
-    <color><![CDATA[<div style="background-color:steelblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>钢青</color>
+    <colors>
+      <color>steelblue</color>
+      <text>钢青</text>
+    </colors>
     <signature-moves>
       <move id="5">热力迸发</move>
     </signature-moves>
@@ -2518,24 +2570,24 @@
         <fairy>0.25</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0.5</normal>
         <fire>1</fire>
-        <water>1</water>
-        <grass>1</grass>
+        <water>2</water>
+        <grass>0.25</grass>
         <electric>1</electric>
-        <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
         <ground>0</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
         <rock>1</rock>
         <ghost>1</ghost>
-        <dragon>1</dragon>
+        <dragon>0.5</dragon>
         <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
     <evolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
@@ -2556,8 +2608,8 @@
     </name>
     <species is-legendary="yes">湿地精灵</species>
     <type>
-      <type1>水</type1>
-      <type2>地</type2>
+      <type1 class="water">水</type1>
+      <type2 class="ground">地</type2>
     </type>
     <abilities>
       <a1>自然循环</a1>
@@ -2565,7 +2617,10 @@
 
     <height>1.5m</height>
     <weight>125.3kg</weight>
-    <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
+    <colors>
+      <color>olivedrab</color>
+      <text>橄榄绿</text>
+    </colors>
     <signature-moves>
       <move id="26">大地漩涡</move>
     </signature-moves>
@@ -2606,26 +2661,6 @@
         <steel>0.5</steel>
         <fairy>1</fairy>
       </type>
-      <type ability="自然循环">
-        <normal>1</normal>
-        <fire>1</fire>
-        <water>1</water>
-        <grass>0</grass>
-        <electric>1</electric>
-        <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
-        <ground>1</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
-        <ghost>1</ghost>
-        <dragon>1</dragon>
-        <dark>1</dark>
-        <steel>1</steel>
-        <fairy>1</fairy>
-      </type>
     </type-effectiveness>
     <evolution>无进化</evolution>
     <pokedex>沉睡在沼泽的深处，与植物共生，除非湿地受到破坏否则不会醒来。</pokedex>
@@ -2656,8 +2691,8 @@
     </name>
     <species is-legendary="yes">无情精灵</species>
     <type>
-      <type1>水</type1>
-      <type2>地</type2>
+      <type1 class="water">水</type1>
+      <type2 class="ground">地</type2>
     </type>
     <abilities>
       <a1>生命凋零</a1>
@@ -2665,7 +2700,10 @@
 
     <height>3.3m</height>
     <weight>225.3kg</weight>
-    <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
+    <colors>
+      <color>olivedrab</color>
+      <text>橄榄绿</text>
+    </colors>
     <signature-moves>
       <move id="26">大地漩涡</move>
     </signature-moves>
@@ -2708,22 +2746,22 @@
       </type>
       <type ability="生命凋零">
         <normal>1</normal>
-        <fire>1</fire>
+        <fire>0.5</fire>
         <water>1</water>
         <grass>0</grass>
-        <electric>1</electric>
+        <electric>0</electric>
         <ice>1</ice>
         <fight>1</fight>
-        <poison>1</poison>
+        <poison>0.5</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
         <bug>1</bug>
-        <rock>1</rock>
+        <rock>0.5</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
+        <steel>0.5</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
@@ -2746,8 +2784,8 @@
     </name>
     <species is-legendary="no">毒蛛精灵</species>
     <type>
-      <type1>毒</type1>
-      <type2>恶</type2>
+      <type1 class="poison">毒</type1>
+      <type2 class="dark">恶</type2>
     </type>
     <abilities>
       <a1>复眼</a1>
@@ -2755,7 +2793,10 @@
     <hidden-ability>飞丝</hidden-ability>
     <height>1.1m</height>
     <weight>21.3kg</weight>
-    <color><![CDATA[<div style="background-color:black; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>黑</color>
+    <colors>
+      <color>black</color>
+      <text>黑</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>虫组</eg1>
@@ -2799,19 +2840,19 @@
         <normal>1</normal>
         <fire>1</fire>
         <water>1</water>
-        <grass>1</grass>
+        <grass>0.5</grass>
         <electric>1</electric>
         <ice>1</ice>
         <fight>1</fight>
-        <poison>1</poison>
-        <ground>0.25</ground>
+        <poison>0.5</poison>
+        <ground>0.5</ground>
         <fly>1</fly>
-        <psychic>1</psychic>
+        <psychic>0</psychic>
         <bug>1</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0.5</ghost>
         <dragon>1</dragon>
-        <dark>1</dark>
+        <dark>0.5</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
@@ -2839,8 +2880,8 @@
     </name>
     <species is-legendary="yes">钢甲精灵</species>
     <type>
-      <type1>钢</type1>
-      <type2>龙</type2>
+      <type1 class="steel">钢</type1>
+      <type2 class="dragon">龙</type2>
     </type>
     <abilities>
       <a1>浮游</a1>
@@ -2849,7 +2890,10 @@
     <hidden-ability>坚壁</hidden-ability>
     <height>2.1m</height>
     <weight>251.4kg</weight>
-    <color><![CDATA[<div style="background-color:gold; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>金</color>
+    <colors>
+      <color>gold</color>
+      <text>金</text>
+    </colors>
     <signature-moves>
       <move id="23">无限冲锋</move>
       <move id="24">反则变化</move>
@@ -2893,43 +2937,43 @@
         <fairy>1</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0.5</normal>
         <fire>1</fire>
-        <water>1</water>
-        <grass>1</grass>
-        <electric>1</electric>
+        <water>0.5</water>
+        <grass>0.25</grass>
+        <electric>0.5</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>2</fight>
+        <poison>0</poison>
         <ground>0</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.5</bug>
+        <rock>0.5</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
+        <steel>0.5</steel>
         <fairy>1</fairy>
       </type>
       <type ability="耐热">
-        <normal>1</normal>
+        <normal>0.5</normal>
         <fire>0.5</fire>
-        <water>1</water>
-        <grass>1</grass>
-        <electric>1</electric>
+        <water>0.5</water>
+        <grass>0.25</grass>
+        <electric>0.5</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
-        <ground>1</ground>
-        <fly>1</fly>
-        <psychic>1</psychic>
-        <bug>1</bug>
-        <rock>1</rock>
+        <fight>2</fight>
+        <poison>0</poison>
+        <ground>2</ground>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.5</bug>
+        <rock>0.5</rock>
         <ghost>1</ghost>
         <dragon>1</dragon>
         <dark>1</dark>
-        <steel>1</steel>
+        <steel>0.5</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
@@ -2964,8 +3008,8 @@
     </name>
     <species is-legendary="no">验证精灵</species>
     <type>
-      <type1>普</type1>
-      <type2>飞</type2>
+      <type1 class="normal">普</type1>
+      <type2 class="fly">飞</type2>
     </type>
     <abilities>
       <a1>验证</a1>
@@ -2973,7 +3017,10 @@
 
     <height>1.4m</height>
     <weight>92.5kg</weight>
-    <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
+    <colors>
+      <color>white</color>
+      <text>白</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>陆上组</eg1>
@@ -3033,15 +3080,17 @@
     </name>
     <species is-legendary="no">终止精灵</species>
     <type>
-      <type1>水</type1>
+      <type1 class="water">水</type1>
     </type>
     <abilities>
       <a1>静止</a1>
     </abilities>
-
     <height>0.4m</height>
     <weight>21.3kg</weight>
-    <color><![CDATA[<div style="background-color:blue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>蓝</color>
+    <colors>
+      <color>blue</color>
+      <text>蓝</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>水中1组</eg1>
@@ -3100,7 +3149,7 @@
     </name>
     <species is-legendary="no">深潜精灵</species>
     <type>
-      <type1>水</type1>
+      <type1 class="water">水</type1>
     </type>
     <abilities>
       <a1>水之掩护</a1>
@@ -3109,7 +3158,10 @@
     <hidden-ability>海洋之心</hidden-ability>
     <height>16.0m</height>
     <weight>356.0kg</weight>
-    <color><![CDATA[<div style="background-color:darkblue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>深蓝</color>
+    <colors>
+      <color>darkblue</color>
+      <text>深蓝</text>
+    </colors>
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>陆上组</eg1>
@@ -3172,8 +3224,8 @@
     </name>
     <species is-legendary="no">重生精灵</species>
     <type>
-      <type1>草</type1>
-      <type2>火</type2>
+      <type1 class="grass">草</type1>
+      <type2 class="fire">火</type2>
     </type>
     <abilities>
       <a1>涅槃</a1>
@@ -3182,7 +3234,10 @@
     <hidden-ability>深绿</hidden-ability>
     <height>0.6m</height>
     <weight>8.1kg</weight>
-    <color><![CDATA[<div style="background-color:green; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>绿</color>
+    <colors>
+      <color>green</color>
+      <text>绿</text>
+    </colors>
     <signature-moves>
       <move id="1">牺牲火焰</move>
       <move id="29">献祭</move>

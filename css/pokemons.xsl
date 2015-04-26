@@ -29,9 +29,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <h1>
           <a name="top">原创精灵</a>
         </h1>
-        <h2>目录</h2>
         <button type="button" onclick="dealWithMenu()">显示/隐藏目录</button>
         <div id="menu" style="display:none;">
+          <h2>目录</h2>
           <ul style="text-align:left;">
             <xsl:for-each select="pokemons/pokemon">
               <xsl:if test="@visible='yes'">
@@ -379,8 +379,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                             <xsl:when test=". = 1">
                               <xsl:attribute name="class">hitX1</xsl:attribute>
                             </xsl:when>
-                            <xsl:when test=". &lt; 1 and . > 0">
+                            <xsl:when test=". > 0.25">
                               <xsl:attribute name="class">hitXhalf</xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test=". > 0">
+                              <xsl:attribute name="class">hitXquater</xsl:attribute>
                             </xsl:when>
                             <xsl:when test=". = 0">
                               <xsl:attribute name="class">hitX0</xsl:attribute>

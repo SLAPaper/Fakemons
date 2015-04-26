@@ -162,8 +162,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                               <xsl:when test=". = 1">
                                 <xsl:attribute name="class">hitX1</xsl:attribute>
                               </xsl:when>
-                              <xsl:when test=". &lt; 1 and . > 0">
+                              <xsl:when test=". > 0.25">
                                 <xsl:attribute name="class">hitXhalf</xsl:attribute>
+                              </xsl:when>
+                              <xsl:when test=". > 0">
+                                <xsl:attribute name="class">hitXquater</xsl:attribute>
                               </xsl:when>
                               <xsl:when test=". = 0">
                                 <xsl:attribute name="class">hitX0</xsl:attribute>

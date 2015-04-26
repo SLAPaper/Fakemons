@@ -5,6 +5,11 @@
     margin: 2em 3em 4em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-indent: 0;
+    font-weight: bold;
+}
+
 h2, h3 {
     border-bottom: 1px solid black;
     overflow: hidden;
@@ -17,6 +22,7 @@ h2 {
 }
 
 h3, h4 {
+    font-size: large;
     text-align: left;
 }
 
@@ -151,8 +157,12 @@ td {
     color: blue;
 }
 
+.hitXquater {
+    color: darkslateblue;
+}
+
 .hitX0 {
-    color: green;
+    color: black;
 }
 
 .hitXminus {
