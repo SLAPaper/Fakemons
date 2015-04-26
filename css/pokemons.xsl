@@ -4,11 +4,12 @@
 
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" encoding="utf-8" />
+  <xsl:output method="html" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes" />
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" type="text/css" href="css/pokemons.css" />
+        <link rel="stylesheet" href="css/fakemons.css" />
+        <link rel="stylesheet" href="css/pokemons.css" />
         <meta name="description" content="原创精灵列表"></meta>
         <meta name="keywords" content="pokemon"></meta>
         <meta name="author" content="SLAPaper"></meta>
@@ -20,6 +21,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           document.getElementById("menu").style.display = "none";
           } else {
           document.getElementById("menu").style.display = "inline";
+          }
           }
         </script>
       </head>
@@ -150,8 +152,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                             <xsl:value-of select="height" />
                           </td>
                           <td>
-                            <xsl:value-of disable-output-escaping="yes" select="color" />
-                            <!--这里的颜色方块需要重构-->
+                            <xsl:for-each select="colors/color">
+                              <div class="color">
+                                <xsl:attribute name="style">
+                                  background-color:<xsl:value-of select="." />; width:<xsl:value-of select="2 div count(../color)" />em;
+                                </xsl:attribute>
+                              </div>
+                            </xsl:for-each>
+                            <xsl:value-of select ="colors/text" />
                           </td>
                         </tr>
                       </tbody>
@@ -171,10 +179,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                           <td class="cyan limit">生蛋分组</td>
                           <td>
                             <xsl:value-of select="egg-group/eg1" />
-                            <xsl:choose>
-                              <xsl:when test="egg-group/eg2!=''"> 和 </xsl:when>
-                            </xsl:choose>
-                            <xsl:value-of select="egg-group/eg2" />
+                            <xsl:if test="egg-group/eg2">
+                              &#160;和&#160;<xsl:value-of select="egg-group/eg2" />
+                            </xsl:if>
                           </td>
                         </tr>
                         <tr>
@@ -231,6 +238,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </tr>
               </table>
               <p style="text-align:left;">
+                <!--图鉴说明-->
                 <xsl:value-of select="pokedex" />
               </p>
               <h3>种族值</h3>
@@ -317,12 +325,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <tr>
                     <td class="cyan limit">合计</td>
                     <td>
-                      <xsl:value-of select="sum(stats/*) div 2" />
+                      <xsl:value-of select="sum(stats/*)" />
                     </td>
                     <td>
                       <div>
                         <xsl:attribute name="style">
-                          border:1px solid black;background-color:grey;height:1em;width:<xsl:value-of select="sum(stats/*) div 12 " />px;
+                          border:1px solid black;background-color:grey;height:1em;width:<xsl:value-of select="sum(stats/*) div 6" />px;
                         </xsl:attribute>
                       </div>
                     </td>
@@ -351,142 +359,44 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <td class="dark">恶</td>
                     <td class="steel">钢</td>
                     <td class="fairy">妖</td>
-                    <xsl:if test="type-effectiveness/@num!=''">
+                    <xsl:if test="count(type-effectiveness/type) > 1">
                       <td></td>
                     </xsl:if>
                   </tr>
                   <xsl:for-each select="type-effectiveness/type">
+                    <!--处理每一个特性的抗性列表-->
                     <tr>
-                      <td>
-                        <script>
-                          <![CDATA[var normal = ]]><xsl:value-of select="normal" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(normal)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="normal" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var fire = ]]><xsl:value-of select="fire" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(fire)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="fire" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var water = ]]><xsl:value-of select="water" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(water)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="water" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var grass = ]]><xsl:value-of select="grass" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(grass)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="grass" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var electric = ]]><xsl:value-of select="electric" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(electric)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="electric" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var ice = ]]><xsl:value-of select="ice" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(ice)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="ice" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var fight = ]]><xsl:value-of select="fight" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(fight)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="fight" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var poison = ]]><xsl:value-of select="poison" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(poison)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="poison" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var ground = ]]><xsl:value-of select="ground" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(ground)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="ground" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var fly = ]]><xsl:value-of select="fly" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(fly)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="fly" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var psychic = ]]><xsl:value-of select="psychic" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(psychic)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="psychic" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var bug = ]]><xsl:value-of select="bug" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(bug)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="bug" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var rock = ]]><xsl:value-of select="rock" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(rock)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="rock" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var ghost = ]]><xsl:value-of select="ghost" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(ghost)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="ghost" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var dragon = ]]><xsl:value-of select="dragon" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(dragon)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="dragon" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var dark = ]]><xsl:value-of select="dark" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(dark)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="dark" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var steel = ]]><xsl:value-of select="steel" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(steel)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="steel" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <td>
-                        <script>
-                          <![CDATA[var fairy = ]]><xsl:value-of select="fairy" /><![CDATA[;document.write("<span style="+'"'+dealWithNumber(fairy)+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="fairy" />
-                        <script><![CDATA[document.write("</span>");]]></script>
-                      </td>
-                      <xsl:if test="../@num!=''">
+                      <xsl:for-each select="./*">
+                        <!--这里可能需要一个xsl:sort-->
+                        <td>
+                          <xsl:choose>
+                            <xsl:when test=". > 2">
+                              <xsl:attribute name="class">hitX4</xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test=". > 1">
+                              <xsl:attribute name="class">hitX2</xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test=". = 1">
+                              <xsl:attribute name="class">hitX1</xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test=". &lt; 1 and . > 0">
+                              <xsl:attribute name="class">hitXhalf</xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test=". = 0">
+                              <xsl:attribute name="class">hitX0</xsl:attribute>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:attribute name="class">hitXminus</xsl:attribute>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                          <xsl:value-of select="." />
+                        </td>
+                      </xsl:for-each>
+                      <xsl:if test="count(../type) > 1">
                         <td style="word-break:keep-all;">
-                          <xsl:value-of select="@ability" />
-                          <xsl:if test="@ability!=''">修正值</xsl:if>
+                          <xsl:if test="@ability">
+                            <xsl:value-of select="@ability" />
+                          </xsl:if>
                         </td>
                       </xsl:if>
                     </tr>
@@ -495,7 +405,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </table>
               <h3>进化</h3>
               <p style="text-align:left;">
-                <xsl:value-of select="envolution" />
+                <xsl:value-of select="evolution" />
               </p>
               <xsl:if test="signature-moves!=''">
                 <h3>专属技能</h3>
@@ -503,11 +413,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <tr>
                     <xsl:for-each select="signature-moves/move">
                       <td>
-                        <script>
-                          <![CDATA[document.write("<a target=\"_blank\" href=\"小精灵之路-设定集-原创技能.xml#]]><xsl:value-of select="@id" /><![CDATA[\">");]]>
-                        </script>
-                        <xsl:value-of select="." />
-                        <script><![CDATA[document.write("</a>");]]></script>
+                        <xsl:attribute name="style">
+                          width: <xsl:value-of select="ceiling(100 div count(../move))" />%;
+                        </xsl:attribute>
+                        <a target="_blank">
+                          <xsl:attribute name="href">
+                            小精灵之路-设定集-原创技能.xml#<xsl:value-of select="@id" />
+                          </xsl:attribute>
+                          <xsl:value-of select="." />
+                        </a>
                       </td>
                     </xsl:for-each>
                   </tr>
@@ -515,7 +429,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </xsl:if>
               <xsl:if test="story!=''">
                 <h3>相关故事</h3>
-                <div style="text-align:left;padding:2em;">
+                <div style="text-align:left;padding:2em;text-indent:2em;">
                   <xsl:value-of disable-output-escaping="yes" select="story" />
                 </div>
               </xsl:if>
@@ -541,39 +455,34 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         <td>
                           <xsl:value-of select="n" />
                         </td>
-                        <script>
-                          <![CDATA[var ty = chooseType("]]><xsl:value-of select="ty" /><![CDATA[");document.write("<td class="+'"'+ty+'"'+">");]]>
-                        </script>
-                        <xsl:value-of select="ty" />
-                        <script><![CDATA[document.write("</td>");]]></script>
+                        <td>
+                          <xsl:attribute name="class">
+                            white <xsl:value-of select="ty/@class"/>
+                          </xsl:attribute>
+                          <xsl:value-of select="ty" />
+                        </td>
                         <xsl:choose>
                           <xsl:when test="ca='物'">
-                            <td style="background-color:#f05030;color:f8c030" >
+                            <td class="skillPhy">
                               <xsl:value-of select="ca" />
                             </td>
                           </xsl:when>
                           <xsl:when test="ca='特'">
-                            <td style="background-color:#5070a8;color:c0d8f8" >
+                            <td class="skillSpe">
                               <xsl:value-of select="ca" />
                             </td>
                           </xsl:when>
                           <xsl:when test="ca='变'">
-                            <td style="background-color:#a8a090;color:f8f8f8" >
+                            <td class="skillShi">
                               <xsl:value-of select="ca" />
                             </td>
                           </xsl:when>
                         </xsl:choose>
                         <td>
-                          <xsl:choose>
-                            <xsl:when test="p!='-' and (ty=../../type/type1 or ty=../../type/type2)">
-                              <span style="font-weight:bold;">
-                                <xsl:value-of select="p" />
-                              </span>
-                            </xsl:when>
-                            <xsl:otherwise>
-                              <xsl:value-of select="p" />
-                            </xsl:otherwise>
-                          </xsl:choose>
+                          <xsl:if test="p!='-' and (ty=../../type/type1 or ty=../../type/type2)">
+                            <xsl:attribute name="style">font-weight:bold;</xsl:attribute>
+                          </xsl:if>
+                          <xsl:value-of select="p" />
                         </td>
                         <td>
                           <xsl:value-of select="acc" />

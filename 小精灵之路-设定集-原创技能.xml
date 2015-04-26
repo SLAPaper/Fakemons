@@ -541,7 +541,7 @@
       <cn>无限冲锋</cn>
       <en>Unlimited Rush</en>
     </name>
-    <type class="steal">钢</type>
+    <type class="steel">钢</type>
     <catagory>物理</catagory>
     <power>120</power>
     <accuracy>80</accuracy>

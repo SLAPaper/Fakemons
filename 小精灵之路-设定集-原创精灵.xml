@@ -15,18 +15,18 @@
     </type>
     <abilities>
       <a1></a1>
-      
     </abilities>
-    
     <height></height>
     <weight></weight>
-    <color><![CDATA[<div style="background-color:; width:2em; height:1em;float:left;border:1px black solid;"></div>]]></color>
+    <colors>
+      <color></color>
+      <text></text>
+    </colors>
     <signature-moves>
       <move id=""></move>
     </signature-moves>
     <egg-group>
       <eg1></eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time></hatch-time>
     <gender-ratio></gender-ratio>
@@ -40,9 +40,8 @@
       <SpAtk></SpAtk>
       <SpDef></SpDef>
       <Speed></Speed>
-      <Total></Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal></normal>
         <fire></fire>
@@ -64,7 +63,7 @@
         <fairy></fairy>
       </type>
     </type-effectiveness>
-    <envolution from=""></envolution>
+    <evolution from=""></evolution>
     <pokedex></pokedex>
     <description></description>
     <story><![CDATA[]]></story>
@@ -84,17 +83,18 @@
       <a1>破防</a1>
       <a2>小动作</a2>
     </abilities>
-    
     <height>1.6m</height>
     <weight>57.3kg</weight>
-    <color><![CDATA[<div style="background-color:#F8B878; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>熟杏黄</color>
+    <colors>
+      <color>#F8B878</color>
+      <text>熟杏黄</text>
+    </colors>
     <signature-moves>
       <move id="2">星之漩涡</move>
       <move id="3">心灵风暴</move>
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>？</hatch-time>
     <gender-ratio>♂1:♀0</gender-ratio>
@@ -108,9 +108,8 @@
       <SpAtk>170</SpAtk>
       <SpDef>110</SpDef>
       <Speed>128</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -132,7 +131,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>虽然是人类但还是入库看看吧。</pokedex>
     <description>小说主角啦，虽然放在精灵列表里很奇怪但毕竟有属性有特性有种族值还有专属技能，不放也不好。</description>
     <story>
@@ -143,12 +142,12 @@
         <p>主题曲：自然启示录 ~ Brain Overload（Natural Revelations ~ Brain Overload）</p>
         <p>因为可以变成闪金龙所以种族值应该这么算：HP182+AT100+DE132+SA170+SD120+SP128=832（大雾</p>
         <p>这么说小梦的种族值其实应该是：HP255（蛋神）+AT180（代欧）+DE230（壶壶）+SA180（代欧）+SD230（壶壶）+SP180（代欧）=1255（特大雾</p>
-        <h4>专属特性</h4>
         <p>破防：使用攻击技能时，如果目标受到保护类状态（保护、见切、忍耐、王者之盾、刺针防御、全体防御、垫返、欺诈防御、快速防御）的保护，则先解除该类状态再使用技能，并且技能威力翻倍。</p>
         <p>小动作：如果本回合自身使用了保护类技能，则可以以-8的优先度额外使用一个技能。</p>
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="1" visible="yes" >
     <name>
       <cn>时间神龙</cn>
@@ -164,14 +163,16 @@
     <hidden-ability>咫尺天涯</hidden-ability>
     <height>2.2m</height>
     <weight>46.5kg</weight>
-    <color><![CDATA[<div style="background-color:grey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>灰</color>
+    <colors>
+      <color>grey</color>
+      <text>灰</text>
+    </colors>
     <signature-moves>
       <move id="6">时空暴动</move>
       <move id="7">双倍机会</move>
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>？</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -185,9 +186,8 @@
       <SpAtk>136</SpAtk>
       <SpDef>94</SpDef>
       <Speed>152</Speed>
-      <Total>680</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.5</fire>
@@ -209,15 +209,12 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>传说中它穿行在世界的时间流中，见证了创世与灭世。</pokedex>
     <description>时间神龙是在世界的时间轴中穿梭的精灵，形象来自于蛇以上龙未满的蛟龙。</description>
     <story>
       <![CDATA[
         <p>Timeliner = timeline（时间轴）+ -er</p>
-        <h4>时飞</h4>
-        <p>关于时飞，其实是通行于我的各个世界观中的一个主角/重要配角，某种程度上就相当于个人的化身吧。从他嘴里冒出来的对世界原理的阐释其实都是我的想法。</p>
-        <p>不过究竟有多大程度上就是我的看法呢？猜猜看咯。</p>
         <p>主题曲：幻想时光机 ~ the Timeless One（Fantastic Time Machine ~ the Timeless One）</p>
         <h4>专属特性</h4>
         <p>时间神龙的专属特性有两个，一个是完全防御一回合的时间守护，另一个是用速度逗你玩的咫尺天涯。</p>
@@ -234,6 +231,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="2" visible="yes" >
     <name>
       <cn>冰炎龙</cn>
@@ -247,10 +245,12 @@
     <abilities>
       <a1>冰封火焰</a1>
     </abilities>
-    
     <height>1.8m</height>
     <weight>95.5kg</weight>
-    <color><![CDATA[<div style="background-color:AliceBlue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>冰蓝</color>
+    <colors>
+      <color>AliceBlue</color>
+      <text>冰蓝</text>
+    </colors>
     <signature-moves>
       <move id="15">冰火拳</move>
       <move id="16">冰火飞弹</move>
@@ -271,9 +271,8 @@
       <SpAtk>125</SpAtk>
       <SpDef>98</SpDef>
       <Speed>126</Speed>
-      <Total>650</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type>
         <normal>1</normal>
         <fire>0.5</fire>
@@ -296,26 +295,26 @@
       </type>
       <type ability="冰封火焰">
         <normal>1</normal>
-        <fire>0.5</fire>
-        <water>0.5</water>
-        <grass>1</grass>
-        <electric>1</electric>
-        <ice>0.5</ice>
-        <fight>1</fight>
+        <fire>0.25</fire>
+        <water>0.25</water>
+        <grass>0.5</grass>
+        <electric>0.5</electric>
+        <ice>1</ice>
+        <fight>2</fight>
         <poison>1</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
         <bug>1</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
-        <dragon>0.5</dragon>
+        <ghost>0</ghost>
+        <dragon>1</dragon>
         <dark>1</dark>
         <steel>1</steel>
-        <fairy>1</fairy>
+        <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution>小火龙-（Lv.16）-火恐龙-（Lv.36）-喷火龙-（学会冰系技能并使用喷火龙石X或Y）-冰炎龙</envolution>
+    <evolution>小火龙-（Lv.16）-火恐龙-（Lv.36）-喷火龙-（学会冰系技能并使用喷火龙石X或Y）-冰炎龙</evolution>
     <pokedex>不可思议地掌握了将火焰与寒冰融为一体的力量。</pokedex>
     <description>本来想设计成冰+火的，但是又落下个水，最后认为无法判别的属性归为普通系，因而作为普+龙。顺带用专属特性对抗性表做了大改。</description>
     <story>
@@ -336,6 +335,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="3" visible="yes" >
     <name>
       <cn>小魂龙</cn>
@@ -353,7 +353,10 @@
     <hidden-ability>光影逆转</hidden-ability>
     <height>0.6cm</height>
     <weight>1.2kg</weight>
-    <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
+    <colors>
+      <color>white</color>
+      <text>白</text>
+    </colors>
     <signature-moves>
       <move id="21">光之舞</move>
       <move id="22">神圣领域</move>
@@ -375,9 +378,8 @@
       <SpAtk>40</SpAtk>
       <SpDef>50</SpDef>
       <Speed>65</Speed>
-      <Total>325</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0</normal>
         <fire>1</fire>
@@ -399,47 +401,47 @@
         <fairy>1</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
-        <dark>1</dark>
+        <dark>2</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
       <type ability="光影逆转">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
         <dark>0</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+    <evolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
     <pokedex>从虚无的世界中产生出来的精灵，追逐着充满希望的力量。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -459,7 +461,7 @@
       <skill>
         <lv>基本</lv>
         <n>龙之怒</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>特</ca>
         <p>-</p>
         <acc>100</acc>
@@ -467,7 +469,7 @@
       <skill>
         <lv>基本</lv>
         <n>叫声</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>100</acc>
@@ -475,7 +477,7 @@
       <skill>
         <lv>Lv.7</lv>
         <n>报恩</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>-</p>
         <acc>100</acc>
@@ -483,7 +485,7 @@
       <skill>
         <lv>Lv.11</lv>
         <n>羽栖</n>
-        <ty>飞</ty>
+        <ty class="fly">飞</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -491,7 +493,7 @@
       <skill>
         <lv>Lv.16</lv>
         <n>阴影爪</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>70</p>
         <acc>100</acc>
@@ -499,7 +501,7 @@
       <skill>
         <lv>Lv.19</lv>
         <n>光之舞</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -507,7 +509,7 @@
       <skill>
         <lv>Lv.25</lv>
         <n>神速</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>80</p>
         <acc>100</acc>
@@ -515,7 +517,7 @@
       <skill>
         <lv>Lv.31</lv>
         <n>神圣领域</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -523,7 +525,7 @@
       <skill>
         <lv>Lv.39</lv>
         <n>幽灵潜袭</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>90</p>
         <acc>100</acc>
@@ -531,7 +533,7 @@
       <skill>
         <lv>Lv.43</lv>
         <n>同旅</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -539,7 +541,7 @@
       <skill>
         <lv>Lv.48</lv>
         <n>火箭头槌</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>130</p>
         <acc>100</acc>
@@ -547,7 +549,7 @@
       <skill>
         <lv>Lv.52</lv>
         <n>龙之舞</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -555,7 +557,7 @@
       <skill>
         <lv>Lv.57</lv>
         <n>暴走</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
         <acc>100</acc>
@@ -563,13 +565,14 @@
       <skill>
         <lv>Lv.61</lv>
         <n>消失</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
       </skill>
     </skills>
   </pokemon>
+
   <pokemon id="4" visible="yes" >
     <name>
       <cn>魂光龙</cn>
@@ -587,7 +590,10 @@
     <hidden-ability>光影逆转</hidden-ability>
     <height>0.9m</height>
     <weight>9.2kg</weight>
-    <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
+    <colors>
+      <color>white</color>
+      <text>白</text>
+    </colors>
     <signature-moves>
       <move id="21">光之舞</move>
       <move id="22">神圣领域</move>
@@ -609,9 +615,8 @@
       <SpAtk>60</SpAtk>
       <SpDef>70</SpDef>
       <Speed>85</Speed>
-      <Total>475</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0</normal>
         <fire>1</fire>
@@ -633,47 +638,47 @@
         <fairy>1</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
-        <dark>1</dark>
+        <dark>2</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
       <type ability="光影逆转">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
         <dark>0</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="3">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+    <evolution from="3">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
     <pokedex>吸收希望的力量得以成长，会把光明传播给周围。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -685,7 +690,7 @@
       <skill>
         <lv>基本</lv>
         <n>龙之怒</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>特</ca>
         <p>-</p>
         <acc>100</acc>
@@ -693,7 +698,7 @@
       <skill>
         <lv>基本</lv>
         <n>叫声</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>100</acc>
@@ -701,7 +706,7 @@
       <skill>
         <lv>基本</lv>
         <n>报恩</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>-</p>
         <acc>100</acc>
@@ -709,7 +714,7 @@
       <skill>
         <lv>基本</lv>
         <n>羽栖</n>
-        <ty>飞</ty>
+        <ty class="fly">飞</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -717,7 +722,7 @@
       <skill>
         <lv>基本</lv>
         <n>阴影爪</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>70</p>
         <acc>100</acc>
@@ -725,7 +730,7 @@
       <skill>
         <lv>基本</lv>
         <n>光之舞</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -733,7 +738,7 @@
       <skill>
         <lv>Lv.29</lv>
         <n>神速</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>80</p>
         <acc>100</acc>
@@ -741,7 +746,7 @@
       <skill>
         <lv>Lv.35</lv>
         <n>神圣领域</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -749,7 +754,7 @@
       <skill>
         <lv>Lv.42</lv>
         <n>幽灵潜袭</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>90</p>
         <acc>100</acc>
@@ -757,7 +762,7 @@
       <skill>
         <lv>Lv.47</lv>
         <n>同旅</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -765,7 +770,7 @@
       <skill>
         <lv>Lv.52</lv>
         <n>火箭头槌</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>130</p>
         <acc>100</acc>
@@ -773,7 +778,7 @@
       <skill>
         <lv>Lv.59</lv>
         <n>龙之舞</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -781,7 +786,7 @@
       <skill>
         <lv>Lv.63</lv>
         <n>暴走</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
         <acc>100</acc>
@@ -789,13 +794,14 @@
       <skill>
         <lv>Lv.69</lv>
         <n>消失</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
       </skill>
     </skills>
   </pokemon>
+
   <pokemon id="5" visible="yes" >
     <name>
       <cn>圣魂龙</cn>
@@ -813,7 +819,10 @@
     <hidden-ability>光影逆转</hidden-ability>
     <height>1.5m</height>
     <weight>32.2kg</weight>
-    <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
+    <colors>
+      <color>white</color>
+      <text>白</text>
+    </colors>
     <signature-moves>
       <move id="21">光之舞</move>
       <move id="22">神圣领域</move>
@@ -835,9 +844,8 @@
       <SpAtk>65</SpAtk>
       <SpDef>90</SpDef>
       <Speed>105</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0</normal>
         <fire>1</fire>
@@ -859,47 +867,47 @@
         <fairy>1</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
-        <dark>1</dark>
+        <dark>2</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
       <type ability="光影逆转">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
         <dark>0</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="4">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+    <evolution from="4">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -916,7 +924,7 @@
       <skill>
         <lv>未进化</lv>
         <n>龙之怒</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>特</ca>
         <p>-</p>
         <acc>100</acc>
@@ -924,7 +932,7 @@
       <skill>
         <lv>未进化</lv>
         <n>叫声</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>100</acc>
@@ -932,7 +940,7 @@
       <skill>
         <lv>未进化</lv>
         <n>幽灵潜袭</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>物</ca>
         <p>90</p>
         <acc>100</acc>
@@ -940,7 +948,7 @@
       <skill>
         <lv>未进化</lv>
         <n>同旅</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -948,7 +956,7 @@
       <skill>
         <lv>未进化</lv>
         <n>神速</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>80</p>
         <acc>100</acc>
@@ -956,7 +964,7 @@
       <skill>
         <lv>未进化</lv>
         <n>火箭头槌</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>130</p>
         <acc>100</acc>
@@ -964,7 +972,7 @@
       <skill>
         <lv>基本</lv>
         <n>报恩</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>-</p>
         <acc>100</acc>
@@ -972,7 +980,7 @@
       <skill>
         <lv>基本</lv>
         <n>羽栖</n>
-        <ty>飞</ty>
+        <ty class="fly">飞</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -988,7 +996,7 @@
       <skill>
         <lv>基本</lv>
         <n>光之舞</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -996,7 +1004,7 @@
       <skill>
         <lv>基本</lv>
         <n>神圣领域</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -1004,7 +1012,7 @@
       <skill>
         <lv>基本</lv>
         <n>龙之舞</n>
-        <ty>龙</ty>
+        <ty class="dragon">龙</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -1012,7 +1020,7 @@
       <skill>
         <lv>基本</lv>
         <n>暴走</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
         <acc>100</acc>
@@ -1020,7 +1028,7 @@
       <skill>
         <lv>基本</lv>
         <n>消失</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -1028,7 +1036,7 @@
       <skill>
         <lv>Lv.70</lv>
         <n>识破</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -1036,7 +1044,7 @@
       <skill>
         <lv>Lv.80</lv>
         <n>万圣节捣蛋</n>
-        <ty>鬼</ty>
+        <ty class="ghost">鬼</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>100</acc>
@@ -1044,7 +1052,7 @@
       <skill>
         <lv>Lv.90</lv>
         <n>心眼</n>
-        <ty>普</ty>
+        <ty class="normal">普</ty>
         <ca>变</ca>
         <p>-</p>
         <acc>-</acc>
@@ -1052,13 +1060,14 @@
       <skill>
         <lv>Lv.100</lv>
         <n>流星俯冲</n>
-        <ty>飞</ty>
+        <ty class="fly">飞</ty>
         <ca>物</ca>
         <p>变化</p>
         <acc>变化</acc>
       </skill>
     </skills>
   </pokemon>
+
   <pokemon id="6" visible="yes" >
     <name>
       <cn>Mega圣魂龙</cn>
@@ -1076,7 +1085,10 @@
     <hidden-ability>光影逆转</hidden-ability>
     <height>1.5m</height>
     <weight>32.2kg</weight>
-    <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
+    <colors>
+      <color>white</color>
+      <text>白</text>
+    </colors>
     <signature-moves>
       <move id="21">光之舞</move>
       <move id="22">神圣领域</move>
@@ -1098,9 +1110,8 @@
       <SpAtk>80</SpAtk>
       <SpDef>100</SpDef>
       <Speed>135</Speed>
-      <Total>700</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0</normal>
         <fire>1</fire>
@@ -1122,50 +1133,51 @@
         <fairy>1</fairy>
       </type>
       <type ability="浮游">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>0</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
-        <dark>1</dark>
+        <dark>2</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
       <type ability="光影逆转">
-        <normal>1</normal>
+        <normal>0</normal>
         <fire>1</fire>
         <water>1</water>
         <grass>1</grass>
         <electric>1</electric>
         <ice>1</ice>
-        <fight>1</fight>
-        <poison>1</poison>
+        <fight>0</fight>
+        <poison>0.5</poison>
         <ground>1</ground>
         <fly>1</fly>
         <psychic>1</psychic>
-        <bug>1</bug>
+        <bug>0.5</bug>
         <rock>1</rock>
-        <ghost>1</ghost>
+        <ghost>0</ghost>
         <dragon>1</dragon>
         <dark>0</dark>
         <steel>1</steel>
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="5">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</envolution>
+    <evolution from="5">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
   </pokemon>
+
   <pokemon id="7" visible="yes" >
     <name>
       <cn>百叶竹龙</cn>
@@ -1187,7 +1199,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1201,9 +1212,8 @@
       <SpAtk>130</SpAtk>
       <SpDef>120</SpDef>
       <Speed>60</Speed>
-      <Total>680</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1245,7 +1255,7 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>古老传说中植物的神，每一株植物都是它的耳目与力量。</pokedex>
     <description>草龙神，一级奶妈。通常隐藏在最深的森林深处沉睡，和寂静虫神比邻而居。和国宝熊猫一族有密切的关系。</description>
     <story>
@@ -1267,6 +1277,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="8" visible="yes" >
     <name>
       <cn>国宝熊猫</cn>
@@ -1291,7 +1302,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1305,9 +1315,8 @@
       <SpAtk>60</SpAtk>
       <SpDef>110</SpDef>
       <Speed>25</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1329,7 +1338,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>生活在竹林秘境中的神奇宝贝，与世隔绝长达数千年。掌握着反转攻击的太极的力量。</pokedex>
     <description>早就想把国宝弄进精灵世界了，XY倒是做了这事儿，然而还是不符合预想，所以还是单独拉国宝熊猫出来。英文名字一股浓浓的WOW梗。主要设计思路就是让国宝熊猫是一种用蓄力技当做主要输出的精灵。</description>
     <story>
@@ -1341,6 +1350,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="9" visible="yes" >
     <name>
       <cn>静寂虫</cn>
@@ -1353,7 +1363,6 @@
     <abilities>
       <a1>静寂</a1>
     </abilities>
-    
     <height>0.5m</height>
     <weight>5.5kg</weight>
     <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
@@ -1362,7 +1371,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1376,9 +1384,8 @@
       <SpAtk>130</SpAtk>
       <SpDef>120</SpDef>
       <Speed>15</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>2</fire>
@@ -1400,7 +1407,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>隐藏在最深的丛林中的虫族之神，从创世之初安静地活到今天。</pokedex>
     <description>寂静虫神就是一死宅，多年来也就百叶竹龙一个好友。</description>
     <story>
@@ -1417,6 +1424,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="10" visible="yes" >
     <name>
       <cn>柒尾猫</cn>
@@ -1429,9 +1437,7 @@
     </type>
     <abilities>
       <a1>空间力场</a1>
-      
     </abilities>
-    
     <height>0.9m</height>
     <weight>16.5kg</weight>
     <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
@@ -1440,7 +1446,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1454,9 +1459,8 @@
       <SpAtk>170</SpAtk>
       <SpDef>140</SpDef>
       <Speed>5</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1478,7 +1482,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>从来不会活动的传说精灵，使用瞬间移动来移动自身。</pokedex>
     <description>空间玩家一只喵星人，拥有这个丧病的特性以后种族值直接设计成现在这个样子了。</description>
     <story>
@@ -1489,6 +1493,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="11" visible="yes" >
     <name>
       <cn>河蟹</cn>
@@ -1497,13 +1502,10 @@
     <species is-legendary="yes">清理精灵</species>
     <type>
       <type1>普</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>和谐</a1>
-      
     </abilities>
-    
     <height>1.0m</height>
     <weight>21.3kg</weight>
     <color><![CDATA[<div style="background-color:brown; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>褐</color>
@@ -1512,7 +1514,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1526,9 +1527,8 @@
       <SpAtk>80</SpAtk>
       <SpDef>90</SpDef>
       <Speed>120</Speed>
-      <Total>680</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1550,7 +1550,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>看起来是某种水生动物，其实一直在陆地生活。总是挥舞着一对大钳子清理地面。</pokedex>
     <description>和谐你全家！</description>
     <story>
@@ -1560,6 +1560,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="12" visible="yes" >
     <name>
       <cn>美尔瑞瓦</cn>
@@ -1572,9 +1573,7 @@
     </type>
     <abilities>
       <a1>天之恩惠</a1>
-      
     </abilities>
-    
     <height>0.5m</height>
     <weight>1.6kg</weight>
     <color><![CDATA[<div style="background-color:lightgrey; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>浅灰</color>
@@ -1583,7 +1582,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -1597,9 +1595,8 @@
       <SpAtk>100</SpAtk>
       <SpDef>100</SpDef>
       <Speed>100</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1621,7 +1618,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>以虚无的形态存在于世界的每一个角落，据说只有当超新星爆发之时才会现身，用奇迹的力量改变万物的命运。</pokedex>
     <description>模仿基拉祈创作的精灵，以此向无情的命运致敬。</description>
     <story>
@@ -1630,6 +1627,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="13" visible="yes" >
     <name>
       <cn>樱团团</cn>
@@ -1638,7 +1636,6 @@
     <species is-legendary="no">美味精灵</species>
     <type>
       <type1>妖</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>甜蜜掩护</a1>
@@ -1651,7 +1648,6 @@
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>妖精组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>10圈（5120步）</hatch-time>
     <gender-ratio>♂1:♀1</gender-ratio>
@@ -1665,9 +1661,8 @@
       <SpAtk>20</SpAtk>
       <SpDef>50</SpDef>
       <Speed>55</Speed>
-      <Total>275</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1689,11 +1684,12 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>樱团团-（亲密度达到200升级）-团团樱</envolution>
+    <evolution>樱团团-（亲密度达到200升级）-团团樱</evolution>
     <pokedex>喜欢蹲在树丛里用叶子包裹着自己，有着柔软的心，会把身体的一部分分给别的精灵。味道和颜色会随着心情微妙的改变 。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story><![CDATA[]]></story>
   </pokemon>
+
   <pokemon id="14" visible="yes" >
     <name>
       <cn>团团樱</cn>
@@ -1702,7 +1698,6 @@
     <species is-legendary="no">美味精灵</species>
     <type>
       <type1>妖</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>甜蜜掩护</a1>
@@ -1715,7 +1710,6 @@
     <signature-moves></signature-moves>
     <egg-group>
       <eg1>妖精组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>10圈（5120步）</hatch-time>
     <gender-ratio>♂1:♀1</gender-ratio>
@@ -1729,9 +1723,8 @@
       <SpAtk>40</SpAtk>
       <SpDef>60</SpDef>
       <Speed>85</Speed>
-      <Total>435</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1753,11 +1746,12 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="12">樱团团-（亲密度达到200升级）-团团樱</envolution>
+    <evolution from="12">樱团团-（亲密度达到200升级）-团团樱</evolution>
     <pokedex>体型变大的同时重量却没有随之变大，因此可以随风飘走。在风和日丽的天气里会发出柔和的共鸣声，口感像是棉花糖。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story><![CDATA[]]></story>
   </pokemon>
+
   <pokemon id="15" visible="yes" >
     <name>
       <cn>小恶魔</cn>
@@ -1766,11 +1760,9 @@
     <species is-legendary="no">恶魔精灵</species>
     <type>
       <type1>恶</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>0.6m</height>
@@ -1782,7 +1774,6 @@
     </signature-moves>
     <egg-group>
       <eg1>怪兽组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>♂7:♀1</gender-ratio>
@@ -1796,9 +1787,8 @@
       <SpAtk>45</SpAtk>
       <SpDef>55</SpDef>
       <Speed>65</Speed>
-      <Total>320</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1820,7 +1810,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution>小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
+    <evolution>小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
     <pokedex>挥舞着小叉子嘎嘎怪笑，脑子里一直在想着下一个恶作剧是什么。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1829,6 +1819,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="16" visible="yes" >
     <name>
       <cn>赤尾恶魔</cn>
@@ -1837,11 +1828,9 @@
     <species is-legendary="no">恶魔精灵</species>
     <type>
       <type1>恶</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>0.8m</height>
@@ -1853,7 +1842,6 @@
     </signature-moves>
     <egg-group>
       <eg1>怪兽组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>♂7:♀1</gender-ratio>
@@ -1867,7 +1855,6 @@
       <SpAtk>60</SpAtk>
       <SpDef>75</SpDef>
       <Speed>85</Speed>
-      <Total>435</Total>
     </stats>
     <type-effectiveness>
       <type ability="">
@@ -1891,7 +1878,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="14">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
+    <evolution from="14">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
     <pokedex>手中握着的钢叉上流动的不知道是灼热的熔岩还是赤红的鲜血，红色的尾巴尖端比刀子还要锋利。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1900,6 +1887,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="17" visible="yes" >
     <name>
       <cn>地狱领主</cn>
@@ -1908,11 +1896,9 @@
     <species is-legendary="no">恶魔精灵</species>
     <type>
       <type1>恶</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>恶作剧之心</a1>
-      
     </abilities>
     <hidden-ability>大力士</hidden-ability>
     <height>1.7m</height>
@@ -1924,7 +1910,6 @@
     </signature-moves>
     <egg-group>
       <eg1>怪兽组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>♂7:♀1</gender-ratio>
@@ -1938,9 +1923,8 @@
       <SpAtk>75</SpAtk>
       <SpDef>95</SpDef>
       <Speed>115</Speed>
-      <Total>570</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -1962,7 +1946,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</envolution>
+    <evolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
     <pokedex>从不怜悯弱者，以着超乎想象的力量和威慑力压制对手。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1974,6 +1958,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="18" visible="yes" >
     <name>
       <cn>小水锅</cn>
@@ -1986,7 +1971,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.1m</height>
@@ -1997,7 +1981,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2011,9 +1994,8 @@
       <SpAtk>106</SpAtk>
       <SpDef>65</SpDef>
       <Speed>68</Speed>
-      <Total>386</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.25</fire>
@@ -2075,7 +2057,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
+    <evolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
     <pokedex>里面盛的水能保持很久的温度，野炊的时候可以被用来装饮料。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2084,6 +2066,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="19" visible="yes" >
     <name>
       <cn>蒸汽锅</cn>
@@ -2096,7 +2079,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.2m</height>
@@ -2107,7 +2089,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2121,9 +2102,8 @@
       <SpAtk>144</SpAtk>
       <SpDef>75</SpDef>
       <Speed>112</Speed>
-      <Total>486</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.25</fire>
@@ -2185,7 +2165,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="17">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
+    <evolution from="17">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
     <pokedex>体内时刻都处于让水沸腾的温度，喷出来的蒸汽能够把食物由里到外烹饪到最佳状态。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2194,6 +2174,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="20" visible="yes" >
     <name>
       <cn>高压汽锅</cn>
@@ -2206,7 +2187,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>引水</hidden-ability>
     <height>0.3m</height>
@@ -2217,7 +2197,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2231,9 +2210,8 @@
       <SpAtk>166</SpAtk>
       <SpDef>90</SpDef>
       <Speed>152</Speed>
-      <Total>586</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.25</fire>
@@ -2295,7 +2273,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</envolution>
+    <evolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
     <pokedex>据说用高压汽锅烹饪出来的食物鲜嫩无比，十里飘香。没有人知道高压汽锅从哪里来，但是它们总是会用一生的时间寻找能够驾驭它们的厨师。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2305,6 +2283,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="21" visible="yes" >
     <name>
       <cn>暖手炉</cn>
@@ -2317,7 +2296,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.1m</height>
@@ -2328,7 +2306,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2342,9 +2319,8 @@
       <SpAtk>24</SpAtk>
       <SpDef>70</SpDef>
       <Speed>24</Speed>
-      <Total>386</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0.5</normal>
         <fire>1</fire>
@@ -2386,7 +2362,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
+    <evolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
     <pokedex>内部的炭火能在无氧的状态下燃烧很久，冬天如果有一个陪伴的话会很愉快。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2395,6 +2371,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="22" visible="yes" >
     <name>
       <cn>炭火炉</cn>
@@ -2407,7 +2384,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.2m</height>
@@ -2418,7 +2394,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2432,9 +2407,8 @@
       <SpAtk>20</SpAtk>
       <SpDef>90</SpDef>
       <Speed>20</Speed>
-      <Total>486</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0.5</normal>
         <fire>1</fire>
@@ -2476,7 +2450,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="20">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
+    <evolution from="20">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
     <pokedex>在有充足的氧气的时候，炭火炉中的炭会发出灼热的红光，可以很轻易地烤出美味的食物。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2485,6 +2459,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="23" visible="yes" >
     <name>
       <cn>风纹火炉</cn>
@@ -2497,7 +2472,6 @@
     </type>
     <abilities>
       <a1>浮游</a1>
-      
     </abilities>
     <hidden-ability>火焰之躯</hidden-ability>
     <height>0.4m</height>
@@ -2508,7 +2482,6 @@
     </signature-moves>
     <egg-group>
       <eg1>矿物组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>20圈（5120步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2522,9 +2495,8 @@
       <SpAtk>16</SpAtk>
       <SpDef>100</SpDef>
       <Speed>16</Speed>
-      <Total>586</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>0.5</normal>
         <fire>1</fire>
@@ -2566,7 +2538,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</envolution>
+    <evolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
     <pokedex>风纹火炉上铭刻的纹路据说有引动风的力量，充分燃烧的青色火焰在天才厨师的手中能够烤制出世上绝无仅有的美味。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2576,6 +2548,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="24" visible="yes" >
     <name>
       <cn>软泥怪</cn>
@@ -2588,9 +2561,8 @@
     </type>
     <abilities>
       <a1>自然循环</a1>
-      
     </abilities>
-    
+
     <height>1.5m</height>
     <weight>125.3kg</weight>
     <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
@@ -2599,7 +2571,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2613,9 +2584,8 @@
       <SpAtk>35</SpAtk>
       <SpDef>110</SpDef>
       <Speed>35</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.5</fire>
@@ -2657,7 +2627,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>沉睡在沼泽的深处，与植物共生，除非湿地受到破坏否则不会醒来。</pokedex>
     <description>作为水+地免疫草系技能的零弱点精灵设计出来。其实一提到水+地，湿地和红树林的形象就跃出脑海，于是就有了软泥怪。</description>
     <story>
@@ -2678,6 +2648,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="25" visible="yes" >
     <name>
       <cn>凋零软泥怪</cn>
@@ -2690,9 +2661,8 @@
     </type>
     <abilities>
       <a1>生命凋零</a1>
-      
     </abilities>
-    
+
     <height>3.3m</height>
     <weight>225.3kg</weight>
     <color><![CDATA[<div style="background-color:olivedrab; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>橄榄绿</color>
@@ -2701,7 +2671,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2715,9 +2684,8 @@
       <SpAtk>35</SpAtk>
       <SpDef>110</SpDef>
       <Speed>35</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.5</fire>
@@ -2759,7 +2727,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution from="23">无进化</envolution>
+    <evolution from="23">无进化</evolution>
     <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
     <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
     <story>
@@ -2770,6 +2738,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="26" visible="yes" >
     <name>
       <cn>恶毒寡妇</cn>
@@ -2782,7 +2751,6 @@
     </type>
     <abilities>
       <a1>复眼</a1>
-      
     </abilities>
     <hidden-ability>飞丝</hidden-ability>
     <height>1.1m</height>
@@ -2805,9 +2773,8 @@
       <SpAtk>160</SpAtk>
       <SpDef>42</SpDef>
       <Speed>103</Speed>
-      <Total>493</Total>
     </stats>
-    <type-effectiveness num="2">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -2849,7 +2816,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>在交配以后雌性会吃掉雄性来养育后代的精灵。</pokedex>
     <description>作为属性单弱点，特性零弱点的精灵被设计出来。毒系特攻，恶系可以通过诈骗补打击面。恶波也可堪一用。英文名字取自原型黑寡妇蜘蛛的种名 Latrodectus mactans。</description>
     <story>
@@ -2864,6 +2831,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="27" visible="yes" >
     <name>
       <cn>闪金龙</cn>
@@ -2889,7 +2857,6 @@
     </signature-moves>
     <egg-group>
       <eg1>未发现组</eg1>
-      <eg2></eg2>
     </egg-group>
     <hatch-time>120圈（30720步）</hatch-time>
     <gender-ratio>无性别</gender-ratio>
@@ -2903,9 +2870,8 @@
       <SpAtk>42</SpAtk>
       <SpDef>120</SpDef>
       <Speed>24</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="3">
+    <type-effectiveness>
       <type ability="">
         <normal>0.5</normal>
         <fire>1</fire>
@@ -2967,7 +2933,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>仿佛由钢锭铸成的龙族精灵，拥有固若金汤的坚实防御。</pokedex>
     <description>因为第六代新出妖属性，强化毒和钢，削弱龙，因此钢+龙变成一个非常好的属性组合，除了本系打不动钢以外具有完全打击面。</description>
     <story>
@@ -2990,6 +2956,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="28" visible="yes" >
     <name>
       <cn>验证马</cn>
@@ -3002,9 +2969,8 @@
     </type>
     <abilities>
       <a1>验证</a1>
-      
     </abilities>
-    
+
     <height>1.4m</height>
     <weight>92.5kg</weight>
     <color><![CDATA[<div style="background-color:white; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>白</color>
@@ -3025,9 +2991,8 @@
       <SpAtk>90</SpAtk>
       <SpDef>50</SpDef>
       <Speed>140</Speed>
-      <Total>540</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -3049,7 +3014,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>拍打着洁白的羽翼飞行的天马，神秘的力量护佑在周围。</pokedex>
     <description>贴吧神兽之验证马。</description>
     <story>
@@ -3060,6 +3025,7 @@
         <p>验证状态：处于验证状态的精灵免疫非验证属性的技能。</p>]]>
     </story>
   </pokemon>
+
   <pokemon id="29" visible="yes" >
     <name>
       <cn>静止蛙</cn>
@@ -3068,13 +3034,11 @@
     <species is-legendary="no">终止精灵</species>
     <type>
       <type1>水</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>静止</a1>
-      
     </abilities>
-    
+
     <height>0.4m</height>
     <weight>21.3kg</weight>
     <color><![CDATA[<div style="background-color:blue; width:2em; height:1em;float:left;border:1px black solid;"></div>]]>蓝</color>
@@ -3095,9 +3059,8 @@
       <SpAtk>130</SpAtk>
       <SpDef>75</SpDef>
       <Speed>105</Speed>
-      <Total>545</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.5</fire>
@@ -3119,7 +3082,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>它的叫声能让风都为之止息。</pokedex>
     <description>贴吧神兽之静止蛙。</description>
     <story>
@@ -3129,6 +3092,7 @@
         <p>验证：对拥有静止特性的精灵造成伤害的精灵下一回合不能行动。</p>]]>
     </story>
   </pokemon>
+
   <pokemon id="30" visible="yes" >
     <name>
       <cn>潜鲸王</cn>
@@ -3137,7 +3101,6 @@
     <species is-legendary="no">深潜精灵</species>
     <type>
       <type1>水</type1>
-      <type2></type2>
     </type>
     <abilities>
       <a1>水之掩护</a1>
@@ -3164,9 +3127,8 @@
       <SpAtk>100</SpAtk>
       <SpDef>95</SpDef>
       <Speed>40</Speed>
-      <Total>600</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>0.5</fire>
@@ -3188,7 +3150,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <envolution>吼吼鲸-（Lv.40）-吼鲸王-（携带深潜装置通信）-潜鲸王</envolution>
+    <evolution>吼吼鲸-（Lv.40）-吼鲸王-（携带深潜装置通信）-潜鲸王</evolution>
     <pokedex>可以一口气潜入最深的海沟中，并在黑暗的环境下觅食。</pokedex>
     <description>从一个非常好的同人PM设计中借来的精灵，阿胖就决定是你了！</description>
     <story>
@@ -3202,6 +3164,7 @@
         ]]>
     </story>
   </pokemon>
+
   <pokemon id="31" visible="yes" >
     <name>
       <cn>涅槃藤藤蛇</cn>
@@ -3240,9 +3203,8 @@
       <SpAtk>45</SpAtk>
       <SpDef>55</SpDef>
       <Speed>63</Speed>
-      <Total>308</Total>
     </stats>
-    <type-effectiveness num="">
+    <type-effectiveness>
       <type ability="">
         <normal>1</normal>
         <fire>1</fire>
@@ -3264,7 +3226,7 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <envolution>无进化</envolution>
+    <evolution>无进化</evolution>
     <pokedex>因为能够充分驾驭燃烧生命的火焰而转变成的藤藤蛇。</pokedex>
     <description>玩火自焚的行家。</description>
     <story>

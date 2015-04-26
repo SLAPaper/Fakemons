@@ -4,10 +4,11 @@
 
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" encoding="utf-8" />
+  <xsl:output method="html" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes" />
   <xsl:template match="/">
     <html>
       <head>
+        <link rel="stylesheet" href="css/fakemons.css" />
         <link rel="stylesheet" href="css/skills.css"/>
         <meta name="description" content="原创技能列表"></meta>
         <meta name="keywords" content="pokemon"></meta>
