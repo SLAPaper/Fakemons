@@ -407,9 +407,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </tbody>
               </table>
               <h3>进化</h3>
-              <p style="text-align:left;">
+              <p>
                 <xsl:value-of select="evolution" />
               </p>
+              <xsl:if test="evolution/@from">
+                <xsl:variable name="id" select="evolution/@from"></xsl:variable>
+                <p>
+                  进化前体：
+                  <a>
+                    <xsl:attribute name="href">
+                      #<xsl:value-of select="generate-id(/pokemons/pokemon[@id = $id])" />
+                    </xsl:attribute>
+                    <xsl:value-of select ="/pokemons/pokemon[@id = $id]/name/cn" />
+                  </a>
+                </p>
+              </xsl:if>
               <xsl:if test="signature-moves!=''">
                 <h3>专属技能</h3>
                 <table>
@@ -432,9 +444,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </xsl:if>
               <xsl:if test="story!=''">
                 <h3>相关故事</h3>
-                <div style="text-align:left;padding:2em;text-indent:2em;">
-                  <xsl:value-of disable-output-escaping="yes" select="story" />
-                </div>
+                <xsl:copy-of select="story"></xsl:copy-of>
               </xsl:if>
               <xsl:if test="skills!=''">
                 <h3>技能表</h3>
