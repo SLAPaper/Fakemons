@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Wenquanyi Micro Hei', 'Microsoft Yahei UI', sans-serif;
+    font-size: 100%;
+    margin: 2em 3em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-indent: 0;
+    font-weight: bold;
+}
+
+h2, h3 {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}

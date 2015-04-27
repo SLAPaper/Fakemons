@@ -8,6 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
       <head>
+        <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="css/fakemons.css" />
         <link rel="stylesheet" href="css/skills.css"/>
         <meta name="description" content="原创技能列表"></meta>
