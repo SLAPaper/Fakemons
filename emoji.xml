@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="css/emoji.xsl"?>
 <emoji>
   <infoos>
-    <info>KTachibana</info>
-    <info>https://dl.dropboxusercontent.com/u/120725807/test.xml</info>
+    <info>SLAPaperEmoji</info>
+    <info>https://www.slapaper.cn/fakemons/emoji.xml</info>
   </infoos>
   <category name="other">
     <entry>
@@ -12,6 +12,9 @@
     <entry>
       <string>(つД`)﻿</string>
     </entry>
+    <engry>
+      <string>の</string>
+    </engry>
   </category>
   <category name="bilibili">
     <entry>
