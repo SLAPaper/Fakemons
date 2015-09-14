@@ -85,39 +85,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   <tr>
                     <td class="title">效果</td>
                     <td colspan="3" style="text-align:left; padding:0.5em;">
-                      <xsl:choose>
-                        <xsl:when test="effect/@is-multi-line='yes'">
-                          <xsl:for-each select="effect/p">
-                            <p>
-                              <xsl:value-of select="."/>
-                            </p>
-                          </xsl:for-each>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <p>
-                            <xsl:value-of select="effect"/>
-                          </p>
-                        </xsl:otherwise>
-                      </xsl:choose>
+                      <xsl:copy-of select="effect" />
                     </td>
                   </tr>
                   <tr>
                     <td class="title">说明</td>
                     <td colspan="3" style="text-align:left; padding:0.5em;">
-                      <xsl:choose>
-                        <xsl:when test="description/@is-multi-line='yes'">
-                          <xsl:for-each select="description/p">
-                            <p>
-                              <xsl:value-of select="." />
-                            </p>
-                          </xsl:for-each>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <p>
-                            <xsl:value-of select="description" />
-                          </p>
-                        </xsl:otherwise>
-                      </xsl:choose>
+                      <xsl:copy-of select="description" />
                     </td>
                   </tr>
                 </table>

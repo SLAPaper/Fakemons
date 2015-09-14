@@ -13,10 +13,10 @@
     <accuracy></accuracy>
     <target></target>
     <PP></PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p></p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p></p>
     </description>
   </skill>
@@ -32,12 +32,12 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>如果被冰冻则在出招前解冻。</p>
       <p>攻击命中后，攻击方损失满HP的1/2。</p>
       <p>如果攻击无效或没有命中，牺牲火焰没有副作用。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>草系精灵燃烧自己的生命才能发出的毁灭火焰。</p>
       <p>涅槃藤藤蛇的专属技能。</p>
     </description>
@@ -54,7 +54,7 @@
     <accuracy>-</accuracy>
     <target>对方全体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>不经过命中判定必定能命中目标。</p>
     </effect>
     <description>发射无数星型的光攻击对手，必定能命中目标。</description>
@@ -71,7 +71,7 @@
     <accuracy>-</accuracy>
     <target>对方全体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>不经过命中判定必定能命中目标。</p>
     </effect>
     <description>扩散自己的精神力攻击对手，必定能命中目标。</description>
@@ -89,7 +89,7 @@
     <target>单体</target>
     <PP>15</PP>
     <effect>30%概率烧伤。</effect>
-    <description is-multi-line="yes">
+    <description>
       <p>喷射出高温高压的蒸汽，会造成对手烧伤。</p>
       <p>高压汽锅一族的专属技能。</p>
       <p>跟六世代 No.721 波尔凯尼恩的专属技蒸汽喷发撞梗了233333</p>
@@ -109,10 +109,10 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>15</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>自身速度降一级。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>将爆发的热力作为推动力发起冲撞，会降低自身的速度。</p>
       <p>风纹火炉一族的专属技能。</p>
     </description>
@@ -129,11 +129,11 @@
     <accuracy>100</accuracy>
     <target>单个场地</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>从本回合起连续3回合对指定场地上的精灵造成伤害</p>
       <p>本技能对钢系和妖精系的属性相性为1。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>扰乱时空，对对手连续多回合造成伤害</p>
       <p>时间神龙的专属技能。</p>
     </description>
@@ -170,8 +170,8 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>10</PP>
-    <effect> 自下个回合起连续3回合每回合自身能行动两次。 </effect>
-    <description is-multi-line="yes">
+    <effect>自下个回合起连续3回合每回合自身能行动两次。</effect>
+    <description>
       <p>加速自己的时间，能行动更多次数。</p>
       <p>时间神龙的专属技能。</p>
     </description>
@@ -189,7 +189,7 @@
     <target>自身</target>
     <PP>5</PP>
     <effect>复活队伍中所有倒下的精灵。</effect>
-    <description is-multi-line="yes">
+    <description>
       <p>将庞大的生命力注入倒下的精灵中，使他们复活。</p>
       <p>百叶竹龙的专属技能。</p>
     </description>
@@ -206,12 +206,12 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>第一回合蓄力，第二回合攻击。</p>
       <p>以目标物防和特防的最小值计算伤害。</p>
       <p>本技能视为对所有属性的属性相性为1。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>用聚合太极的力量的拳头重击对手，必定攻击到防御弱点。</p>
       <p>国宝熊猫的专属技能。</p>
     </description>
@@ -248,11 +248,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>20</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使自身处于以慢打快状态之中。</p>
       <p>以慢打快状态：攻击时，技能威力 *= 对方速度 / 自身速度。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>使用太极术，速度越慢伤害越高。</p>
       <p>国宝熊猫的专属技能。</p>
     </description>
@@ -269,11 +269,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>自身交换下场，使交换出场的精灵处于空间障壁状态。</p>
       <p>空间障壁状态：免疫受到的第一个技能的伤害并将该伤害双倍施加给使用方，之后状态解除，在状态解除前不能成为变化技能的目标。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>将自身和场下队友的位置互换，留下的空间力量会反射一次攻击。</p>
       <p>柒尾猫的专属技能。</p>
     </description>
@@ -290,11 +290,11 @@
     <accuracy>100</accuracy>
     <target>对方全体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>强制对方随机换人。</p>
       <p>野生精灵对战时直接脱离战斗。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>发出能消除声音的波纹，必定击退对手。</p>
       <p>静寂虫的专属技能。</p>
     </description>
@@ -312,7 +312,7 @@
     <target>单体</target>
     <PP>20</PP>
     <effect>清除全场场地状态，每清除一个状态自身物攻升一级。</effect>
-    <description is-multi-line="yes">
+    <description>
       <p>挥舞巨大的钳子攻击，会打破场地状态。</p>
       <p>河蟹的专属技能。</p>
     </description>
@@ -329,11 +329,11 @@
     <accuracy>100</accuracy>
     <target>单个场地</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>指定一个场地，在两回合后造成伤害。</p>
       <p>无视目标特性和状态。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>改变命运的走向，对手一定受到伤害。</p>
       <p>美尔瑞瓦的专属技能。</p>
     </description>
@@ -350,10 +350,10 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>20</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>本技能计算属性相性的时候每一种属性视为水/火/冰/龙四系技能各自对应项中最大的一项。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>使用融合了多种力量的拳头攻击对方。</p>
       <p>冰炎龙的专属技能。</p>
     </description>
@@ -390,10 +390,10 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>20</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>本技能计算属性相性的时候每一种属性视为水/火/冰/龙四系技能各自对应项中最大的一项。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>用融合了多种力量的能量团砸向对方。</p>
       <p>冰炎龙的专属技能。</p>
     </description>
@@ -431,7 +431,7 @@
     <target>单体</target>
     <PP>10</PP>
     <effect>以防御方的特防计算伤害。</effect>
-    <description is-multi-line="yes">
+    <description>
       <p>射出由恶念组成的飞针，直接攻击对手的灵魂。</p>
       <p>小恶魔一族的专属技能。</p>
     </description>
@@ -449,7 +449,7 @@
     <target>单体</target>
     <PP>10</PP>
     <effect>吸收攻击伤害的1/2。</effect>
-    <description is-multi-line="yes">
+    <description>
       <p>挥动魔鬼的力量构成的锤子击打对手，吸收对手的生命值。</p>
       <p>小恶魔一族的专属技能。</p>
     </description>
@@ -465,12 +465,12 @@
     <accuracy>变动</accuracy>
     <target>单体</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>优先度+6。</p>
       <p>一击必杀。</p>
       <p>命中率 = 30 + 攻击方等级 - 防御方等级。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>化为流星从高空俯冲而下，以无法目视的速度发起攻击，只需一击便可以使对手失去战斗力。</p>
     </description>
   </skill>
@@ -485,10 +485,10 @@
     <accuracy>100</accuracy>
     <target>自身周围全体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>令目标命中降低1级。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>用极为耀眼的冲击波攻击四周，会降低目标命中。</p>
       <p>还是在犹豫要不要叫Giga Flash，那样子就是千兆闪焰了（雾</p>
     </description>
@@ -504,10 +504,10 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>20</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>自身物攻、命中、回避提升一级。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>在神秘的光线中跳起舞蹈，提高自身物攻、命中和回避。</p>
       <p>圣魂龙一族的专属技能。</p>
     </description>
@@ -523,11 +523,11 @@
     <accuracy>-</accuracy>
     <target>全部场地</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使用后场上进入神圣领域状态。</p>
       <p>神圣领域状态：持续5回合。任何普通系技能伤害增加50%，并且对全部属性相性视为1。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>制造出圣光充溢的空间，提升普通系技能的威力。</p>
       <p>圣魂龙一族的专属技能。</p>
     </description>
@@ -543,7 +543,7 @@
     <accuracy>80</accuracy>
     <target>单体</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>连续使用失败威力和命中率提升。</p>
       <p>攻击无效或未命中均进行计数。攻击命中后计数清零。</p>
       <p>一次未命中：威力180，命中90；</p>
@@ -551,7 +551,7 @@
       <p>三次或以上：威力300，必中。</p>
       <p>使用其它技能或不能行动时计数清零。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>向着对手发起不死不休的冲锋。</p>
       <p>不成功的冲锋会为下一击积攒能量并压迫对手的躲避空间。</p>
       <p>闪金龙的专属技能。</p>
@@ -568,11 +568,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使自身进入反则状态。</p>
       <p>反则状态：攻击时，使用防御、防御等级、特防、特防等级代替攻击、攻击等级、特攻、特攻等级计算伤害。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>使用犯规的力量，利用防御来攻击对手。</p>
       <p>闪金龙的专属技能。</p>
     </description>
@@ -588,11 +588,11 @@
     <accuracy>-</accuracy>
     <target>己方全场</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使己方全场进入扩散防御状态。</p>
       <p>扩散防御状态：该场地上的精灵受到攻击时，以我方场地上物防/特防最高的精灵的物防/特防计算伤害。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>让护盾悬浮在我方场地上，为我方所有精灵提供防御。</p>
       <p>闪金龙的专属技能。</p>
     </description>
@@ -608,13 +608,13 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>100%几率束缚目标5~6回合。</p>
       <p>目标的电磁浮游、念动力状态强制解除。</p>
       <p>如果目标处于自由下落、飞跃或飞空状态，将被强制拉回地面且解除攻击。</p>
       <p>被束缚期间，视为目标精灵受到重力状态的影响。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>卷动大地形成重力漩涡，5~6回合内将对手从空中拉下并控制在其中。</p>
       <p>表述不清比较纠结，这个技能应该是能无视飞行系/浮游/电磁浮游/blahblahblah生效的。</p>
     </description>
@@ -630,11 +630,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>30</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使自身进入乘风状态。</p>
       <p>乘风状态：当自身速度为目标的速度的2倍或以上时，必定击中要害。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>凭借对风的同步，找到慢于自身的对手的弱点，必定击中要害。</p>
     </description>
   </skill>
@@ -649,11 +649,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>5</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>消耗自身满HP的一半制造一个具有自身满HP的替身，替身会替代自身承受大部分技能伤害与效果。</p>
       <p>使用者HP不足一半时，使用后立即濒死，替身被替换上场的精灵继承。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>削减自身大量HP制造一个真实幻影作为自己的替身。</p>
     </description>
   </skill>
@@ -668,11 +668,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>使自身进入献祭状态。</p>
       <p>献祭状态：每回合损失满HP的1/8，特攻*1.5，受到接触攻击时攻击方必定烧伤。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>用燃烧生命的火焰包裹全身，提升特攻并烧伤接近的敌人。</p>
     </description>
   </skill>
@@ -687,11 +687,11 @@
     <accuracy>-</accuracy>
     <target>自身</target>
     <PP>10</PP>
-    <effect is-multi-line="yes">
+    <effect>
       <p>第一回合从场上消失，第二回合回到场上。</p>
       <p>第二回合，可以选择除消失以外的命令，如果选择的是攻击技能，则技能属性变为鬼系并且威力*1.5。</p>
     </effect>
-    <description is-multi-line="yes">
+    <description>
       <p>躲入异空间以进行出其不意的战术迂回。</p>
       <p>圣魂龙一族的专属技能。</p>
     </description>
