@@ -65,7 +65,9 @@
         <fairy></fairy>
       </type>
     </type-effectiveness>
-    <evolution from=""></evolution>
+    <evolution>
+      <link id=""></link>
+    </evolution>
     <pokedex></pokedex>
     <description></description>
     <story></story>
@@ -441,7 +443,16 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution>小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
+    <evolution>
+      小魂龙-（Lv.26）-
+      <link id="4">魂光龙</link>
+      -（亲密度达到255并使用光之石）-
+      <link id="5">圣魂龙</link>
+      -（圣魂龙石）-
+      <link id="6">
+        Mega圣魂龙
+      </link>
+    </evolution>
     <pokedex>从虚无的世界中产生出来的精灵，追逐着充满希望的力量。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -676,7 +687,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="3">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
+    <evolution>
+      <link id="3">小魂龙</link>-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-<link id="5">圣魂龙</link>-（圣魂龙石）-<link id="6">Mega圣魂龙</link>
+    </evolution>
     <pokedex>吸收希望的力量得以成长，会把光明传播给周围。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -903,7 +916,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="4">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
+    <evolution>
+      <link id="3">小魂龙</link>-（Lv.26）-<link id="4">魂光龙</link>-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-<link id="6">Mega圣魂龙</link>
+    </evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
     <story>
@@ -1169,7 +1184,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="5">小魂龙-（Lv.26）-魂光龙-（亲密度达到255并使用光之石）-圣魂龙-（圣魂龙石）-Mega圣魂龙</evolution>
+    <evolution>
+      <link id="3">小魂龙</link>-（Lv.26）-<link id="4">魂光龙</link>-（亲密度达到255并使用光之石）-<link id="5">圣魂龙</link>-（圣魂龙石）-Mega圣魂龙
+    </evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
   </pokemon>
@@ -1690,7 +1707,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution>樱团团-（亲密度达到200升级）-团团樱</evolution>
+    <evolution>
+      樱团团-（亲密度达到200升级）-<link id="14">团团樱</link>
+    </evolution>
     <pokedex>喜欢蹲在树丛里用叶子包裹着自己，有着柔软的心，会把身体的一部分分给别的精灵。味道和颜色会随着心情微妙的改变 。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story></story>
@@ -1755,7 +1774,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="13">樱团团-（亲密度达到200升级）-团团樱</evolution>
+    <evolution>
+      <link id="13">樱团团</link>-（亲密度达到200升级）-团团樱
+    </evolution>
     <pokedex>体型变大的同时重量却没有随之变大，因此可以随风飘走。在风和日丽的天气里会发出柔和的共鸣声，口感像是棉花糖。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story></story>
@@ -1822,7 +1843,9 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <evolution>小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
+    <evolution>
+      小恶魔-（Lv.17）-<link id="16">赤尾恶魔</link>-（Lv.40）-<link id="17">地狱领主</link>
+    </evolution>
     <pokedex>挥舞着小叉子嘎嘎怪笑，脑子里一直在想着下一个恶作剧是什么。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1891,7 +1914,9 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
+    <evolution>
+      <link id="15">小恶魔</link>-（Lv.17）-赤尾恶魔-（Lv.40）-<link id="17">地狱领主</link>
+    </evolution>
     <pokedex>手中握着的钢叉上流动的不知道是灼热的熔岩还是赤红的鲜血，红色的尾巴尖端比刀子还要锋利。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1960,7 +1985,9 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="16">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
+    <evolution>
+      <link id="15">小恶魔</link>-（Lv.17）-<link id="16">赤尾恶魔</link>-（Lv.40）-地狱领主
+    </evolution>
     <pokedex>从不怜悯弱者，以着超乎想象的力量和威慑力压制对手。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -2072,7 +2099,9 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <evolution>小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
+    <evolution>
+      小水锅-（Lv.24）-<link id="19">蒸汽锅</link>-（Lv.40）-<link id="20">高压汽锅</link>
+    </evolution>
     <pokedex>里面盛的水能保持很久的温度，野炊的时候可以被用来装饮料。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2181,7 +2210,9 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
+    <evolution>
+      <link id="18">小水锅</link>-（Lv.24）-蒸汽锅-（Lv.40）-<link id="20">高压汽锅</link>
+    </evolution>
     <pokedex>体内时刻都处于让水沸腾的温度，喷出来的蒸汽能够把食物由里到外烹饪到最佳状态。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2290,7 +2321,9 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="19">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
+    <evolution>
+      <link id="18">小水锅</link>-（Lv.24）-<link id="19">蒸汽锅</link>-（Lv.40）-高压汽锅
+    </evolution>
     <pokedex>据说用高压汽锅烹饪出来的食物鲜嫩无比，十里飘香。没有人知道高压汽锅从哪里来，但是它们总是会用一生的时间寻找能够驾驭它们的厨师。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2380,7 +2413,9 @@
         <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
-    <evolution>暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
+    <evolution>
+      暖手炉-（Lv.24）-<link id="22">炭火炉</link>-（Lv.40）-<link id="23">风纹火炉</link>
+    </evolution>
     <pokedex>内部的炭火能在无氧的状态下燃烧很久，冬天如果有一个陪伴的话会很愉快。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2469,7 +2504,9 @@
         <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
+    <evolution>
+      <link id="21">暖手炉</link>-（Lv.24）-炭火炉-（Lv.40）-<link id="23">风纹火炉</link>
+    </evolution>
     <pokedex>在有充足的氧气的时候，炭火炉中的炭会发出灼热的红光，可以很轻易地烤出美味的食物。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2558,7 +2595,9 @@
         <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="22">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
+    <evolution>
+      <link id="21">暖手炉</link>-（Lv.24）-<link id="22">炭火炉</link>-（Lv.40）-风纹火炉
+    </evolution>
     <pokedex>风纹火炉上铭刻的纹路据说有引动风的力量，充分燃烧的青色火焰在天才厨师的手中能够烤制出世上绝无仅有的美味。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2628,7 +2667,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution>无进化</evolution>
+    <evolution>
+      软泥怪←（调查枯萎木桩）→<link id="25">凋灵软泥怪</link>
+    </evolution>
     <pokedex>沉睡在沼泽的深处，与植物共生，除非湿地受到破坏否则不会醒来。</pokedex>
     <description>作为水+地免疫草系技能的零弱点精灵设计出来。其实一提到水+地，湿地和红树林的形象就跃出脑海，于是就有了软泥怪。</description>
     <story>
@@ -2729,7 +2770,9 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="24">无进化</evolution>
+    <evolution>
+      <link id="24">软泥怪</link>←（调查枯萎木桩）→凋灵软泥怪
+    </evolution>
     <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
     <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
     <story>
@@ -3158,7 +3201,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution>吼吼鲸-（Lv.40）-吼鲸王-（携带深潜装置通信）-潜鲸王</evolution>
+    <evolution>吼吼鲸→（Lv.40）→吼鲸王→（携带深潜装置通信）→潜鲸王</evolution>
     <pokedex>可以一口气潜入最深的海沟中，并在黑暗的环境下觅食。</pokedex>
     <description>从一个非常好的同人PM设计中借来的精灵，阿胖就决定是你了！</description>
     <story>

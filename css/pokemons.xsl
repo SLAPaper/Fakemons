@@ -27,6 +27,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </script>
       </head>
       <body>
+        <div style="padding: 0.5em; margin: 0.5em; border-radius: 0.5em; border:1px solid black; position: fixed; top: 1em; right: 1em; background-color: white; box-shadow: 0 0 5px gray;">
+          <a href="#top">回到顶部</a>
+        </div>
         <h1>
           <a name="top">原创精灵</a>
         </h1>
@@ -409,20 +412,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </table>
               <h3>进化</h3>
               <p>
-                <xsl:value-of select="evolution" />
+                <xsl:apply-templates select="evolution"/>
               </p>
-              <xsl:if test="evolution/@from">
-                <xsl:variable name="id" select="evolution/@from"></xsl:variable>
-                <p>
-                  进化前体：
-                  <a>
-                    <xsl:attribute name="href">
-                      #<xsl:value-of select="generate-id(/pokemons/pokemon[@id = $id])" />
-                    </xsl:attribute>
-                    <xsl:value-of select ="/pokemons/pokemon[@id = $id]/name/cn" />
-                  </a>
-                </p>
-              </xsl:if>
               <xsl:if test="signature-moves!=''">
                 <h3>专属技能</h3>
                 <table>
@@ -506,13 +497,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                   </tbody>
                 </table>
               </xsl:if>
-              <p style="text-align:right;">
-                <a href="#top">回到顶部</a>
-              </p>
             </div>
           </xsl:if>
         </xsl:for-each>
       </body>
     </html>
   </xsl:template>
+
+  <xsl:template match="text()">
+    <xsl:copy></xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="link">
+    <xsl:variable name="id" select="@id" />
+    <a>
+      <xsl:attribute name="href">
+        #<xsl:value-of select="generate-id(/pokemons/pokemon[@id = $id])" />
+      </xsl:attribute>
+      <xsl:value-of select="."/>
+    </a>
+  </xsl:template>
+
 </xsl:stylesheet>
