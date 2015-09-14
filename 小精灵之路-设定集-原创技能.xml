@@ -55,7 +55,6 @@
     <target>对方全体</target>
     <PP>10</PP>
     <effect is-multi-line="yes">
-      <p>不受多目标伤害削减影响。</p>
       <p>不经过命中判定必定能命中目标。</p>
     </effect>
     <description>发射无数星型的光攻击对手，必定能命中目标。</description>
@@ -73,7 +72,6 @@
     <target>对方全体</target>
     <PP>10</PP>
     <effect is-multi-line="yes">
-      <p>不受多目标伤害削减影响。</p>
       <p>不经过命中判定必定能命中目标。</p>
     </effect>
     <description>扩散自己的精神力攻击对手，必定能命中目标。</description>
@@ -133,7 +131,6 @@
     <PP>10</PP>
     <effect is-multi-line="yes">
       <p>从本回合起连续3回合对指定场地上的精灵造成伤害</p>
-      <p>无视特性或状态。</p>
       <p>本技能对钢系和妖精系的属性相性为1。</p>
     </effect>
     <description is-multi-line="yes">
@@ -155,7 +152,7 @@
       <bug>1</bug>
       <rock>1</rock>
       <ghost>1</ghost>
-      <dragon>1</dragon>
+      <dragon>2</dragon>
       <dark>1</dark>
       <steel>1</steel>
       <fairy>1</fairy>
@@ -212,7 +209,6 @@
     <effect is-multi-line="yes">
       <p>第一回合蓄力，第二回合攻击。</p>
       <p>以目标物防和特防的最小值计算伤害。</p>
-      <p>无视特性和状态。</p>
       <p>本技能视为对所有属性的属性相性为1。</p>
     </effect>
     <description is-multi-line="yes">
@@ -254,7 +250,7 @@
     <PP>20</PP>
     <effect is-multi-line="yes">
       <p>使自身处于以慢打快状态之中。</p>
-      <p>以慢打快状态：攻击时，如果自身比目标速度低，技能威力翻倍。</p>
+      <p>以慢打快状态：攻击时，技能威力 *= 对方速度 / 自身速度。</p>
     </effect>
     <description is-multi-line="yes">
       <p>使用太极术，速度越慢伤害越高。</p>
@@ -472,7 +468,7 @@
     <effect is-multi-line="yes">
       <p>优先度+6。</p>
       <p>一击必杀。</p>
-      <p>命中率 = 30+攻击方等级-防御方等级。</p>
+      <p>命中率 = 30 + 攻击方等级 - 防御方等级。</p>
     </effect>
     <description is-multi-line="yes">
       <p>化为流星从高空俯冲而下，以无法目视的速度发起攻击，只需一击便可以使对手失去战斗力。</p>
@@ -532,7 +528,7 @@
       <p>神圣领域状态：持续5回合。任何普通系技能伤害增加50%，并且对全部属性相性视为1。</p>
     </effect>
     <description is-multi-line="yes">
-      <p>制造出圣光充溢的空间，五回合内效果拔群的技能威力减半。</p>
+      <p>制造出圣光充溢的空间，提升普通系技能的威力。</p>
       <p>圣魂龙一族的专属技能。</p>
     </description>
   </skill>
@@ -553,6 +549,7 @@
       <p>一次未命中：威力180，命中90；</p>
       <p>两次未命中：威力240，命中100；</p>
       <p>三次或以上：威力300，必中。</p>
+      <p>使用其它技能或不能行动时计数清零。</p>
     </effect>
     <description is-multi-line="yes">
       <p>向着对手发起不死不休的冲锋。</p>
@@ -692,7 +689,7 @@
     <PP>10</PP>
     <effect is-multi-line="yes">
       <p>第一回合从场上消失，第二回合回到场上。</p>
-      <p>第二回合，可以选择除消失以外的命令，如果选择的是技能，则技能属性变为鬼系并且威力*1.5。</p>
+      <p>第二回合，可以选择除消失以外的命令，如果选择的是攻击技能，则技能属性变为鬼系并且威力*1.5。</p>
     </effect>
     <description is-multi-line="yes">
       <p>躲入异空间以进行出其不意的战术迂回。</p>

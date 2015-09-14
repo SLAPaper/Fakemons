@@ -1755,7 +1755,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="12">樱团团-（亲密度达到200升级）-团团樱</evolution>
+    <evolution from="13">樱团团-（亲密度达到200升级）-团团樱</evolution>
     <pokedex>体型变大的同时重量却没有随之变大，因此可以随风飘走。在风和日丽的天气里会发出柔和的共鸣声，口感像是棉花糖。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story></story>
@@ -1891,7 +1891,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="14">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
+    <evolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
     <pokedex>手中握着的钢叉上流动的不知道是灼热的熔岩还是赤红的鲜血，红色的尾巴尖端比刀子还要锋利。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -1960,7 +1960,7 @@
         <fairy>2</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="15">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
+    <evolution from="16">小恶魔-（Lv.17）-赤尾恶魔-（Lv.40）-地狱领主</evolution>
     <pokedex>从不怜悯弱者，以着超乎想象的力量和威慑力压制对手。</pokedex>
     <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
     <story>
@@ -2181,7 +2181,7 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="17">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
+    <evolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
     <pokedex>体内时刻都处于让水沸腾的温度，喷出来的蒸汽能够把食物由里到外烹饪到最佳状态。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2290,7 +2290,7 @@
         <fairy>0.5</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="18">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
+    <evolution from="19">小水锅-（Lv.24）-蒸汽锅-（Lv.40）-高压汽锅</evolution>
     <pokedex>据说用高压汽锅烹饪出来的食物鲜嫩无比，十里飘香。没有人知道高压汽锅从哪里来，但是它们总是会用一生的时间寻找能够驾驭它们的厨师。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
     <story>
@@ -2469,7 +2469,7 @@
         <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="20">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
+    <evolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
     <pokedex>在有充足的氧气的时候，炭火炉中的炭会发出灼热的红光，可以很轻易地烤出美味的食物。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2558,7 +2558,7 @@
         <fairy>0.25</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="21">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
+    <evolution from="22">暖手炉-（Lv.24）-炭火炉-（Lv.40）-风纹火炉</evolution>
     <pokedex>风纹火炉上铭刻的纹路据说有引动风的力量，充分燃烧的青色火焰在天才厨师的手中能够烤制出世上绝无仅有的美味。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
@@ -2729,7 +2729,7 @@
         <fairy>1</fairy>
       </type>
     </type-effectiveness>
-    <evolution from="23">无进化</evolution>
+    <evolution from="24">无进化</evolution>
     <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
     <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
     <story>
