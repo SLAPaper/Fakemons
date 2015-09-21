@@ -36,10 +36,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <button type="button" onclick="dealWithMenu()">显示/隐藏目录</button>
         <div id="menu" style="display:none;">
           <h2>目录</h2>
-          <ul style="text-align:left;">
+          <ul style="text-align:center; list-style-type: none; column-rule: 1px solid black; column-width: 10em;">
             <xsl:for-each select="pokemons/pokemon">
               <xsl:if test="@visible='yes'">
-                <li>
+                <li style="margin: 0.5em 0;">
                   <a href="#{generate-id(.)}">
                     <xsl:value-of select="name/cn" />
                   </a>
