@@ -18,11 +18,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <title>原创精灵</title>
         <script>
           function dealWithMenu() {
-          if ( document.getElementById("menu").style.display != "none" ) {
-          document.getElementById("menu").style.display = "none";
-          } else {
-          document.getElementById("menu").style.display = "inline";
-          }
+            if ( document.getElementById("menu").style.display != "none" ) {
+              document.getElementById("menu").style.display = "none";
+            } else {
+              document.getElementById("menu").style.display = "inline";
+            }
           }
         </script>
       </head>
