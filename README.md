@@ -1,7 +1,7 @@
 ﻿﻿Fakemons
 ========
 
-Some fakemons, powered by XML, XSLT, CSS, Javascript.
+Some fakemons, powered by XML, XSLT, CSS, JavaScript.
 
 GitHub version: [https://github.com/SLAPaper/Fakemons](https://github.com/SLAPaper/Fakemons)  
 
