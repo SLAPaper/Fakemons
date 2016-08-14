@@ -617,6 +617,7 @@
     <description>
       <p>卷动大地形成重力漩涡，5~6回合内将对手从空中拉下并控制在其中。</p>
       <p>表述不清比较纠结，这个技能应该是能无视飞行系/浮游/电磁浮游/blahblahblah生效的。</p>
+      <p>软泥怪的专属技能。</p>
     </description>
   </skill>
   <skill id="27" visible="yes">
