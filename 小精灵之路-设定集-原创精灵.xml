@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="css/pokemons.xsl"?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="css/pokemons.xsl" ?>
 <!-- Edited by SLAPaper -->
-
 <pokemons>
-  <pokemon id="-1" visible="no" >
+  <pokemon id="-1" visible="no">
     <name>
       <cn></cn>
       <en></en>
@@ -72,8 +71,7 @@
     <description></description>
     <story></story>
   </pokemon>
-
-  <pokemon id="0" visible="yes" >
+  <pokemon id="0" visible="yes">
     <name>
       <cn>双极永杰</cn>
       <en>Dipo Yokey</en>
@@ -139,20 +137,25 @@
     <pokedex>虽然是人类但还是入库看看吧。</pokedex>
     <description>小说主角啦，虽然放在精灵列表里很奇怪但毕竟有属性有特性有种族值还有专属技能，不放也不好。</description>
     <story>
+      <h4>专属特性</h4>
+      <p>破防：使用攻击技能时，如果目标受到保护类状态（保护、见切、忍耐、王者之盾、刺针防御、全体防御、垫返、欺诈防御、快速防御）的保护，则先解除该类状态再使用技能，并且技能威力翻倍。</p>
+      <p>小动作：如果本回合自身使用了保护类技能，则可以以-8的优先度额外使用一个技能。</p>
+      <h4>训练师卡片</h4>
       <div>
         <img style="float:right;" src="img/trainercard-Dipo Yokey.png" alt="Trainer Card" />
       </div>
       <p>做了一个训练师卡片，登录了永杰精灵表中的前六个原作非闪光的精灵。永杰的形象用的是波士可多拉的cos，多多少少暗示着作为闪金龙的第二形态。背景用的是普通系的图。八个徽章则全部来自出发地的关东地区。</p>
       <p>小说主角哟XD。</p>
       <p>主题曲：自然启示录 ~ Brain Overload（Natural Revelations ~ Brain Overload）</p>
-      <p>因为可以变成闪金龙所以种族值应该这么算：HP182+AT100+DE132+SA170+SD120+SP128=832（大雾</p>
-      <p>这么说小梦的种族值其实应该是：HP255（蛋神）+AT180（代欧）+DE230（壶壶）+SA180（代欧）+SD230（壶壶）+SP180（代欧）=1255（特大雾</p>
-      <p>破防：使用攻击技能时，如果目标受到保护类状态（保护、见切、忍耐、王者之盾、刺针防御、全体防御、垫返、欺诈防御、快速防御）的保护，则先解除该类状态再使用技能，并且技能威力翻倍。</p>
-      <p>小动作：如果本回合自身使用了保护类技能，则可以以-8的优先度额外使用一个技能。</p>
+      <p>
+        <del>因为可以变成闪金龙所以种族值应该这么算：HP182+AT100+DE132+SA170+SD120+SP128=832</del>
+      </p>
+      <p>
+        <del>这么说小梦的种族值其实应该是：HP255（蛋神）+AT180（代欧）+DE230（壶壶）+SA180（代欧）+SD230（壶壶）+SP180（代欧）=1255</del>
+      </p>
     </story>
   </pokemon>
-
-  <pokemon id="1" visible="yes" >
+  <pokemon id="1" visible="yes">
     <name>
       <cn>时间神龙</cn>
       <en>Timeliner</en>
@@ -220,13 +223,15 @@
       <p>Timeliner = timeline（时间轴）+ -er</p>
       <p>主题曲：幻想时光机 ~ the Timeless One（Fantastic Time Machine ~ the Timeless One）</p>
       <h4>专属特性</h4>
-      <p>时间神龙的专属特性有两个，一个是完全防御一回合的时间守护，另一个是用速度逗你玩的咫尺天涯。</p>
-      <p>时间守护的效果是，每个回合仅会受到上一回合最后受到的技能的伤害或影响。时间精灵开场自带一轮保护，这时候无论是开双倍还是直接暴动糊场都随意。</p>
-      <p>咫尺天涯的效果是，每个回合不会受到晚于自己出招的精灵的影响。因为速度相当丧心病狂所以← ←。</p>
-      <p>平衡性什么的就无视了，反正是规格外。大概百变怪可以一战？</p>
+      <p>时间守护：每个回合仅会受到上一回合最后受到的技能的伤害。（不免疫变化技）</p>
+      <p>咫尺天涯：不会被晚于自己出招的精灵的技能影响。<del>弱专爱百变怪</del></p>
       <h4>闪光配色</h4>
       <p>
-        非闪光的是<span style="color:silver;background-color:grey;">灰底银色花纹</span>，闪光的是<span style="color:gold;background-color:darkslategrey;">深灰底金色花纹</span>。
+        非闪光的是
+        <span style="color:silver;background-color:grey;">灰底银色花纹</span>
+        ，闪光的是
+        <span style="color:gold;background-color:darkslategrey;">深灰底金色花纹</span>
+        。
       </p>
       <h4>配招</h4>
       <ul>
@@ -235,8 +240,7 @@
       </ul>
     </story>
   </pokemon>
-
-  <pokemon id="2" visible="yes" >
+  <pokemon id="2" visible="yes">
     <name>
       <cn>冰炎龙</cn>
       <en>Fireezard</en>
@@ -247,7 +251,7 @@
       <type2 class="dragon">龙</type2>
     </type>
     <abilities>
-      <a1>冰封火焰</a1>
+      <a1>冰封之火</a1>
     </abilities>
     <height>1.8m</height>
     <weight>95.5kg</weight>
@@ -324,12 +328,11 @@
     <story>
       <p>主题曲：魔神大人参上 ~ Tempreture Monster（Devil Turns up ~ Tempreture Monster）</p>
       <h4>关于名字</h4>
-      <p>Fireezard = fire（火）+freeze（冻结）+lizard（蜥蜴）。本来想设定成Mega Charizard Z，即Z喷的，但是因为担心Z版出了以后被官方逼死，所以索性改动了名字。总觉得一股黑炎龙的既视感→ →</p>
+      <p>Fireezard = fire（火）+freeze（冻结）+lizard（蜥蜴）。本来想设定成Mega Charizard Z，即Z喷的，但是因为担心Z版出了以后被官方逼死，所以索性改动了名字。<del>然而天国的Z版……</del></p>
       <p>至于战斗力的话，虽然为了剧情需要设定成了双刀，但是专属技的克制面太广，所以点了偏科以后还是很爽的。</p>
       <h4>专属特性</h4>
-      <p>冰封火焰：受水/火/冰/龙属性技能攻击伤害减半，并且物攻/特攻各升1级；不会处于烧伤、冰冻状态。</p>
-      <p>进化之前的专属特性是双极连锁，反映的是那时冰焰的运用运用不同属性对冲激发更强能量的能力。</p>
-      <p>进化以后变成了冰封火焰。由于将水火冰龙四种力量融为一体，因此受到该四系攻击之后会吸收攻击伤害提升自身能力。原本还有根据自身使用技能的属性提升双攻的设计，但是觉得效果和专属技冲突而使得技能描述太繁琐就放弃了。</p>
+      <p>冰封之火：受水/火/冰/龙属性技能攻击伤害减半，并且物攻/特攻各升1级；不会处于烧伤、冰冻状态。</p>
+      <p>将水火冰龙四种力量融为一体，因此受到该四系攻击之后会吸收攻击伤害提升自身能力。原本还有根据自身使用技能的属性提升双攻的设计，但是觉得效果和专属技冲突而使得技能描述太繁琐就放弃了。</p>
       <h4>配招</h4>
       <ul>
         <li>冰火拳、龙之舞、？、？</li>
@@ -337,8 +340,7 @@
       </ul>
     </story>
   </pokemon>
-
-  <pokemon id="3" visible="yes" >
+  <pokemon id="3" visible="yes">
     <name>
       <cn>小魂龙</cn>
       <en>Ghomander</en>
@@ -444,9 +446,12 @@
       </type>
     </type-effectiveness>
     <evolution>
-      小魂龙→（Lv.26）→<link id="4">魂光龙</link>→（亲密度达到255并使用光之石）→<link id="5">圣魂龙</link>→（圣魂龙石）→<link id="6">
-        Mega圣魂龙
-      </link>
+      小魂龙→（Lv.26）→
+      <link id="4">魂光龙</link>
+      →（亲密度达到255并使用光之石）→
+      <link id="5">圣魂龙</link>
+      →（圣魂龙石）→
+      <link id="6">Mega圣魂龙</link>
     </evolution>
     <pokedex>从虚无的世界中产生出来的精灵，追逐着充满希望的力量。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
@@ -560,7 +565,7 @@
       </skill>
       <skill>
         <lv>Lv.57</lv>
-        <n>暴走</n>
+        <n>舍身撞</n>
         <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
@@ -576,8 +581,7 @@
       </skill>
     </skills>
   </pokemon>
-
-  <pokemon id="4" visible="yes" >
+  <pokemon id="4" visible="yes">
     <name>
       <cn>魂光龙</cn>
       <en>Ghomeleon</en>
@@ -683,7 +687,11 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="3">小魂龙</link>→（Lv.26）→魂光龙→（亲密度达到255并使用光之石）→<link id="5">圣魂龙</link>→（圣魂龙石）→<link id="6">Mega圣魂龙</link>
+      <link id="3">小魂龙</link>
+      →（Lv.26）→魂光龙→（亲密度达到255并使用光之石）→
+      <link id="5">圣魂龙</link>
+      →（圣魂龙石）→
+      <link id="6">Mega圣魂龙</link>
     </evolution>
     <pokedex>吸收希望的力量得以成长，会把光明传播给周围。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
@@ -789,7 +797,7 @@
       </skill>
       <skill>
         <lv>Lv.63</lv>
-        <n>暴走</n>
+        <n>舍身撞</n>
         <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
@@ -805,8 +813,7 @@
       </skill>
     </skills>
   </pokemon>
-
-  <pokemon id="5" visible="yes" >
+  <pokemon id="5" visible="yes">
     <name>
       <cn>圣魂龙</cn>
       <en>Ghorizard</en>
@@ -912,7 +919,11 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="3">小魂龙</link>→（Lv.26）→<link id="4">魂光龙</link>→（亲密度达到255并使用光之石）→圣魂龙→（圣魂龙石）→<link id="6">Mega圣魂龙</link>
+      <link id="3">小魂龙</link>
+      →（Lv.26）→
+      <link id="4">魂光龙</link>
+      →（亲密度达到255并使用光之石）→圣魂龙→（圣魂龙石）→
+      <link id="6">Mega圣魂龙</link>
     </evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
@@ -920,7 +931,11 @@
       <p>Ghorizard = ghost（鬼魂） +  lizard（蜥蜴）</p>
       <h4>闪光配色</h4>
       <p>
-        非闪光的为<span style="background-color:white;color:gold;">白底金色花纹</span>，闪光的为<span style="background-color:black;color:silver;">黑底银色花纹</span>。
+        非闪光的为
+        <span style="background-color:white;color:gold;">白底金色花纹</span>
+        ，闪光的为
+        <span style="background-color:black;color:silver;">黑底银色花纹</span>
+        。
       </p>
       <p>小魂龙和魂光龙的配色与圣魂龙的一致。</p>
       <h4>形态差异</h4>
@@ -1025,7 +1040,7 @@
       </skill>
       <skill>
         <lv>基本</lv>
-        <n>暴走</n>
+        <n>舍身撞</n>
         <ty class="normal">普</ty>
         <ca>物</ca>
         <p>120</p>
@@ -1073,8 +1088,7 @@
       </skill>
     </skills>
   </pokemon>
-
-  <pokemon id="6" visible="yes" >
+  <pokemon id="6" visible="yes">
     <name>
       <cn>Mega圣魂龙</cn>
       <en>Mega Ghorizard</en>
@@ -1180,13 +1194,17 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="3">小魂龙</link>→（Lv.26）→<link id="4">魂光龙</link>→（亲密度达到255并使用光之石）→<link id="5">圣魂龙</link>→（圣魂龙石）→Mega圣魂龙
+      <link id="3">小魂龙</link>
+      →（Lv.26）→
+      <link id="4">魂光龙</link>
+      →（亲密度达到255并使用光之石）→
+      <link id="5">圣魂龙</link>
+      →（圣魂龙石）→Mega圣魂龙
     </evolution>
     <pokedex>沐浴在圣光之中，成为希望的化身。</pokedex>
     <description>以青眼光龙作为蓝本设计出来的不是龙系的龙精灵，代表着新生的希望。</description>
   </pokemon>
-
-  <pokemon id="7" visible="yes" >
+  <pokemon id="7" visible="yes">
     <name>
       <cn>百叶竹龙</cn>
       <en>Bambgon</en>
@@ -1274,7 +1292,6 @@
       <h4>专属特性：自然能量</h4>
       <p>因为草龙被各种属性克制得飞起所以只能用特性来让它多少有点植物之神的风范了。</p>
       <p>自然能量：受效果拔群的伤害减半，并且在受到效果拔群的攻击后回复1/2生命。</p>
-      <p>冰变成了2倍，还是很坑，但是，算了，虽然是龙系粉但不能乱强化，一切以符合剧情要求为准。</p>
       <p>不过被很多技能打了自带一次偷懒/自我再生哟。</p>
       <h4>背景设定</h4>
       <p>草龙神和寂静虫神是自上古时期开始的好友，后来双双沉睡。百叶竹龙沉睡的地点在常磐森林，静寂虫沉睡的地点在遗忘小岛的寂静之林。由于寂静之林受到时之遗迹的影响所以百叶竹龙先于静寂虫醒来，在常磐森林附近游走。</p>
@@ -1286,8 +1303,7 @@
       <p>而国宝熊猫们也会在设法度过新老两代百叶竹龙之间的空档期以后，迎来新一任的竹林秘境之主。</p>
     </story>
   </pokemon>
-
-  <pokemon id="8" visible="yes" >
+  <pokemon id="8" visible="yes">
     <name>
       <cn>国宝熊猫</cn>
       <en>Pandalian</en>
@@ -1358,11 +1374,10 @@
       <p>Pandalian = panda（大熊猫） + -lian</p>
       <h4>专属特性：太极</h4>
       <p>太极：使用蓄力技时必定先制并进入太极状态。</p>
-      <p>太极状态：处于太极状态的精灵的HP不会低于1；在蓄力技释放前，将蓄力过程中所受到的所有伤害作为等量技能威力加在蓄力中的技能上；蓄力技释放后，太极状态解除。</p>
+      <p>太极状态：处于太极状态的精灵的HP不会低于1；在蓄力技释放前，将蓄力过程中所受到的伤害作为等量技能威力加在蓄力中的技能上；蓄力技释放后，太极状态解除。</p>
     </story>
   </pokemon>
-
-  <pokemon id="9" visible="yes" >
+  <pokemon id="9" visible="yes">
     <name>
       <cn>静寂虫</cn>
       <en>Silencug</en>
@@ -1427,7 +1442,7 @@
     <story>
       <p>Silencug = silence（寂静） + bug（虫）</p>
       <h4>专属技能：寂静波纹</h4>
-      <p>其实很恶心的一个虫系全场特攻，因为自带无解的群体吹人，不过由于寂静虫神本身剧情所要求的低速所以在无辅助的情况下只是个后发群吹。但是，有两点，第一，在小说里面，像这种特攻的出招速度和移动速度可没关系；第二，来一发欺骗空间！</p>
+      <p>其实很恶心的一个虫系全场特攻，因为自带无解的群体吹人，不过由于寂静虫神本身剧情所要求的低速所以在无辅助的情况下只是个后发群吹。</p>
       <h4>专属特性：静寂</h4>
       <p>静寂：全场精灵的声音技无效。</p>
       <p>广域防音。</p>
@@ -1437,8 +1452,7 @@
       <p>看似被静寂虫消除的声音其实是被储存在了它的领域中，谁也不知道这些囤积起来的声音能爆发出怎样的力量。（取材自《末法王座》）</p>
     </story>
   </pokemon>
-
-  <pokemon id="10" visible="yes" >
+  <pokemon id="10" visible="yes">
     <name>
       <cn>柒尾猫</cn>
       <en>Setacat</en>
@@ -1507,8 +1521,7 @@
       <p>空间力场：出场时开启欺骗空间、魔术空间和神奇空间，持续5回合。</p>
     </story>
   </pokemon>
-
-  <pokemon id="11" visible="yes" >
+  <pokemon id="11" visible="yes">
     <name>
       <cn>河蟹</cn>
       <en>Hexie</en>
@@ -1518,8 +1531,9 @@
       <type1 class="normal">普</type1>
     </type>
     <abilities>
-      <a1>和谐</a1>
+      <a1>破格</a1>
     </abilities>
+    <hidden-ability>场地破坏</hidden-ability>
     <height>1.0m</height>
     <weight>21.3kg</weight>
     <colors>
@@ -1571,12 +1585,14 @@
     <pokedex>看起来是某种水生动物，其实一直在陆地生活。总是挥舞着一对大钳子清理地面。</pokedex>
     <description>和谐你全家！</description>
     <story>
-      <h4>专属特性：和谐</h4>
-      <p>和谐：场地状态对有和谐特性的精灵无效。</p>
+      <h4>专属特性：场地破坏</h4>
+      <p>当拥有场地破坏特性的精灵在场时，全场目标为场地状态无效，直到该精灵离场或失去该特性。场地状态不会因此消失。</p>
+      <p>PS: 裂空座的气闸.png</p>
+      <h4>专属技能：和谐之钳</h4>
+      <p>终极版的场地状态克星（高旋+除雾+无天气等等），六代引入场地型状态以后适用范围更广。</p>
     </story>
   </pokemon>
-
-  <pokemon id="12" visible="yes" >
+  <pokemon id="12" visible="yes">
     <name>
       <cn>美尔瑞瓦</cn>
       <en>Moiroiva</en>
@@ -1643,8 +1659,7 @@
       <p>Moiroiva = Moirai（命运三女神） + nova（新星）</p>
     </story>
   </pokemon>
-
-  <pokemon id="13" visible="no" >
+  <pokemon id="13" visible="no">
     <name>
       <cn>樱团团</cn>
       <en>Sakuta</en>
@@ -1704,14 +1719,14 @@
       </type>
     </type-effectiveness>
     <evolution>
-      樱团团→（亲密度达到200升级）→<link id="14">团团樱</link>
+      樱团团→（亲密度达到200升级）→
+      <link id="14">团团樱</link>
     </evolution>
     <pokedex>喜欢蹲在树丛里用叶子包裹着自己，有着柔软的心，会把身体的一部分分给别的精灵。味道和颜色会随着心情微妙的改变 。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story></story>
   </pokemon>
-
-  <pokemon id="14" visible="no" >
+  <pokemon id="14" visible="no">
     <name>
       <cn>团团樱</cn>
       <en>Sakuna</en>
@@ -1771,14 +1786,14 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="13">樱团团</link>→（亲密度达到200升级）→团团樱
+      <link id="13">樱团团</link>
+      →（亲密度达到200升级）→团团樱
     </evolution>
     <pokedex>体型变大的同时重量却没有随之变大，因此可以随风飘走。在风和日丽的天气里会发出柔和的共鸣声，口感像是棉花糖。</pokedex>
     <description>作为一种可食用的精灵设计出来。设计者是傀儡。</description>
     <story></story>
   </pokemon>
-
-  <pokemon id="15" visible="yes" >
+  <pokemon id="15" visible="yes">
     <name>
       <cn>小恶魔</cn>
       <en>Devini</en>
@@ -1840,16 +1855,18 @@
       </type>
     </type-effectiveness>
     <evolution>
-      小恶魔→（Lv.17）→<link id="16">赤尾恶魔</link>→（Lv.40）→<link id="17">地狱领主</link>
+      小恶魔→（Lv.17）→
+      <link id="16">赤尾恶魔</link>
+      →（Lv.40）→
+      <link id="17">地狱领主</link>
     </evolution>
     <pokedex>挥舞着小叉子嘎嘎怪笑，脑子里一直在想着下一个恶作剧是什么。</pokedex>
-    <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
+    <description>食我大力士穿心针啦！</description>
     <story>
       <p>Devini = devil（魔鬼、恶魔） + mini（小的）</p>
     </story>
   </pokemon>
-
-  <pokemon id="16" visible="yes" >
+  <pokemon id="16" visible="yes">
     <name>
       <cn>赤尾恶魔</cn>
       <en>Devarlet</en>
@@ -1911,16 +1928,17 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="15">小恶魔</link>→（Lv.17）→赤尾恶魔→（Lv.40）→<link id="17">地狱领主</link>
+      <link id="15">小恶魔</link>
+      →（Lv.17）→赤尾恶魔→（Lv.40）→
+      <link id="17">地狱领主</link>
     </evolution>
     <pokedex>手中握着的钢叉上流动的不知道是灼热的熔岩还是赤红的鲜血，红色的尾巴尖端比刀子还要锋利。</pokedex>
-    <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
+    <description>食我大力士穿心针啦！</description>
     <story>
       <p>Devarlet = devil（魔鬼、恶魔） + scarlet（猩红）</p>
     </story>
   </pokemon>
-
-  <pokemon id="17" visible="yes" >
+  <pokemon id="17" visible="yes">
     <name>
       <cn>地狱领主</cn>
       <en>Devylord</en>
@@ -1982,19 +2000,20 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="15">小恶魔</link>→（Lv.17）→<link id="16">赤尾恶魔</link>→（Lv.40）→地狱领主
+      <link id="15">小恶魔</link>
+      →（Lv.17）→
+      <link id="16">赤尾恶魔</link>
+      →（Lv.40）→地狱领主
     </evolution>
     <pokedex>从不怜悯弱者，以着超乎想象的力量和威慑力压制对手。</pokedex>
-    <description>作为设定中的反派少年的初始精灵而设计出来的，虽然那个家伙长啥样仍然不清楚。</description>
+    <description>食我大力士穿心针啦！</description>
     <story>
       <p>Devylord = devil（魔鬼、恶魔） + lord（领主）</p>
       <h4>背景</h4>
       <p>地狱领主一系是打算当作恶系准神设计的，因此给了大力士这种IMBA特性配上了高达115的丧病物攻，还设计了两个恶系专属技能，简直就是亲儿子。</p>
-      <p>后来因为开了小恶魔把藤藤蛇差点捅死的脑洞以后，这个家族就慢慢滑向了反派的深渊www，再加上后来设计了小魂龙系列，对整体大纲做了修改，小恶魔家族成为了一个目前还没有个概念的大反派的初始精灵。</p>
     </story>
   </pokemon>
-
-  <pokemon id="18" visible="yes" >
+  <pokemon id="18" visible="yes">
     <name>
       <cn>小水锅</cn>
       <en>Warcepan</en>
@@ -2096,7 +2115,10 @@
       </type>
     </type-effectiveness>
     <evolution>
-      小水锅→（Lv.24）→<link id="19">蒸汽锅</link>→（Lv.40）→<link id="20">高压汽锅</link>
+      小水锅→（Lv.24）→
+      <link id="19">蒸汽锅</link>
+      →（Lv.40）→
+      <link id="20">高压汽锅</link>
     </evolution>
     <pokedex>里面盛的水能保持很久的温度，野炊的时候可以被用来装饮料。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
@@ -2104,8 +2126,7 @@
       <p>Warcepan = warter（水） + saucepan（煮锅）</p>
     </story>
   </pokemon>
-
-  <pokemon id="19" visible="yes" >
+  <pokemon id="19" visible="yes">
     <name>
       <cn>蒸汽锅</cn>
       <en>Steambo</en>
@@ -2207,7 +2228,9 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="18">小水锅</link>→（Lv.24）→蒸汽锅→（Lv.40）→<link id="20">高压汽锅</link>
+      <link id="18">小水锅</link>
+      →（Lv.24）→蒸汽锅→（Lv.40）→
+      <link id="20">高压汽锅</link>
     </evolution>
     <pokedex>体内时刻都处于让水沸腾的温度，喷出来的蒸汽能够把食物由里到外烹饪到最佳状态。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
@@ -2215,8 +2238,7 @@
       <p>Steambo = steam（蒸汽） + boil（沸腾）</p>
     </story>
   </pokemon>
-
-  <pokemon id="20" visible="yes" >
+  <pokemon id="20" visible="yes">
     <name>
       <cn>高压汽锅</cn>
       <en>Preclave</en>
@@ -2318,7 +2340,10 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="18">小水锅</link>→（Lv.24）→<link id="19">蒸汽锅</link>→（Lv.40）→高压汽锅
+      <link id="18">小水锅</link>
+      →（Lv.24）→
+      <link id="19">蒸汽锅</link>
+      →（Lv.40）→高压汽锅
     </evolution>
     <pokedex>据说用高压汽锅烹饪出来的食物鲜嫩无比，十里飘香。没有人知道高压汽锅从哪里来，但是它们总是会用一生的时间寻找能够驾驭它们的厨师。</pokedex>
     <description>想把冰炎龙弄成水+火未果以后于是直接发明了一个锅具←_←为数不多的虽然是水系但是不能学急冻光线的精灵，原因很简单，这小家伙很烫。</description>
@@ -2327,8 +2352,7 @@
       <p>波尔凯尼恩 Volcanion 公布以后我只能说一句喜闻乐见……火山喷泉和高压锅真是有异曲同工之妙（</p>
     </story>
   </pokemon>
-
-  <pokemon id="21" visible="yes" >
+  <pokemon id="21" visible="yes">
     <name>
       <cn>暖手炉</cn>
       <en>Warmer</en>
@@ -2341,7 +2365,7 @@
     <abilities>
       <a1>浮游</a1>
     </abilities>
-    <hidden-ability>火焰之躯</hidden-ability>
+    <hidden-ability>引火</hidden-ability>
     <height>0.1m</height>
     <weight>0.5kg</weight>
     <colors>
@@ -2408,9 +2432,32 @@
         <steel>0.25</steel>
         <fairy>0.25</fairy>
       </type>
+      <type ability="引火">
+        <normal>0.5</normal>
+        <fire>0</fire>
+        <water>2</water>
+        <grass>0.25</grass>
+        <electric>1</electric>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
+        <ground>4</ground>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
+        <rock>1</rock>
+        <ghost>1</ghost>
+        <dragon>0.5</dragon>
+        <dark>1</dark>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
+      </type>
     </type-effectiveness>
     <evolution>
-      暖手炉→（Lv.24）→<link id="22">炭火炉</link>→（Lv.40）→<link id="23">风纹火炉</link>
+      暖手炉→（Lv.24）→
+      <link id="22">炭火炉</link>
+      →（Lv.40）→
+      <link id="23">风纹火炉</link>
     </evolution>
     <pokedex>内部的炭火能在无氧的状态下燃烧很久，冬天如果有一个陪伴的话会很愉快。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
@@ -2418,8 +2465,7 @@
       <p>Warmer = warm（温暖） + -er</p>
     </story>
   </pokemon>
-
-  <pokemon id="22" visible="yes" >
+  <pokemon id="22" visible="yes">
     <name>
       <cn>炭火炉</cn>
       <en>Ficoal</en>
@@ -2432,7 +2478,7 @@
     <abilities>
       <a1>浮游</a1>
     </abilities>
-    <hidden-ability>火焰之躯</hidden-ability>
+    <hidden-ability>引火</hidden-ability>
     <height>0.2m</height>
     <weight>0.8kg</weight>
     <colors>
@@ -2499,9 +2545,31 @@
         <steel>0.25</steel>
         <fairy>0.25</fairy>
       </type>
+      <type ability="引火">
+        <normal>0.5</normal>
+        <fire>0</fire>
+        <water>2</water>
+        <grass>0.25</grass>
+        <electric>1</electric>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
+        <ground>4</ground>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
+        <rock>1</rock>
+        <ghost>1</ghost>
+        <dragon>0.5</dragon>
+        <dark>1</dark>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
+      </type>
     </type-effectiveness>
     <evolution>
-      <link id="21">暖手炉</link>→（Lv.24）→炭火炉→（Lv.40）→<link id="23">风纹火炉</link>
+      <link id="21">暖手炉</link>
+      →（Lv.24）→炭火炉→（Lv.40）→
+      <link id="23">风纹火炉</link>
     </evolution>
     <pokedex>在有充足的氧气的时候，炭火炉中的炭会发出灼热的红光，可以很轻易地烤出美味的食物。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
@@ -2509,8 +2577,7 @@
       <p>Ficoal = fire（火焰） + coal（煤）</p>
     </story>
   </pokemon>
-
-  <pokemon id="23" visible="yes" >
+  <pokemon id="23" visible="yes">
     <name>
       <cn>风纹火炉</cn>
       <en>Winbeque</en>
@@ -2523,7 +2590,7 @@
     <abilities>
       <a1>浮游</a1>
     </abilities>
-    <hidden-ability>火焰之躯</hidden-ability>
+    <hidden-ability>引火</hidden-ability>
     <height>0.4m</height>
     <weight>1.4kg</weight>
     <colors>
@@ -2590,19 +2657,41 @@
         <steel>0.25</steel>
         <fairy>0.25</fairy>
       </type>
+      <type ability="引火">
+        <normal>0.5</normal>
+        <fire>0</fire>
+        <water>2</water>
+        <grass>0.25</grass>
+        <electric>1</electric>
+        <ice>0.25</ice>
+        <fight>2</fight>
+        <poison>0</poison>
+        <ground>4</ground>
+        <fly>0.5</fly>
+        <psychic>0.5</psychic>
+        <bug>0.25</bug>
+        <rock>1</rock>
+        <ghost>1</ghost>
+        <dragon>0.5</dragon>
+        <dark>1</dark>
+        <steel>0.25</steel>
+        <fairy>0.25</fairy>
+      </type>
     </type-effectiveness>
     <evolution>
-      <link id="21">暖手炉</link>→（Lv.24）→<link id="22">炭火炉</link>→（Lv.40）→风纹火炉
+      <link id="21">暖手炉</link>
+      →（Lv.24）→
+      <link id="22">炭火炉</link>
+      →（Lv.40）→风纹火炉
     </evolution>
     <pokedex>风纹火炉上铭刻的纹路据说有引动风的力量，充分燃烧的青色火焰在天才厨师的手中能够烤制出世上绝无仅有的美味。</pokedex>
     <description>和高压汽锅组成厨具组合，水火刃+火钢盾感觉是不是很好啊-v-</description>
     <story>
       <p>Winbeque = wind（风） + barbeque（烧烤炉）</p>
-      <p>因为听说席多蓝恩对战出场必带气球因此萌生了设计浮游火钢的念头，正好查属性表发现水火没有精灵（现在有了）因此就把两者搭档做出了厨具组合，种族值设计偏科的可怕，纯粹实战向（真的吗</p>
+      <p>因为听说席多蓝恩对战出场必带气球因此萌生了设计浮游火钢的念头，正好查属性表发现水火没有精灵（现在有了）因此就把两者搭档做出了厨具组合，种族值偏科</p>
     </story>
   </pokemon>
-
-  <pokemon id="24" visible="yes" >
+  <pokemon id="24" visible="yes">
     <name>
       <cn>软泥怪</cn>
       <en>Wetlanooze</en>
@@ -2615,7 +2704,6 @@
     <abilities>
       <a1>自然循环</a1>
     </abilities>
-
     <height>1.5m</height>
     <weight>125.3kg</weight>
     <colors>
@@ -2664,7 +2752,8 @@
       </type>
     </type-effectiveness>
     <evolution>
-      软泥怪←（调查枯萎木桩）→<link id="25">凋灵软泥怪</link>
+      软泥怪←（调查枯萎木桩）→
+      <link id="25">凋灵软泥怪</link>
     </evolution>
     <pokedex>沉睡在沼泽的深处，与植物共生，除非湿地受到破坏否则不会醒来。</pokedex>
     <description>作为水+地免疫草系技能的零弱点精灵设计出来。其实一提到水+地，湿地和红树林的形象就跃出脑海，于是就有了软泥怪。</description>
@@ -2684,8 +2773,7 @@
       <p>因为冷冻干燥打水+地是4倍伤害，因此完全可以设定某个反派团体召集大群乘龙/多多冰/几何雪花用冷冻干燥破坏沼泽，惊醒软泥怪，并试图捕获它。</p>
     </story>
   </pokemon>
-
-  <pokemon id="25" visible="yes" >
+  <pokemon id="25" visible="yes">
     <name>
       <cn>凋零软泥怪</cn>
       <en>Withered Wetlanooze</en>
@@ -2698,7 +2786,6 @@
     <abilities>
       <a1>生命凋零</a1>
     </abilities>
-
     <height>3.3m</height>
     <weight>225.3kg</weight>
     <colors>
@@ -2767,7 +2854,8 @@
       </type>
     </type-effectiveness>
     <evolution>
-      <link id="24">软泥怪</link>←（调查枯萎木桩）→凋灵软泥怪
+      <link id="24">软泥怪</link>
+      ←（调查枯萎木桩）→凋灵软泥怪
     </evolution>
     <pokedex>因为湿地被严重破坏而激怒的湿地之神，它的怒火会将一切生机化为死亡。</pokedex>
     <description>既然始作俑者的陆神和海神有了新形态，软泥怪当然也不甘示弱。破坏大自然的人类啊，感受到这个星球的怒火了吗？</description>
@@ -2777,8 +2865,7 @@
       <p>把生命凋零跟通常形态的自然循环搭配起来看真带感。</p>
     </story>
   </pokemon>
-
-  <pokemon id="26" visible="yes" >
+  <pokemon id="26" visible="yes">
     <name>
       <cn>恶毒寡妇</cn>
       <en>Latromac</en>
@@ -2871,8 +2958,7 @@
       <p>蜘蛛怎么能不会玩蛛丝呢？用蛛丝在天上荡来荡去，受到的地系伤害减少3/4。</p>
     </story>
   </pokemon>
-
-  <pokemon id="27" visible="yes" >
+  <pokemon id="27" visible="yes">
     <name>
       <cn>闪金龙</cn>
       <en>Medragold</en>
@@ -2993,17 +3079,15 @@
       </ul>
       <h4>补充设定</h4>
       <p>因为一设的快龙的模型充满了满满恶意，因此决定用闪金龙顶上永杰的精灵形态。</p>
-      <p>卧槽本来就是亲儿子，还有主角光环，还用不用玩了？</p>
       <p>小说中相当于是双形态：闪金龙（双盾+物攻）和永杰（破防+特攻）</p>
     </story>
   </pokemon>
-
-  <pokemon id="28" visible="yes" >
+  <pokemon id="28" visible="yes">
     <name>
       <cn>验证马</cn>
       <en>Pegarify</en>
     </name>
-    <species is-legendary="no">验证精灵</species>
+    <species is-legendary="yes">验证精灵</species>
     <type>
       <type1 class="normal">普</type1>
       <type2 class="fly">飞</type2>
@@ -3011,7 +3095,6 @@
     <abilities>
       <a1>验证</a1>
     </abilities>
-
     <height>1.4m</height>
     <weight>92.5kg</weight>
     <colors>
@@ -3029,7 +3112,7 @@
     <base-friendship>70</base-friendship>
     <max-exp>1000000</max-exp>
     <stats>
-      <HP>50</HP>
+      <HP>90</HP>
       <Attack>160</Attack>
       <Defense>50</Defense>
       <SpAtk>90</SpAtk>
@@ -3065,16 +3148,16 @@
       <p>Pegarify = Pegasus（飞马） + verify（验证）</p>
       <h4>专属特性：验证</h4>
       <p>验证：拥有验证特性的精灵在每个回合开始时随机抽取一个属性作为验证属性并进入验证状态，受到伤害以后验证状态解除。</p>
-      <p>验证状态：处于验证状态的精灵免疫非验证属性的技能。</p>
+      <p>验证状态：处于验证状态的精灵视为验证属性，并且只会受到对验证属性效果拔群的技能的伤害。</p>
+      <p>PS: 奇异守护.png</p>
     </story>
   </pokemon>
-
-  <pokemon id="29" visible="yes" >
+  <pokemon id="29" visible="yes">
     <name>
       <cn>静止蛙</cn>
       <en>Croatop</en>
     </name>
-    <species is-legendary="no">终止精灵</species>
+    <species is-legendary="yes">终止精灵</species>
     <type>
       <type1 class="water">水</type1>
     </type>
@@ -3099,11 +3182,11 @@
     <max-exp>1000000</max-exp>
     <stats>
       <HP>110</HP>
-      <Attack>50</Attack>
-      <Defense>75</Defense>
+      <Attack>70</Attack>
+      <Defense>80</Defense>
       <SpAtk>130</SpAtk>
       <SpDef>75</SpDef>
-      <Speed>105</Speed>
+      <Speed>115</Speed>
     </stats>
     <type-effectiveness>
       <type ability="">
@@ -3134,10 +3217,10 @@
       <p>Croatop = croak（呱呱的叫声） + stop（停止）</p>
       <h4>专属特性：静止</h4>
       <p>静止：对拥有静止特性的精灵造成伤害的精灵下一回合不能行动。</p>
+      <p><del>所以说请直接使用硬直技</del></p>
     </story>
   </pokemon>
-
-  <pokemon id="30" visible="yes" >
+  <pokemon id="30" visible="yes">
     <name>
       <cn>潜鲸王</cn>
       <en>Wailsupe</en>
@@ -3147,8 +3230,7 @@
       <type1 class="water">水</type1>
     </type>
     <abilities>
-      <a1>水之掩护</a1>
-      <a2>破格</a2>
+      <a1>破格</a1>
     </abilities>
     <hidden-ability>海洋之心</hidden-ability>
     <height>16.0m</height>
@@ -3211,8 +3293,7 @@
       <p>海洋之心：拥有海洋之心的精灵在水场地中作战时所有能力等级提升到最大。</p>
     </story>
   </pokemon>
-
-  <pokemon id="31" visible="yes" >
+  <pokemon id="31" visible="yes">
     <name>
       <cn>涅槃藤藤蛇</cn>
       <en>Nirvana Snivy</en>
@@ -3282,7 +3363,6 @@
     <story>
       <p>名字还用解释么……涅槃+滕滕蛇</p>
       <p>没有实战意义的剧情用精灵。</p>
-      <p>其实貌似是咱二次元人设？（卧槽</p>
       <h4>专属特性：涅槃</h4>
       <p>因火系技能/效果濒死时，恢复全部生命值，清除所有异常状态，并且全部能力提升一级。</p>
     </story>

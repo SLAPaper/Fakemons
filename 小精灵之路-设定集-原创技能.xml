@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="css/skills.xsl"?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="css/skills.xsl" ?>
 <!-- Edited by SLAPaper -->
 <skills>
   <skill id="0" visible="no">
@@ -20,7 +20,6 @@
       <p></p>
     </description>
   </skill>
-
   <skill id="1" visible="yes">
     <name>
       <cn>牺牲火焰</cn>
@@ -42,7 +41,6 @@
       <p>涅槃藤藤蛇的专属技能。</p>
     </description>
   </skill>
-
   <skill id="2" visible="yes">
     <name>
       <cn>星之漩涡</cn>
@@ -59,7 +57,6 @@
     </effect>
     <description>发射无数星型的光攻击对手，必定能命中目标。</description>
   </skill>
-
   <skill id="3" visible="yes">
     <name>
       <cn>心灵风暴</cn>
@@ -76,7 +73,6 @@
     </effect>
     <description>扩散自己的精神力攻击对手，必定能命中目标。</description>
   </skill>
-
   <skill id="4" visible="yes">
     <name>
       <cn>高压蒸汽</cn>
@@ -92,12 +88,9 @@
     <description>
       <p>喷射出高温高压的蒸汽，会造成对手烧伤。</p>
       <p>高压汽锅一族的专属技能。</p>
-      <p>跟六世代 No.721 波尔凯尼恩的专属技蒸汽喷发撞梗了233333</p>
-      <p>蒸汽喷发（Steam Eruption），水/ 特/ 110/ 95%/ PP5/ 50%几率烧伤</p>
-      <p>看起来高压蒸汽算是一个效果削弱的续航版。</p>
+      <p><del>跟六世代 No.721 波尔凯尼恩的专属技蒸汽喷发撞梗了233333</del></p>
     </description>
   </skill>
-
   <skill id="5" visible="yes">
     <name>
       <cn>热力迸发</cn>
@@ -105,7 +98,7 @@
     </name>
     <type class="fire">火</type>
     <catagory>物理</catagory>
-    <power>100</power>
+    <power>110</power>
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>15</PP>
@@ -117,7 +110,6 @@
       <p>风纹火炉一族的专属技能。</p>
     </description>
   </skill>
-
   <skill id="6" visible="yes">
     <name>
       <cn>时空暴动</cn>
@@ -158,7 +150,6 @@
       <fairy>1</fairy>
     </eff>
   </skill>
-
   <skill id="7" visible="yes">
     <name>
       <cn>双倍机会</cn>
@@ -176,7 +167,6 @@
       <p>时间神龙的专属技能。</p>
     </description>
   </skill>
-
   <skill id="8" visible="yes">
     <name>
       <cn>生命之源</cn>
@@ -194,7 +184,6 @@
       <p>百叶竹龙的专属技能。</p>
     </description>
   </skill>
-
   <skill id="9" visible="yes">
     <name>
       <cn>太极神拳</cn>
@@ -236,7 +225,6 @@
       <fairy>1</fairy>
     </eff>
   </skill>
-
   <skill id="10" visible="yes">
     <name>
       <cn>以慢打快</cn>
@@ -257,7 +245,6 @@
       <p>国宝熊猫的专属技能。</p>
     </description>
   </skill>
-
   <skill id="11" visible="yes">
     <name>
       <cn>空间转移</cn>
@@ -271,14 +258,14 @@
     <PP>10</PP>
     <effect>
       <p>自身交换下场，使交换出场的精灵处于空间障壁状态。</p>
-      <p>空间障壁状态：免疫受到的第一个技能的伤害并将该伤害双倍施加给使用方，之后状态解除，在状态解除前不能成为变化技能的目标。</p>
+      <p>空间障壁状态：免疫1次伤害，之后状态解除。</p>
     </effect>
     <description>
-      <p>将自身和场下队友的位置互换，留下的空间力量会反射一次攻击。</p>
+      <p>将自身和场下队友的位置互换，留下的空间力量会抵挡一次攻击。</p>
       <p>柒尾猫的专属技能。</p>
+      <p>PS: 画皮.png</p>
     </description>
   </skill>
-
   <skill id="12" visible="yes">
     <name>
       <cn>寂静波纹</cn>
@@ -299,7 +286,6 @@
       <p>静寂虫的专属技能。</p>
     </description>
   </skill>
-
   <skill id="13" visible="yes">
     <name>
       <cn>和谐之钳</cn>
@@ -311,13 +297,12 @@
     <accuracy>100</accuracy>
     <target>单体</target>
     <PP>20</PP>
-    <effect>清除全场场地状态，每清除一个状态自身物攻升一级。</effect>
+    <effect>清除全场目标为场地的状态，每清除一个状态自身物攻升一级。</effect>
     <description>
-      <p>挥舞巨大的钳子攻击，会打破场地状态。</p>
+      <p>挥舞巨大的钳子攻击，会打破场地状态并增强自身。</p>
       <p>河蟹的专属技能。</p>
     </description>
   </skill>
-
   <skill id="14" visible="yes">
     <name>
       <cn>命运审判</cn>
@@ -338,7 +323,6 @@
       <p>美尔瑞瓦的专属技能。</p>
     </description>
   </skill>
-
   <skill id="15" visible="yes">
     <name>
       <cn>冰火拳</cn>
@@ -378,7 +362,6 @@
       <fairy>1</fairy>
     </eff>
   </skill>
-
   <skill id="16" visible="yes">
     <name>
       <cn>冰火飞弹</cn>
@@ -418,7 +401,6 @@
       <fairy>1</fairy>
     </eff>
   </skill>
-
   <skill id="17" visible="yes">
     <name>
       <cn>穿心针</cn>
@@ -436,7 +418,6 @@
       <p>小恶魔一族的专属技能。</p>
     </description>
   </skill>
-
   <skill id="18" visible="yes">
     <name>
       <cn>魔鬼槌</cn>
@@ -490,7 +471,6 @@
     </effect>
     <description>
       <p>用极为耀眼的冲击波攻击四周，会降低目标命中。</p>
-      <p>还是在犹豫要不要叫Giga Flash，那样子就是千兆闪焰了（雾</p>
     </description>
   </skill>
   <skill id="21" visible="yes">
@@ -525,7 +505,7 @@
     <PP>10</PP>
     <effect>
       <p>使用后场上进入神圣领域状态。</p>
-      <p>神圣领域状态：持续5回合。任何普通系技能伤害增加50%，并且对全部属性相性视为1。</p>
+      <p>神圣领域状态：持续5回合。任何普通系技能伤害*1.5，并且对全部属性相性视为1。</p>
     </effect>
     <description>
       <p>制造出圣光充溢的空间，提升普通系技能的威力。</p>
@@ -544,12 +524,11 @@
     <target>单体</target>
     <PP>10</PP>
     <effect>
-      <p>连续使用失败威力和命中率提升。</p>
+      <p>连续三回合进行攻击。</p>
+      <p>如果未造成伤害，下一次的威力和命中率将会提升。</p>
       <p>攻击无效或未命中均进行计数。攻击命中后计数清零。</p>
-      <p>一次未命中：威力180，命中90；</p>
-      <p>两次未命中：威力240，命中100；</p>
-      <p>三次或以上：威力300，必中。</p>
-      <p>使用其它技能或不能行动时计数清零。</p>
+      <p>一次未命中：威力180，命中100；</p>
+      <p>两次未命中：威力240，必中且无视状态或特性。</p>
     </effect>
     <description>
       <p>向着对手发起不死不休的冲锋。</p>
@@ -590,7 +569,7 @@
     <PP>5</PP>
     <effect>
       <p>使己方全场进入扩散防御状态。</p>
-      <p>扩散防御状态：该场地上的精灵受到攻击时，以我方场地上物防/特防最高的精灵的物防/特防计算伤害。</p>
+      <p>扩散防御状态：该我方场地上的精灵受到攻击时，以我方场地上物防/特防最高的精灵的物防/特防计算伤害。</p>
     </effect>
     <description>
       <p>让护盾悬浮在我方场地上，为我方所有精灵提供防御。</p>
@@ -604,20 +583,21 @@
     </name>
     <type class="ground">地</type>
     <catagory>物理</catagory>
-    <power>75</power>
+    <power>100</power>
     <accuracy>100</accuracy>
-    <target>单体</target>
+    <target>自身周围全体</target>
     <PP>5</PP>
     <effect>
-      <p>100%几率束缚目标5~6回合。</p>
-      <p>目标的电磁浮游、念动力状态强制解除。</p>
-      <p>如果目标处于自由下落、飞跃或飞空状态，将被强制拉回地面且解除攻击。</p>
-      <p>被束缚期间，视为目标精灵受到重力状态的影响。</p>
+      <p>击落空中的目标，并使目标无法逃走。</p>
+      <p>视为目标受到击落状态和无法逃走状态的影响。</p>
     </effect>
     <description>
-      <p>卷动大地形成重力漩涡，5~6回合内将对手从空中拉下并控制在其中。</p>
-      <p>表述不清比较纠结，这个技能应该是能无视飞行系/浮游/电磁浮游/blahblahblah生效的。</p>
+      <p>卷动大地形成重力漩涡，将对手从空中拉下并控制在其中。</p>
       <p>软泥怪的专属技能。</p>
+      <p>
+        PS: 类似于基格尔德的千箭齐发+千波激荡。
+        <del>联想高压汽锅的高压蒸汽和波尔凯尼恩的蒸汽喷发，预言家实锤了</del>
+      </p>
     </description>
   </skill>
   <skill id="27" visible="yes">
@@ -671,7 +651,7 @@
     <PP>10</PP>
     <effect>
       <p>使自身进入献祭状态。</p>
-      <p>献祭状态：每回合损失满HP的1/8，特攻*1.5，受到接触攻击时攻击方必定烧伤。</p>
+      <p>献祭状态：每回合损失满HP的1/8，特攻*1.5，受到接触攻击时攻击方必定烧伤，进行接触攻击时必定烧伤目标。</p>
     </effect>
     <description>
       <p>用燃烧生命的火焰包裹全身，提升特攻并烧伤接近的敌人。</p>
